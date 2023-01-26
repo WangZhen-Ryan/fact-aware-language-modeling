@@ -1,0 +1,138 @@
+Some weights of GPT2HeadWithValueModel were not initialized from the model checkpoint at lvwerra/gpt2-imdb and are newly initialized: ['transformer.h.0.attn.masked_bias', 'transformer.h.1.attn.masked_bias', 'transformer.h.2.attn.masked_bias', 'transformer.h.3.attn.masked_bias', 'transformer.h.4.attn.masked_bias', 'transformer.h.5.attn.masked_bias', 'transformer.h.6.attn.masked_bias', 'transformer.h.7.attn.masked_bias', 'transformer.h.8.attn.masked_bias', 'transformer.h.9.attn.masked_bias', 'transformer.h.10.attn.masked_bias', 'transformer.h.11.attn.masked_bias', 'v_head.summary.weight', 'v_head.summary.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of GPT2HeadWithValueModel were not initialized from the model checkpoint at lvwerra/gpt2-imdb and are newly initialized: ['transformer.h.0.attn.masked_bias', 'transformer.h.1.attn.masked_bias', 'transformer.h.2.attn.masked_bias', 'transformer.h.3.attn.masked_bias', 'transformer.h.4.attn.masked_bias', 'transformer.h.5.attn.masked_bias', 'transformer.h.6.attn.masked_bias', 'transformer.h.7.attn.masked_bias', 'transformer.h.8.attn.masked_bias', 'transformer.h.9.attn.masked_bias', 'transformer.h.10.attn.masked_bias', 'transformer.h.11.attn.masked_bias', 'v_head.summary.weight', 'v_head.summary.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Begin next-word using HF GPT-2 demo
+/opt/anaconda3/lib/python3.7/site-packages/ipykernel_launcher.py:4: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  after removing the cwd from sys.path.
+/opt/anaconda3/lib/python3.7/site-packages/ipykernel_launcher.py:6: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+/opt/anaconda3/lib/python3.7/site-packages/ipykernel_launcher.py:7: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  import sys
+/opt/anaconda3/lib/python3.7/site-packages/ipykernel_launcher.py:10: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  # Remove the CWD from sys.path while we load stuff.
+/opt/anaconda3/lib/python3.7/site-packages/ipykernel_launcher.py:11: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  # This is added back by InteractiveShellApp.init_path()
+/opt/anaconda3/lib/python3.7/site-packages/ipykernel_launcher.py:12: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  if sys.path[0] == '':
+/opt/anaconda3/lib/python3.7/site-packages/pandas/core/indexing.py:1732: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  self._setitem_single_block(indexer, value, name)
+Input sequence:
+connie own
+Tokenized input data structure:
+{'input_ids': tensor([[ 1102, 11952,   898]]), 'attention_mask': tensor([[1, 1, 1]])}
+Token IDs and their words:
+tensor(1102) con
+tensor(11952) nie
+tensor(898)  own
+All logits for next word:
+tensor([[-86.0371, -81.7704, -89.6549,  ..., -93.6331, -92.7520, -87.4399]])
+torch.Size([1, 50257])
+Predicted token ID of next word:
+262
+Predicted next word for sequence:
+ the
+  0%|                                                   | 0/200 [00:00<?, ?it/s]
+tensor([], size=(0, 5), dtype=torch.int64)
+tensor([[   58,  7942,    60,  3058,  2223],
+        [   58,  9562,    60,  2457, 12268],
+        [   58,  9562,    60,  6409,  2008],
+        ...,
+        [   58,  7942,    60,  6276,  2761],
+        [   58,  9562,    60,   407,    64],
+        [   58,  7942,    60,   636,   318]])
+tensor([], size=(0, 5), dtype=torch.int64)
+  0%|                                                   | 0/200 [00:00<?, ?it/s]
+torch.Size([256, 5])
+tensor([], size=(0, 5), dtype=torch.int64)
+  0%|                                                   | 0/200 [00:00<?, ?it/s]
+  0%|                                                   | 0/200 [00:00<?, ?it/s]
+torch.Size([256, 5])
+999
+tensor([], size=(0, 5), dtype=torch.int64)
+100%|███████████████████████████████████████| 200/200 [00:00<00:00, 1331.81it/s]
+
+  0%|                                                   | 0/200 [00:08<?, ?it/s]
+  0%|                                                   | 0/200 [00:00<?, ?it/s]
+ay
+k
+ore
+
+  0%|                                                   | 0/200 [02:36<?, ?it/s]
+Error in callback <function _WandbInit._resume_backend at 0x7fcf99e38050> (for pre_run_cell):
+Error in callback <function _WandbInit._pause_backend at 0x7fcf99e38dd0> (for post_run_cell):
+Exception in thread ChkStopThr:
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.7/threading.py", line 926, in _bootstrap_inner
+    self.run()
+  File "/opt/anaconda3/lib/python3.7/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/opt/anaconda3/lib/python3.7/site-packages/wandb/sdk/wandb_run.py", line 167, in check_status
+    status_response = self._interface.communicate_stop_status()
+  File "/opt/anaconda3/lib/python3.7/site-packages/wandb/sdk/interface/interface.py", line 114, in communicate_stop_status
+    resp = self._communicate_stop_status(status)
+  File "/opt/anaconda3/lib/python3.7/site-packages/wandb/sdk/interface/interface_shared.py", line 387, in _communicate_stop_status
+    resp = self._communicate(req, local=True)
+  File "/opt/anaconda3/lib/python3.7/site-packages/wandb/sdk/interface/interface_shared.py", line 222, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "/opt/anaconda3/lib/python3.7/site-packages/wandb/sdk/interface/interface_shared.py", line 227, in _communicate_async
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown
+Error in callback <function _WandbInit._resume_backend at 0x7fcf99e38050> (for pre_run_cell):
+Problem at: /var/folders/g6/dmtl65514z1f6797p1f74l1w0000gn/T/ipykernel_5689/1076489368.py 2 <module>
+Exception in thread NetStatThr:
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.7/threading.py", line 926, in _bootstrap_inner
+    self.run()
+  File "/opt/anaconda3/lib/python3.7/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/opt/anaconda3/lib/python3.7/site-packages/wandb/sdk/wandb_run.py", line 149, in check_network_status
+    status_response = self._interface.communicate_network_status()
+  File "/opt/anaconda3/lib/python3.7/site-packages/wandb/sdk/interface/interface.py", line 125, in communicate_network_status
+    resp = self._communicate_network_status(status)
+  File "/opt/anaconda3/lib/python3.7/site-packages/wandb/sdk/interface/interface_shared.py", line 397, in _communicate_network_status
+    resp = self._communicate(req, local=True)
+  File "/opt/anaconda3/lib/python3.7/site-packages/wandb/sdk/interface/interface_shared.py", line 222, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "/opt/anaconda3/lib/python3.7/site-packages/wandb/sdk/interface/interface_shared.py", line 227, in _communicate_async
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.7/site-packages/wandb/sdk/wandb_init.py", line 954, in init
+    run = wi.init()
+  File "/opt/anaconda3/lib/python3.7/site-packages/wandb/sdk/wandb_init.py", line 471, in init
+    self._wl._global_run_stack[-1].finish()
+  File "/opt/anaconda3/lib/python3.7/site-packages/wandb/sdk/wandb_run.py", line 1538, in finish
+    tel.feature.finish = True
+  File "/opt/anaconda3/lib/python3.7/site-packages/wandb/sdk/lib/telemetry.py", line 43, in __exit__
+    self._run._telemetry_callback(self._obj)
+  File "/opt/anaconda3/lib/python3.7/site-packages/wandb/sdk/wandb_run.py", line 470, in _telemetry_callback
+    self._telemetry_flush()
+  File "/opt/anaconda3/lib/python3.7/site-packages/wandb/sdk/wandb_run.py", line 481, in _telemetry_flush
+    self._backend.interface._publish_telemetry(self._telemetry_obj)
+  File "/opt/anaconda3/lib/python3.7/site-packages/wandb/sdk/interface/interface_shared.py", line 73, in _publish_telemetry
+    self._publish(rec)
+  File "/opt/anaconda3/lib/python3.7/site-packages/wandb/sdk/interface/interface_queue.py", line 49, in _publish
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown
+Error in callback <function _WandbInit._pause_backend at 0x7fcf99e38dd0> (for post_run_cell):
+[34m[1mwandb[39m[22m: [32m[41mERROR[39m[49m Abnormal program exit

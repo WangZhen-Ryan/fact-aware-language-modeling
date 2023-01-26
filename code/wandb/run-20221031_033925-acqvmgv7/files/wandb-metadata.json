@@ -1,0 +1,18 @@
+{
+    "os": "Windows-10-10.0.19044-SP0",
+    "python": "3.9.12",
+    "heartbeatAt": "2022-10-30T16:39:26.347033",
+    "startedAt": "2022-10-30T16:39:25.419067",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 3080",
+    "gpu_count": 1,
+    "cpu_count": 24,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "Desktop/context-aware-embedding-master/Resources/code/query_trl_linking.ipynb",
+    "root": "C:\\Users\\wz",
+    "host": "DESKTOP-TI339UG",
+    "username": "wz",
+    "executable": "C:\\Users\\wz\\anaconda3\\python.exe"
+}

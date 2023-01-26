@@ -1,0 +1,24 @@
+{
+    "os": "Darwin-21.3.0-x86_64-i386-64bit",
+    "python": "3.7.11",
+    "heartbeatAt": "2022-03-16T09:24:21.438163",
+    "startedAt": "2022-03-16T09:24:16.498134",
+    "docker": null,
+    "cpu_count": 16,
+    "cuda": null,
+    "args": [
+        "-f",
+        "/Users/wz/Library/Jupyter/runtime/kernel-fc44b840-59fd-46bb-97da-711719fbc8c5.json"
+    ],
+    "state": "running",
+    "program": "IdeaProjects/context-aware-embedding/Resources/code/Messing around.ipynb",
+    "root": "/Users/wz/IdeaProjects/context-aware-embedding",
+    "git": {
+        "remote": "https://gitlab.cecs.anu.edu.au/u6904458/context-aware-embedding.git",
+        "commit": "fda4ae66d1c946cab44fd82e0a8f52f7f47ed277"
+    },
+    "email": "u6904458@anu.edu.au",
+    "host": "192-168-1-104.tpgi.com.au",
+    "username": "wz",
+    "executable": "/opt/anaconda3/bin/python"
+}

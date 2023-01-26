@@ -1,0 +1,911 @@
+Some weights of GPT2HeadWithValueModel were not initialized from the model checkpoint at lvwerra/gpt2-imdb and are newly initialized: ['transformer.h.0.attn.masked_bias', 'transformer.h.1.attn.masked_bias', 'transformer.h.2.attn.masked_bias', 'transformer.h.3.attn.masked_bias', 'transformer.h.4.attn.masked_bias', 'transformer.h.5.attn.masked_bias', 'transformer.h.6.attn.masked_bias', 'transformer.h.7.attn.masked_bias', 'transformer.h.8.attn.masked_bias', 'transformer.h.9.attn.masked_bias', 'transformer.h.10.attn.masked_bias', 'transformer.h.11.attn.masked_bias', 'v_head.summary.weight', 'v_head.summary.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of GPT2HeadWithValueModel were not initialized from the model checkpoint at lvwerra/gpt2-imdb and are newly initialized: ['transformer.h.0.attn.masked_bias', 'transformer.h.1.attn.masked_bias', 'transformer.h.2.attn.masked_bias', 'transformer.h.3.attn.masked_bias', 'transformer.h.4.attn.masked_bias', 'transformer.h.5.attn.masked_bias', 'transformer.h.6.attn.masked_bias', 'transformer.h.7.attn.masked_bias', 'transformer.h.8.attn.masked_bias', 'transformer.h.9.attn.masked_bias', 'transformer.h.10.attn.masked_bias', 'transformer.h.11.attn.masked_bias', 'v_head.summary.weight', 'v_head.summary.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Begin next-word using HF GPT-2 demo
+Input sequence:
+connie own
+Tokenized input data structure:
+{'input_ids': tensor([[ 1102, 11952,   898]]), 'attention_mask': tensor([[1, 1, 1]])}
+Token IDs and their words:
+tensor(1102) con
+tensor(11952) nie
+tensor(898)  own
+All logits for next word:
+tensor([[-86.0371, -81.7703, -89.6548,  ..., -93.6331, -92.7520, -87.4399]])
+torch.Size([1, 50257])
+Predicted token ID of next word:
+262
+Predicted next word for sequence:
+ the
+C:\Users\wz\AppData\Local\Temp\ipykernel_17492\1157424971.py:8: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['query'] = df.apply(
+C:\Users\wz\AppData\Local\Temp\ipykernel_17492\1157424971.py:11: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['query'] = [df['query'][i].split()[:2] for i in range(1000)]
+C:\Users\wz\AppData\Local\Temp\ipykernel_17492\1157424971.py:12: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['query'] = df['query'].apply(lambda x: ' '.join(x))
+C:\Users\wz\AppData\Local\Temp\ipykernel_17492\1157424971.py:15: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['tokens'] = df['query'].apply(lambda x: gpt2_tokenizer.encode(' '+str(x), return_tensors="pt").to(device))
+C:\Users\wz\AppData\Local\Temp\ipykernel_17492\1157424971.py:16: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['tokens'] = df['tokens'].apply(lambda x: x[0])
+C:\Users\wz\AppData\Local\Temp\ipykernel_17492\1157424971.py:17: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['tokens'] = df['tokens'].apply(lambda x: x[:2])
+[20, 22, 37, 128, 146, 173, 190, 208, 219, 225, 232, 258, 478, 488, 531, 542, 577, 673, 684, 703, 714, 743, 753, 754, 777, 797, 838, 868, 891, 953, 963]
+  0%|                                                                                          | 0/100 [00:00<?, ?it/s]C:\Users\wz\AppData\Local\Temp\ipykernel_17492\2102622643.py:43: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  return torch.cuda.LongTensor(tensor_array)
+
+
+
+
+
+
+
+
+
+
+ 11%|████████▉                                                                        | 11/100 [01:08<09:17,  6.26s/it]
+  0%|                                                                                          | 0/100 [00:00<?, ?it/s]
+[0, 1, 0, 0]
+[0, 1, 0, 0]
+[0, 0, 0, 1]
+[0, 0, 0, 1]
+[0, 1, 0, 0]
+[0, 1, 0, 0]
+[0, 0, 0, 1]
+  0%|                                                                                          | 0/100 [00:00<?, ?it/s]C:\Users\wz\AppData\Local\Temp\ipykernel_17492\2434455960.py:43: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  return torch.cuda.LongTensor(tensor_array)
+  1%|▊                                                                                 | 1/100 [00:06<10:48,  6.55s/it]
+[1, 0, 0, 0]
+[0, 1, 0, 0]
+[0, 1, 0, 0]
+[0, 0, 1, 0]
+[1, 0, 0, 0]
+[1, 0, 0, 0]
+[0, 0, 1, 0]
+
+  2%|█▋                                                                                | 2/100 [00:12<10:10,  6.23s/it]
+[0, 0, 0, 1]
+[0, 1, 0, 0]
+[0, 1, 0, 0]
+[1, 0, 0, 0]
+[0, 0, 0, 1]
+[0, 0, 0, 1]
+[0, 0, 1, 0]
+
+  3%|██▍                                                                               | 3/100 [00:18<10:04,  6.23s/it]
+[0, 1, 0, 0]
+[0, 1, 0, 0]
+[0, 1, 0, 0]
+[0, 0, 1, 0]
+[1, 0, 0, 0]
+[0, 0, 0, 1]
+[1, 0, 0, 0]
+
+  4%|███▎                                                                              | 4/100 [00:25<10:11,  6.37s/it]
+[0, 1, 0, 0]
+[0, 1, 0, 0]
+[1, 0, 0, 0]
+[0, 1, 0, 0]
+[0, 0, 1, 0]
+[0, 1, 0, 0]
+[0, 0, 1, 0]
+[1, 0, 0, 0]
+[0, 0, 1, 0]
+[1, 0, 0, 0]
+[0, 0, 0, 1]
+[1, 0, 0, 0]
+[0, 1, 0, 0]
+[1, 0, 0, 0]
+[1, 0, 0, 0]
+
+
+  6%|████▉                                                                             | 6/100 [00:36<09:23,  5.99s/it]
+[0, 0, 0, 1]
+[0, 1, 0, 0]
+[0, 0, 1, 0]
+[0, 0, 1, 0]
+[0, 0, 0, 1]
+[0, 0, 0, 1]
+[0, 1, 0, 0]
+
+  7%|█████▋                                                                            | 7/100 [00:42<09:05,  5.86s/it]
+[0, 0, 1, 0]
+[0, 0, 1, 0]
+[0, 0, 0, 1]
+[0, 0, 1, 0]
+[0, 0, 0, 1]
+[0, 0, 0, 1]
+[0, 1, 0, 0]
+[1, 0, 0, 0]
+[0, 1, 0, 0]
+[0, 0, 0, 1]
+[0, 0, 1, 0]
+[0, 0, 1, 0]
+[1, 0, 0, 0]
+[0, 0, 0, 1]
+[1, 0, 0, 0]
+
+  8%|██████▌                                                                           | 8/100 [00:48<08:50,  5.77s/it]
+[0, 0, 0, 1]
+[0, 0, 1, 0]
+[0, 1, 0, 0]
+[1, 0, 0, 0]
+[0, 1, 0, 0]
+[1, 0, 0, 0]
+[0, 0, 0, 1]
+
+
+ 10%|████████                                                                         | 10/100 [00:59<08:30,  5.67s/it]
+[0, 0, 1, 0]
+[0, 0, 0, 1]
+[0, 1, 0, 0]
+[0, 0, 1, 0]
+[0, 1, 0, 0]
+[0, 0, 1, 0]
+[0, 0, 1, 0]
+
+ 11%|████████▉                                                                        | 11/100 [01:04<08:28,  5.72s/it]
+[0, 0, 1, 0]
+[0, 0, 1, 0]
+[1, 0, 0, 0]
+[0, 0, 1, 0]
+[0, 1, 0, 0]
+[0, 1, 0, 0]
+[0, 0, 0, 1]
+
+ 12%|█████████▋                                                                       | 12/100 [01:11<08:31,  5.81s/it]
+[0, 1, 0, 0]
+[0, 1, 0, 0]
+[1, 0, 0, 0]
+[0, 1, 0, 0]
+[0, 0, 0, 1]
+[0, 0, 1, 0]
+[1, 0, 0, 0]
+
+ 13%|██████████▌                                                                      | 13/100 [01:16<08:16,  5.70s/it]
+[0, 1, 0, 0]
+[1, 0, 0, 0]
+[0, 0, 1, 0]
+[0, 0, 0, 1]
+[0, 0, 0, 1]
+[0, 0, 1, 0]
+[0, 1, 0, 0]
+[0, 0, 1, 0]
+[0, 0, 0, 1]
+[0, 0, 1, 0]
+[0, 0, 0, 1]
+[0, 0, 0, 1]
+[0, 0, 1, 0]
+[1, 0, 0, 0]
+[0, 0, 0, 1]
+
+
+ 15%|████████████▏                                                                    | 15/100 [01:27<07:58,  5.63s/it]
+[1, 0, 0, 0]
+[0, 0, 1, 0]
+[1, 0, 0, 0]
+[1, 0, 0, 0]
+[0, 0, 0, 1]
+[0, 0, 0, 1]
+[1, 0, 0, 0]
+[0, 1, 0, 0]
+[1, 0, 0, 0]
+[0, 0, 1, 0]
+[0, 0, 1, 0]
+[1, 0, 0, 0]
+[0, 1, 0, 0]
+[0, 1, 0, 0]
+[1, 0, 0, 0]
+
+
+ 17%|█████████████▊                                                                   | 17/100 [01:38<07:43,  5.58s/it]
+[1, 0, 0, 0]
+[0, 1, 0, 0]
+[0, 0, 1, 0]
+[1, 0, 0, 0]
+[0, 0, 0, 1]
+[0, 1, 0, 0]
+[0, 0, 1, 0]
+[0, 1, 0, 0]
+[0, 0, 1, 0]
+[1, 0, 0, 0]
+[1, 0, 0, 0]
+[0, 0, 0, 1]
+[1, 0, 0, 0]
+[0, 1, 0, 0]
+[1, 0, 0, 0]
+
+ 18%|██████████████▌                                                                  | 18/100 [01:44<07:41,  5.63s/it]
+[0, 0, 1, 0]
+[0, 1, 0, 0]
+[1, 0, 0, 0]
+[1, 0, 0, 0]
+[0, 0, 1, 0]
+[0, 1, 0, 0]
+[1, 0, 0, 0]
+
+ 19%|███████████████▍                                                                 | 19/100 [01:49<07:29,  5.55s/it]
+[1, 0, 0, 0]
+[0, 0, 0, 1]
+[0, 1, 0, 0]
+[0, 1, 0, 0]
+[1, 0, 0, 0]
+[0, 1, 0, 0]
+[0, 0, 0, 1]
+
+
+ 21%|█████████████████                                                                | 21/100 [02:01<07:26,  5.65s/it]
+[1, 0, 0, 0]
+[0, 0, 1, 0]
+[0, 1, 0, 0]
+[0, 1, 0, 0]
+[0, 1, 0, 0]
+[1, 0, 0, 0]
+[0, 0, 1, 0]
+
+ 22%|█████████████████▊                                                               | 22/100 [02:07<07:21,  5.66s/it]
+[1, 0, 0, 0]
+[0, 1, 0, 0]
+[0, 0, 0, 1]
+[0, 1, 0, 0]
+[0, 0, 0, 1]
+[0, 0, 0, 1]
+[0, 0, 0, 1]
+
+ 23%|██████████████████▋                                                              | 23/100 [02:12<07:17,  5.68s/it]
+[0, 0, 0, 1]
+[0, 0, 1, 0]
+[0, 0, 0, 1]
+[0, 0, 1, 0]
+[1, 0, 0, 0]
+[0, 0, 1, 0]
+[0, 0, 1, 0]
+[0, 1, 0, 0]
+[1, 0, 0, 0]
+[0, 0, 1, 0]
+[1, 0, 0, 0]
+[1, 0, 0, 0]
+[0, 0, 1, 0]
+[0, 0, 0, 1]
+[0, 0, 0, 1]
+
+ 24%|███████████████████▍                                                             | 24/100 [02:18<07:05,  5.59s/it]
+[1, 0, 0, 0]
+[0, 0, 0, 1]
+[1, 0, 0, 0]
+[1, 0, 0, 0]
+[0, 1, 0, 0]
+[0, 0, 1, 0]
+[0, 1, 0, 0]
+
+ 25%|████████████████████▎                                                            | 25/100 [02:23<07:02,  5.64s/it]
+[0, 0, 1, 0]
+[0, 0, 1, 0]
+[0, 0, 1, 0]
+[0, 0, 0, 1]
+[0, 1, 0, 0]
+[1, 0, 0, 0]
+[1, 0, 0, 0]
+
+ 26%|█████████████████████                                                            | 26/100 [02:29<07:02,  5.71s/it]
+[0, 0, 0, 1]
+[0, 0, 0, 1]
+[1, 0, 0, 0]
+[0, 1, 0, 0]
+[1, 0, 0, 0]
+[0, 1, 0, 0]
+[1, 0, 0, 0]
+
+
+ 28%|██████████████████████▋                                                          | 28/100 [02:41<06:49,  5.69s/it]
+[1, 0, 0, 0]
+[0, 0, 0, 1]
+[1, 0, 0, 0]
+[0, 0, 1, 0]
+[0, 0, 1, 0]
+[0, 0, 0, 1]
+[0, 0, 0, 1]
+
+ 29%|███████████████████████▍                                                         | 29/100 [02:46<06:37,  5.60s/it]
+[0, 0, 0, 1]
+[0, 0, 1, 0]
+[0, 0, 1, 0]
+[1, 0, 0, 0]
+[1, 0, 0, 0]
+[0, 0, 0, 1]
+[0, 0, 1, 0]
+
+ 30%|████████████████████████▎                                                        | 30/100 [02:51<06:26,  5.52s/it]
+[1, 0, 0, 0]
+[0, 0, 0, 1]
+[0, 0, 1, 0]
+[0, 0, 0, 1]
+[0, 0, 1, 0]
+[0, 0, 1, 0]
+[0, 1, 0, 0]
+[0, 0, 1, 0]
+[1, 0, 0, 0]
+[0, 1, 0, 0]
+[0, 0, 1, 0]
+[0, 0, 1, 0]
+[0, 0, 0, 1]
+[0, 1, 0, 0]
+[0, 0, 0, 1]
+
+
+ 32%|█████████████████████████▉                                                       | 32/100 [03:02<06:09,  5.43s/it]
+[0, 0, 1, 0]
+[0, 0, 1, 0]
+[0, 1, 0, 0]
+[0, 1, 0, 0]
+[1, 0, 0, 0]
+[0, 0, 0, 1]
+[0, 0, 1, 0]
+[1, 0, 0, 0]
+[1, 0, 0, 0]
+[0, 0, 1, 0]
+[0, 1, 0, 0]
+[0, 0, 1, 0]
+[0, 0, 1, 0]
+[0, 1, 0, 0]
+[0, 0, 0, 1]
+
+
+ 34%|███████████████████████████▌                                                     | 34/100 [03:13<06:05,  5.53s/it]
+[0, 0, 1, 0]
+[0, 0, 1, 0]
+[1, 0, 0, 0]
+[1, 0, 0, 0]
+[0, 0, 1, 0]
+[0, 0, 1, 0]
+[0, 0, 0, 1]
+
+ 35%|████████████████████████████▎                                                    | 35/100 [03:19<06:00,  5.55s/it]
+[1, 0, 0, 0]
+[1, 0, 0, 0]
+[0, 0, 1, 0]
+[1, 0, 0, 0]
+[0, 0, 0, 1]
+[0, 1, 0, 0]
+[0, 1, 0, 0]
+
+ 36%|█████████████████████████████▏                                                   | 36/100 [03:25<06:02,  5.66s/it]
+[0, 0, 0, 1]
+[0, 0, 0, 1]
+[0, 1, 0, 0]
+[0, 1, 0, 0]
+[0, 1, 0, 0]
+[0, 0, 0, 1]
+[0, 0, 1, 0]
+
+ 37%|█████████████████████████████▉                                                   | 37/100 [03:30<05:52,  5.60s/it]
+[1, 0, 0, 0]
+[1, 0, 0, 0]
+[0, 0, 1, 0]
+[0, 0, 1, 0]
+[0, 0, 1, 0]
+[0, 0, 1, 0]
+[0, 1, 0, 0]
+
+ 38%|██████████████████████████████▊                                                  | 38/100 [03:36<05:44,  5.55s/it]
+[0, 0, 1, 0]
+[0, 0, 0, 1]
+[0, 0, 0, 1]
+[0, 0, 0, 1]
+[1, 0, 0, 0]
+[0, 1, 0, 0]
+[0, 1, 0, 0]
+[0, 1, 0, 0]
+[0, 1, 0, 0]
+[1, 0, 0, 0]
+[0, 1, 0, 0]
+[0, 1, 0, 0]
+[0, 0, 1, 0]
+[0, 0, 1, 0]
+[0, 0, 0, 1]
+
+ 39%|███████████████████████████████▌                                                 | 39/100 [03:41<05:38,  5.55s/it]
+[0, 0, 0, 1]
+[0, 0, 0, 1]
+[0, 0, 0, 1]
+[1, 0, 0, 0]
+[1, 0, 0, 0]
+[1, 0, 0, 0]
+[0, 1, 0, 0]
+
+
+ 41%|█████████████████████████████████▏                                               | 41/100 [03:53<05:29,  5.58s/it]
+[0, 1, 0, 0]
+[0, 0, 1, 0]
+[0, 1, 0, 0]
+[0, 0, 1, 0]
+[0, 1, 0, 0]
+[1, 0, 0, 0]
+[1, 0, 0, 0]
+[1, 0, 0, 0]
+[0, 0, 1, 0]
+[0, 0, 1, 0]
+[0, 0, 0, 1]
+[1, 0, 0, 0]
+[0, 1, 0, 0]
+[1, 0, 0, 0]
+[0, 0, 1, 0]
+
+
+ 43%|██████████████████████████████████▊                                              | 43/100 [04:04<05:25,  5.71s/it]
+[0, 1, 0, 0]
+[0, 0, 1, 0]
+[0, 0, 0, 1]
+[1, 0, 0, 0]
+[1, 0, 0, 0]
+[1, 0, 0, 0]
+[1, 0, 0, 0]
+[0, 0, 0, 1]
+[0, 0, 0, 1]
+[1, 0, 0, 0]
+[1, 0, 0, 0]
+[0, 0, 1, 0]
+[0, 1, 0, 0]
+[0, 0, 0, 1]
+[0, 0, 1, 0]
+
+ 44%|███████████████████████████████████▋                                             | 44/100 [04:10<05:16,  5.65s/it]
+[0, 0, 1, 0]
+[0, 1, 0, 0]
+[1, 0, 0, 0]
+[0, 1, 0, 0]
+[0, 1, 0, 0]
+[0, 0, 1, 0]
+[0, 1, 0, 0]
+
+
+ 46%|█████████████████████████████████████▎                                           | 46/100 [04:21<04:59,  5.54s/it]
+[0, 0, 0, 1]
+[0, 1, 0, 0]
+[0, 0, 0, 1]
+[0, 0, 0, 1]
+[0, 1, 0, 0]
+[0, 1, 0, 0]
+[0, 0, 0, 1]
+[0, 1, 0, 0]
+[0, 0, 1, 0]
+[0, 0, 0, 1]
+[0, 0, 0, 1]
+[0, 1, 0, 0]
+[1, 0, 0, 0]
+[0, 0, 0, 1]
+[0, 0, 1, 0]
+
+ 47%|██████████████████████████████████████                                           | 47/100 [04:26<04:57,  5.61s/it]
+[0, 1, 0, 0]
+[0, 0, 0, 1]
+[1, 0, 0, 0]
+[0, 0, 0, 1]
+[0, 1, 0, 0]
+[0, 0, 0, 1]
+[0, 1, 0, 0]
+
+ 48%|██████████████████████████████████████▉                                          | 48/100 [04:32<04:48,  5.54s/it]
+[1, 0, 0, 0]
+[0, 1, 0, 0]
+[0, 0, 1, 0]
+[0, 1, 0, 0]
+[1, 0, 0, 0]
+[0, 0, 1, 0]
+[1, 0, 0, 0]
+
+
+ 50%|████████████████████████████████████████▌                                        | 50/100 [04:43<04:36,  5.53s/it]
+[0, 0, 0, 1]
+[1, 0, 0, 0]
+[0, 0, 0, 1]
+[0, 0, 0, 1]
+[0, 0, 1, 0]
+[0, 0, 1, 0]
+[0, 0, 1, 0]
+
+ 51%|█████████████████████████████████████████▎                                       | 51/100 [04:49<04:39,  5.70s/it]
+[0, 1, 0, 0]
+[0, 0, 1, 0]
+[1, 0, 0, 0]
+[0, 0, 0, 1]
+[0, 0, 1, 0]
+[1, 0, 0, 0]
+[0, 0, 0, 1]
+
+ 52%|██████████████████████████████████████████                                       | 52/100 [04:54<04:30,  5.64s/it]
+[0, 0, 0, 1]
+[0, 0, 1, 0]
+[0, 0, 1, 0]
+[0, 1, 0, 0]
+[0, 1, 0, 0]
+[0, 0, 0, 1]
+[0, 0, 0, 1]
+[0, 0, 0, 1]
+[0, 0, 0, 1]
+[0, 0, 0, 1]
+[1, 0, 0, 0]
+[1, 0, 0, 0]
+[0, 0, 0, 1]
+[0, 0, 0, 1]
+[0, 0, 1, 0]
+
+
+ 54%|███████████████████████████████████████████▋                                     | 54/100 [05:05<04:14,  5.54s/it]
+[0, 0, 1, 0]
+[0, 0, 0, 1]
+[1, 0, 0, 0]
+[0, 1, 0, 0]
+[1, 0, 0, 0]
+[0, 0, 1, 0]
+[0, 0, 1, 0]
+
+ 55%|████████████████████████████████████████████▌                                    | 55/100 [05:11<04:15,  5.68s/it]
+[0, 0, 0, 1]
+[0, 1, 0, 0]
+[0, 1, 0, 0]
+[1, 0, 0, 0]
+[0, 0, 0, 1]
+[0, 1, 0, 0]
+[1, 0, 0, 0]
+[1, 0, 0, 0]
+[0, 0, 0, 1]
+[1, 0, 0, 0]
+[0, 0, 1, 0]
+[1, 0, 0, 0]
+[0, 0, 1, 0]
+[1, 0, 0, 0]
+[0, 1, 0, 0]
+
+ 56%|█████████████████████████████████████████████▎                                   | 56/100 [05:17<04:05,  5.58s/it]
+[0, 1, 0, 0]
+[0, 1, 0, 0]
+[0, 0, 0, 1]
+[0, 1, 0, 0]
+[0, 0, 0, 1]
+[0, 0, 0, 1]
+[1, 0, 0, 0]
+
+
+ 58%|██████████████████████████████████████████████▉                                  | 58/100 [05:28<03:50,  5.50s/it]
+[0, 0, 0, 1]
+[1, 0, 0, 0]
+[0, 1, 0, 0]
+[1, 0, 0, 0]
+[0, 0, 0, 1]
+[0, 1, 0, 0]
+[0, 0, 1, 0]
+[0, 0, 1, 0]
+[1, 0, 0, 0]
+[1, 0, 0, 0]
+[0, 0, 0, 1]
+[0, 0, 0, 1]
+[1, 0, 0, 0]
+[1, 0, 0, 0]
+[1, 0, 0, 0]
+
+ 59%|███████████████████████████████████████████████▊                                 | 59/100 [05:33<03:49,  5.61s/it]
+[0, 1, 0, 0]
+[0, 1, 0, 0]
+[1, 0, 0, 0]
+[0, 0, 0, 1]
+[0, 0, 0, 1]
+[1, 0, 0, 0]
+[0, 1, 0, 0]
+
+ 60%|████████████████████████████████████████████████▌                                | 60/100 [05:39<03:42,  5.56s/it]
+[0, 1, 0, 0]
+[0, 0, 0, 1]
+[0, 0, 0, 1]
+[0, 0, 1, 0]
+[0, 0, 0, 1]
+[1, 0, 0, 0]
+[1, 0, 0, 0]
+
+ 61%|█████████████████████████████████████████████████▍                               | 61/100 [05:44<03:35,  5.53s/it]
+[0, 0, 1, 0]
+[1, 0, 0, 0]
+[0, 1, 0, 0]
+[0, 1, 0, 0]
+[0, 0, 0, 1]
+[0, 0, 0, 1]
+[0, 0, 0, 1]
+
+
+ 63%|███████████████████████████████████████████████████                              | 63/100 [05:56<03:26,  5.59s/it]
+[0, 1, 0, 0]
+[1, 0, 0, 0]
+[0, 1, 0, 0]
+[0, 1, 0, 0]
+[0, 0, 0, 1]
+[0, 1, 0, 0]
+[0, 0, 0, 1]
+
+ 64%|███████████████████████████████████████████████████▊                             | 64/100 [06:01<03:18,  5.51s/it]
+[1, 0, 0, 0]
+[1, 0, 0, 0]
+[0, 0, 1, 0]
+[0, 0, 1, 0]
+[0, 0, 0, 1]
+[0, 1, 0, 0]
+[0, 1, 0, 0]
+[0, 0, 1, 0]
+[0, 1, 0, 0]
+[0, 0, 1, 0]
+[0, 0, 1, 0]
+[0, 1, 0, 0]
+[0, 0, 0, 1]
+[1, 0, 0, 0]
+[0, 1, 0, 0]
+
+
+ 66%|█████████████████████████████████████████████████████▍                           | 66/100 [06:12<03:06,  5.50s/it]
+[1, 0, 0, 0]
+[0, 0, 0, 1]
+[0, 0, 1, 0]
+[1, 0, 0, 0]
+[1, 0, 0, 0]
+[0, 0, 0, 1]
+[1, 0, 0, 0]
+[1, 0, 0, 0]
+[0, 0, 0, 1]
+[0, 0, 1, 0]
+[1, 0, 0, 0]
+[0, 0, 1, 0]
+[0, 0, 1, 0]
+[0, 0, 0, 1]
+[0, 0, 0, 1]
+
+ 67%|██████████████████████████████████████████████████████▎                          | 67/100 [06:21<03:07,  5.69s/it]
+  0%|                                                                                          | 0/100 [00:00<?, ?it/s]
+original score
+film scheduled
+first sneak
+look is
+important criteria
+occasionally prints
+dragan bjelogrlić
+worldwide gross
+cowardly costume
+television material
+red represented
+trend followed
+indian film
+this double
+so i
+film noir
+film released
+then idea
+who is
+dil to
+it made
+calotype process
+derating factors
+writer worked
+claims criticized
+he beaten
+required capacitance
+satirical comedy
+relationship develops
+festivals focus
+character speaks
+such films
+[0, 1, 0, 0]
+[0, 0, 1, 0]
+[0, 0, 1, 0]
+[0, 0, 0, 1]
+[0, 0, 0, 1]
+[0, 1, 0, 0]
+[0, 1, 0, 0]
+  0%|                                                                                          | 0/100 [00:00<?, ?it/s]C:\Users\wz\AppData\Local\Temp\ipykernel_17492\2434455960.py:43: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  return torch.cuda.LongTensor(tensor_array)
+  0%|                                                                                          | 0/100 [00:03<?, ?it/s]
+  0%|                                                                                          | 0/100 [00:00<?, ?it/s]
+287
+416
+287
+257
+319
+284
+11
+587
+13
+11
+287
+379
+8810
+587
+11
+329
+510
+13
+416
+11
+5062
+  0%|                                                                                          | 0/100 [00:00<?, ?it/s]C:\Users\wz\AppData\Local\Temp\ipykernel_17492\2434455960.py:43: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  return torch.cuda.LongTensor(tensor_array)
+11
+262
+284
+284
+407
+340
+13
+389
+286
+286
+[1, 0, 0, 0]
+[0, 0, 0, 1]
+[1, 0, 0, 0]
+[0, 0, 1, 0]
+[0, 0, 0, 1]
+[0, 0, 1, 0]
+[0, 0, 0, 1]
+[0, 0, 1, 0]
+  0%|                                                                                          | 0/100 [00:04<?, ?it/s]
+257
+11
+  0%|                                                                                          | 0/100 [00:00<?, ?it/s]C:\Users\wz\AppData\Local\Temp\ipykernel_17492\2434455960.py:43: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  return torch.cuda.LongTensor(tensor_array)
+422
+373
+tensor([257,  11, 422, 373], device='cuda:0')
+286
+11
+11
+257
+tensor([286,  11,  11, 257], device='cuda:0')
+262
+262
+587
+11
+tensor([262, 262, 587,  11], device='cuda:0')
+389
+257
+11
+284
+tensor([389, 257,  11, 284], device='cuda:0')
+257
+12
+13
+257
+tensor([257,  12,  13, 257], device='cuda:0')
+11
+257
+416
+11
+tensor([ 11, 257, 416,  11], device='cuda:0')
+11
+416
+329
+416
+tensor([ 11, 416, 329, 416], device='cuda:0')
+13
+502
+286
+257
+tensor([ 13, 502, 286, 257], device='cuda:0')
+[0, 0, 0, 1]
+[0, 1, 0, 0]
+[1, 0, 0, 0]
+[0, 0, 0, 1]
+[1, 0, 0, 0]
+[0, 1, 0, 0]
+[1, 0, 0, 0]
+[0, 1, 0, 0]
+  0%|                                                                                          | 0/100 [00:06<?, ?it/s]
+  0%|                                                                                          | 0/100 [00:00<?, ?it/s]
+13
+287
+11
+329
+13
+326
+82
+287
+510
+13
+13
+257
+13
+  0%|                                                                                          | 0/100 [00:00<?, ?it/s]C:\Users\wz\AppData\Local\Temp\ipykernel_17492\2434455960.py:43: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  return torch.cuda.LongTensor(tensor_array)
+257
+11
+13
+11
+13
+11
+1497
+262
+11
+11
+8313
+338
+11
+286
+284
+257
+11
+257
+tensor([[  13],
+        [ 287],
+        [  11],
+        [ 329],
+        [  13],
+        [ 326],
+        [  82],
+        [ 287],
+        [ 510],
+        [  13],
+        [  13],
+        [ 257],
+        [  13],
+        [ 262],
+        [ 257],
+        [  11],
+        [  13],
+        [  11],
+        [  13],
+        [  11],
+        [1497],
+        [ 262],
+        [  11],
+        [  11],
+        [8313],
+        [ 338],
+        [  11],
+        [ 286],
+        [ 284],
+        [ 257],
+        [  11],
+        [ 257]], device='cuda:0')
+[0, 0, 0, 1]
+[0, 0, 1, 0]
+[1, 0, 0, 0]
+[0, 0, 1, 0]
+[0, 0, 1, 0]
+[0, 0, 0, 1]
+[0, 1, 0, 0]
+[1, 0, 0, 0]
+  0%|                                                                                          | 0/100 [00:04<?, ?it/s]
+  0%|                                                                                          | 0/100 [00:00<?, ?it/s]C:\Users\wz\AppData\Local\Temp\ipykernel_17492\2434455960.py:43: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  return torch.cuda.LongTensor(tensor_array)
+  0%|                                                                                          | 0/100 [00:06<?, ?it/s]
+[1, 0, 0, 0]
+[0, 0, 0, 1]
+[1, 0, 0, 0]
+[0, 1, 0, 0]
+[1, 0, 0, 0]
+[0, 0, 0, 1]
+[0, 0, 1, 0]
+[0, 1, 0, 0]
+  0%|                                                                                          | 0/100 [00:00<?, ?it/s]C:\Users\wz\AppData\Local\Temp\ipykernel_17492\2434455960.py:43: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  return torch.cuda.LongTensor(tensor_array)
+  0%|                                                                                          | 0/100 [00:01<?, ?it/s]
+[0, 0, 0, 1]
+[1, 0, 0, 0]
+[0, 0, 0, 1]
+[0, 0, 0, 1]
+[0, 0, 0, 1]
+[0, 1, 0, 0]
+[1, 0, 0, 0]
+[0, 0, 1, 0]

@@ -1,0 +1,38 @@
+2022-10-27 13:05:11,077 INFO    MainThread:25688 [wandb_setup.py:_flush():68] Configure stats pid to 25688
+2022-10-27 13:05:11,077 INFO    MainThread:25688 [wandb_setup.py:_flush():68] Loading settings from C:\Users\wz\.config\wandb\settings
+2022-10-27 13:05:11,077 INFO    MainThread:25688 [wandb_setup.py:_flush():68] Loading settings from C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\settings
+2022-10-27 13:05:11,077 INFO    MainThread:25688 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2022-10-27 13:05:11,077 INFO    MainThread:25688 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-10-27 13:05:11,077 INFO    MainThread:25688 [wandb_init.py:_log_setup():476] Logging user logs to C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221027_130511-31fhbjnn\logs\debug.log
+2022-10-27 13:05:11,077 INFO    MainThread:25688 [wandb_init.py:_log_setup():477] Logging internal logs to C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221027_130511-31fhbjnn\logs\debug-internal.log
+2022-10-27 13:05:11,077 INFO    MainThread:25688 [wandb_init.py:init():516] calling init triggers
+2022-10-27 13:05:11,078 INFO    MainThread:25688 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {'lm_name': 'lvwerra/gpt2-imdb', 'ref_lm_name': 'lvwerra/gpt2-imdb', 'cls_model_name': 'lvwerra/distilbert-imdb', 'tk_name': 'gpt2', 'steps': 320, 'batch_size': 32, 'forward_batch_size': 4, 'ppo_epochs': 4, 'txt_in_len': 2, 'txt_out_len': 1, 'lr': 1.41e-05, 'init_kl_coef': 0.2, 'target': 6, 'horizon': 10000, 'gamma': 1, 'lam': 0.95, 'cliprange': 0.2, 'cliprange_value': 0.2, 'vf_coef': 0.1, 'seed': 1}
+2022-10-27 13:05:11,078 INFO    MainThread:25688 [wandb_init.py:init():535] re-initializing run, found existing run on stack: 1y1c2ijs
+2022-10-27 13:05:11,079 INFO    MainThread:25688 [wandb_run.py:_finish():1746] finishing run wz_ryan/huggingface/1y1c2ijs
+2022-10-27 13:05:11,079 INFO    MainThread:25688 [jupyter.py:save_history():448] not saving jupyter history
+2022-10-27 13:05:11,079 INFO    MainThread:25688 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2022-10-27 13:05:11,079 INFO    MainThread:25688 [wandb_init.py:_jupyter_teardown():408] cleaning up jupyter logic
+2022-10-27 13:05:11,079 INFO    MainThread:25688 [wandb_run.py:_atexit_cleanup():1949] got exitcode: 0
+2022-10-27 13:05:11,079 INFO    MainThread:25688 [wandb_run.py:_restore():1932] restore
+2022-10-27 13:05:11,079 INFO    MainThread:25688 [wandb_run.py:_restore():1938] restore done
+2022-10-27 13:05:15,678 INFO    MainThread:25688 [wandb_run.py:_footer_history_summary_info():3377] rendering history
+2022-10-27 13:05:15,678 INFO    MainThread:25688 [wandb_run.py:_footer_history_summary_info():3409] rendering summary
+2022-10-27 13:05:15,680 INFO    MainThread:25688 [wandb_run.py:_footer_sync_info():3333] logging synced files
+2022-10-27 13:05:15,683 INFO    MainThread:25688 [wandb_init.py:init():569] starting backend
+2022-10-27 13:05:15,683 INFO    MainThread:25688 [wandb_init.py:init():573] setting up manager
+2022-10-27 13:05:15,689 INFO    MainThread:25688 [backend.py:_multiprocessing_setup():102] multiprocessing start_methods=spawn, using: spawn
+2022-10-27 13:05:15,690 INFO    MainThread:25688 [wandb_init.py:init():580] backend started and connected
+2022-10-27 13:05:15,698 INFO    MainThread:25688 [wandb_run.py:_label_probe_notebook():1113] probe notebook
+2022-10-27 13:05:15,698 INFO    MainThread:25688 [wandb_run.py:_label_probe_notebook():1123] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2022-10-27 13:05:15,698 INFO    MainThread:25688 [wandb_init.py:init():658] updated telemetry
+2022-10-27 13:05:15,700 INFO    MainThread:25688 [wandb_init.py:init():693] communicating run to backend with 60 second timeout
+2022-10-27 13:05:17,680 INFO    MainThread:25688 [wandb_run.py:_on_init():2000] communicating current version
+2022-10-27 13:05:18,094 INFO    MainThread:25688 [wandb_run.py:_on_init():2004] got version response 
+2022-10-27 13:05:18,094 INFO    MainThread:25688 [wandb_init.py:init():728] starting run threads in backend
+2022-10-27 13:05:23,115 INFO    MainThread:25688 [wandb_run.py:_console_start():1980] atexit reg
+2022-10-27 13:05:23,115 INFO    MainThread:25688 [wandb_run.py:_redirect():1838] redirect: SettingsConsole.WRAP_RAW
+2022-10-27 13:05:23,115 INFO    MainThread:25688 [wandb_run.py:_redirect():1903] Wrapping output streams.
+2022-10-27 13:05:23,115 INFO    MainThread:25688 [wandb_run.py:_redirect():1925] Redirects installed.
+2022-10-27 13:05:23,116 INFO    MainThread:25688 [wandb_init.py:init():765] run started, returning control to user process
+2022-10-27 13:05:34,674 INFO    MainThread:25688 [wandb_watch.py:watch():51] Watching

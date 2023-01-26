@@ -1,0 +1,577 @@
+2022-10-08 14:00:15,313 INFO    StreamThr :23636 [internal.py:wandb_internal():88] W&B internal server running at pid: 23636, started at: 2022-10-08 14:00:15.312954
+2022-10-08 14:00:15,314 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: status
+2022-10-08 14:00:15,315 DEBUG   SenderThread:23636 [sender.py:send_request():317] send_request: status
+2022-10-08 14:00:15,316 DEBUG   SenderThread:23636 [sender.py:send():303] send: header
+2022-10-08 14:00:15,316 INFO    WriterThread:23636 [datastore.py:open_for_write():75] open: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\run-qd77novk.wandb
+2022-10-08 14:00:15,316 DEBUG   SenderThread:23636 [sender.py:send():303] send: run
+2022-10-08 14:00:15,979 INFO    SenderThread:23636 [dir_watcher.py:__init__():216] watching files in: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files
+2022-10-08 14:00:15,979 INFO    SenderThread:23636 [sender.py:_start_run_threads():928] run started: qd77novk with start time 1665198014.318807
+2022-10-08 14:00:15,980 DEBUG   SenderThread:23636 [sender.py:send():303] send: summary
+2022-10-08 14:00:15,981 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: check_version
+2022-10-08 14:00:15,981 INFO    SenderThread:23636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-08 14:00:15,981 DEBUG   SenderThread:23636 [sender.py:send_request():317] send_request: check_version
+2022-10-08 14:00:16,168 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: run_start
+2022-10-08 14:00:16,172 DEBUG   HandlerThread:23636 [meta.py:__init__():34] meta init
+2022-10-08 14:00:16,172 DEBUG   HandlerThread:23636 [meta.py:__init__():49] meta init done
+2022-10-08 14:00:16,172 DEBUG   HandlerThread:23636 [meta.py:probe():215] probe
+2022-10-08 14:00:16,173 DEBUG   HandlerThread:23636 [meta.py:_save_pip():53] save pip
+2022-10-08 14:00:16,173 DEBUG   HandlerThread:23636 [meta.py:_save_pip():67] save pip done
+2022-10-08 14:00:16,173 DEBUG   HandlerThread:23636 [meta.py:_save_conda():74] save conda
+2022-10-08 14:00:16,983 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\conda-environment.yaml
+2022-10-08 14:00:16,983 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\requirements.txt
+2022-10-08 14:00:16,983 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\wandb-summary.json
+2022-10-08 14:00:26,093 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\conda-environment.yaml
+2022-10-08 14:00:26,186 DEBUG   HandlerThread:23636 [meta.py:_save_conda():84] save conda done
+2022-10-08 14:00:26,186 DEBUG   HandlerThread:23636 [meta.py:probe():253] probe done
+2022-10-08 14:00:26,187 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-08 14:00:26,187 DEBUG   SenderThread:23636 [sender.py:send_request():317] send_request: stop_status
+2022-10-08 14:00:26,514 DEBUG   SenderThread:23636 [sender.py:send():303] send: telemetry
+2022-10-08 14:00:26,515 DEBUG   SenderThread:23636 [sender.py:send():303] send: files
+2022-10-08 14:00:26,515 INFO    SenderThread:23636 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2022-10-08 14:00:27,102 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\wandb-metadata.json
+2022-10-08 14:00:27,518 INFO    Thread-37 :23636 [upload_job.py:push():143] Uploaded file C:\Users\wz\AppData\Local\Temp\tmpfno5vh_hwandb\22fv8b1j-wandb-metadata.json
+2022-10-08 14:00:41,193 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-08 14:00:41,193 DEBUG   SenderThread:23636 [sender.py:send_request():317] send_request: stop_status
+2022-10-08 14:00:46,209 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\config.yaml
+2022-10-08 14:00:47,368 DEBUG   SenderThread:23636 [sender.py:send():303] send: stats
+2022-10-08 14:00:56,586 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-08 14:00:56,587 DEBUG   SenderThread:23636 [sender.py:send_request():317] send_request: stop_status
+2022-10-08 14:01:11,915 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-08 14:01:11,915 DEBUG   SenderThread:23636 [sender.py:send_request():317] send_request: stop_status
+2022-10-08 14:01:20,708 DEBUG   SenderThread:23636 [sender.py:send():303] send: stats
+2022-10-08 14:01:27,220 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-08 14:01:27,222 DEBUG   SenderThread:23636 [sender.py:send_request():317] send_request: stop_status
+2022-10-08 14:01:33,577 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\output.log
+2022-10-08 14:01:35,593 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\output.log
+2022-10-08 14:01:37,613 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\output.log
+2022-10-08 14:01:39,622 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\output.log
+2022-10-08 14:01:42,624 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-08 14:01:42,624 DEBUG   SenderThread:23636 [sender.py:send_request():317] send_request: stop_status
+2022-10-08 14:01:45,698 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\output.log
+2022-10-08 14:01:45,952 DEBUG   SenderThread:23636 [sender.py:send():303] send: telemetry
+2022-10-08 14:01:47,726 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\output.log
+2022-10-08 14:01:47,726 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\config.yaml
+2022-10-08 14:01:54,130 DEBUG   SenderThread:23636 [sender.py:send():303] send: stats
+2022-10-08 14:01:57,943 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-08 14:01:57,944 DEBUG   SenderThread:23636 [sender.py:send_request():317] send_request: stop_status
+2022-10-08 14:02:13,372 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-08 14:02:13,373 DEBUG   SenderThread:23636 [sender.py:send_request():317] send_request: stop_status
+2022-10-08 14:02:22,092 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\output.log
+2022-10-08 14:02:24,110 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\output.log
+2022-10-08 14:02:27,607 DEBUG   SenderThread:23636 [sender.py:send():303] send: stats
+2022-10-08 14:02:28,695 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-08 14:02:28,696 DEBUG   SenderThread:23636 [sender.py:send_request():317] send_request: stop_status
+2022-10-08 14:02:32,172 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\output.log
+2022-10-08 14:02:39,237 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\output.log
+2022-10-08 14:02:40,244 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\output.log
+2022-10-08 14:02:42,259 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\output.log
+2022-10-08 14:02:43,993 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-08 14:02:43,993 DEBUG   SenderThread:23636 [sender.py:send_request():317] send_request: stop_status
+2022-10-08 14:02:50,345 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\output.log
+2022-10-08 14:02:52,363 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\output.log
+2022-10-08 14:02:54,369 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\output.log
+2022-10-08 14:02:55,373 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\output.log
+2022-10-08 14:02:56,375 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\output.log
+2022-10-08 14:02:57,381 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\output.log
+2022-10-08 14:02:58,387 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\output.log
+2022-10-08 14:02:59,313 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-08 14:02:59,314 DEBUG   SenderThread:23636 [sender.py:send_request():317] send_request: stop_status
+2022-10-08 14:03:01,066 DEBUG   SenderThread:23636 [sender.py:send():303] send: stats
+2022-10-08 14:03:02,420 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\output.log
+2022-10-08 14:03:04,550 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: log_artifact
+2022-10-08 14:03:04,550 DEBUG   SenderThread:23636 [sender.py:send_request():317] send_request: log_artifact
+2022-10-08 14:03:05,165 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-08 14:03:05,465 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\media\table\game_log_0_8ddda9f5bdb399fb7647.table.json
+2022-10-08 14:03:05,465 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\media\table
+2022-10-08 14:03:05,466 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\media
+2022-10-08 14:03:07,990 INFO    Thread-39 :23636 [upload_job.py:push():101] Uploaded file C:\Users\wz\.cache\wandb\artifacts\obj\md5\bc\6d4ced62e779c9b05ac4165032060b
+2022-10-08 14:03:09,907 INFO    SenderThread:23636 [sender.py:send_request_log_artifact():1222] logged artifact run-qd77novk-game_log - {'id': 'QXJ0aWZhY3Q6MjE2NzgxMjA5', 'digest': '1213513257bcbad49b0479ecc3affc05', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjMwMzgyNTQ5', 'latestArtifact': None}, 'version': 'latest'}
+2022-10-08 14:03:09,908 DEBUG   SenderThread:23636 [sender.py:send():303] send: files
+2022-10-08 14:03:09,908 INFO    SenderThread:23636 [sender.py:_save_file():1171] saving file media\table\game_log_0_8ddda9f5bdb399fb7647.table.json with policy now
+2022-10-08 14:03:09,909 DEBUG   SenderThread:23636 [sender.py:send():303] send: history
+2022-10-08 14:03:09,909 DEBUG   SenderThread:23636 [sender.py:send():303] send: summary
+2022-10-08 14:03:09,910 INFO    SenderThread:23636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-08 14:03:10,523 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\wandb-summary.json
+2022-10-08 14:03:10,832 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: log_artifact
+2022-10-08 14:03:10,832 DEBUG   SenderThread:23636 [sender.py:send_request():317] send_request: log_artifact
+2022-10-08 14:03:10,833 INFO    Thread-40 :23636 [upload_job.py:push():143] Uploaded file C:\Users\wz\AppData\Local\Temp\tmpfno5vh_hwandb\9c8snxg2-media/table/game_log_0_8ddda9f5bdb399fb7647.table.json
+2022-10-08 14:03:10,841 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-08 14:03:11,531 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\media\table\game_log_1_b4cf41c926416d011c0f.table.json
+2022-10-08 14:03:11,531 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\media\table
+2022-10-08 14:03:12,535 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\output.log
+2022-10-08 14:03:12,810 INFO    Thread-42 :23636 [upload_job.py:push():101] Uploaded file C:\Users\wz\.cache\wandb\artifacts\obj\md5\40\ff54403fc8e96b614a71fb68ce6ef4
+2022-10-08 14:03:14,258 INFO    SenderThread:23636 [sender.py:send_request_log_artifact():1222] logged artifact run-qd77novk-game_log - {'id': 'QXJ0aWZhY3Q6MjE2NzgxMzE1', 'digest': 'efb4b7d94705e68d70d7c65792df6fd6', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjMwMzgyNTQ5', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MjE2NzgxMjA5', 'versionIndex': 0}}, 'version': 'latest'}
+2022-10-08 14:03:14,259 DEBUG   SenderThread:23636 [sender.py:send():303] send: files
+2022-10-08 14:03:14,259 INFO    SenderThread:23636 [sender.py:_save_file():1171] saving file media\table\game_log_1_b4cf41c926416d011c0f.table.json with policy now
+2022-10-08 14:03:14,260 DEBUG   SenderThread:23636 [sender.py:send():303] send: history
+2022-10-08 14:03:14,260 DEBUG   SenderThread:23636 [sender.py:send():303] send: summary
+2022-10-08 14:03:14,260 INFO    SenderThread:23636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-08 14:03:14,562 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\wandb-summary.json
+2022-10-08 14:03:14,705 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-08 14:03:14,705 DEBUG   SenderThread:23636 [sender.py:send_request():317] send_request: stop_status
+2022-10-08 14:03:15,444 INFO    Thread-43 :23636 [upload_job.py:push():143] Uploaded file C:\Users\wz\AppData\Local\Temp\tmpfno5vh_hwandb\20840mx7-media/table/game_log_1_b4cf41c926416d011c0f.table.json
+2022-10-08 14:03:16,577 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\output.log
+2022-10-08 14:03:16,673 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: log_artifact
+2022-10-08 14:03:16,673 DEBUG   SenderThread:23636 [sender.py:send_request():317] send_request: log_artifact
+2022-10-08 14:03:16,682 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-08 14:03:17,584 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\media\table\game_log_2_70847e0b218d971963a7.table.json
+2022-10-08 14:03:17,584 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\media\table
+2022-10-08 14:03:18,743 INFO    Thread-45 :23636 [upload_job.py:push():101] Uploaded file C:\Users\wz\.cache\wandb\artifacts\obj\md5\06\269732335ccb33ef038b57afc4995e
+2022-10-08 14:03:20,665 INFO    SenderThread:23636 [sender.py:send_request_log_artifact():1222] logged artifact run-qd77novk-game_log - {'id': 'QXJ0aWZhY3Q6MjE2NzgxNDA0', 'digest': '6f2473f0e4e45d4f67eabc0db67b4016', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjMwMzgyNTQ5', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MjE2NzgxMzE1', 'versionIndex': 1}}, 'version': 'latest'}
+2022-10-08 14:03:20,665 DEBUG   SenderThread:23636 [sender.py:send():303] send: files
+2022-10-08 14:03:20,665 INFO    SenderThread:23636 [sender.py:_save_file():1171] saving file media\table\game_log_2_70847e0b218d971963a7.table.json with policy now
+2022-10-08 14:03:20,666 DEBUG   SenderThread:23636 [sender.py:send():303] send: history
+2022-10-08 14:03:20,666 DEBUG   SenderThread:23636 [sender.py:send():303] send: summary
+2022-10-08 14:03:20,667 INFO    SenderThread:23636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-08 14:03:21,628 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\wandb-summary.json
+2022-10-08 14:03:21,628 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\output.log
+2022-10-08 14:03:21,772 INFO    Thread-46 :23636 [upload_job.py:push():143] Uploaded file C:\Users\wz\AppData\Local\Temp\tmpfno5vh_hwandb\3poob17w-media/table/game_log_2_70847e0b218d971963a7.table.json
+2022-10-08 14:03:22,379 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: log_artifact
+2022-10-08 14:03:22,380 DEBUG   SenderThread:23636 [sender.py:send_request():317] send_request: log_artifact
+2022-10-08 14:03:22,388 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-08 14:03:22,644 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\media\table\game_log_3_fd1609371c924e2e944a.table.json
+2022-10-08 14:03:22,645 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\media\table
+2022-10-08 14:03:24,537 INFO    Thread-48 :23636 [upload_job.py:push():101] Uploaded file C:\Users\wz\.cache\wandb\artifacts\obj\md5\3e\721527929d9fa730e4ed47f1c4ae98
+2022-10-08 14:03:26,037 INFO    SenderThread:23636 [sender.py:send_request_log_artifact():1222] logged artifact run-qd77novk-game_log - {'id': 'QXJ0aWZhY3Q6MjE2NzgxNTI4', 'digest': '2bbde0d3b57370fb9c701fe3f40a0a83', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjMwMzgyNTQ5', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MjE2NzgxNDA0', 'versionIndex': 2}}, 'version': 'latest'}
+2022-10-08 14:03:26,037 DEBUG   SenderThread:23636 [sender.py:send():303] send: files
+2022-10-08 14:03:26,037 INFO    SenderThread:23636 [sender.py:_save_file():1171] saving file media\table\game_log_3_fd1609371c924e2e944a.table.json with policy now
+2022-10-08 14:03:26,038 DEBUG   SenderThread:23636 [sender.py:send():303] send: history
+2022-10-08 14:03:26,038 DEBUG   SenderThread:23636 [sender.py:send():303] send: summary
+2022-10-08 14:03:26,039 INFO    SenderThread:23636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-08 14:03:26,688 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\wandb-summary.json
+2022-10-08 14:03:27,019 INFO    Thread-49 :23636 [upload_job.py:push():143] Uploaded file C:\Users\wz\AppData\Local\Temp\tmpfno5vh_hwandb\1dn67hbu-media/table/game_log_3_fd1609371c924e2e944a.table.json
+2022-10-08 14:03:27,702 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\output.log
+2022-10-08 14:03:27,996 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: log_artifact
+2022-10-08 14:03:27,996 DEBUG   SenderThread:23636 [sender.py:send_request():317] send_request: log_artifact
+2022-10-08 14:03:28,005 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-08 14:03:28,704 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\media\table\game_log_4_3abc53729168686045ad.table.json
+2022-10-08 14:03:28,704 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\media\table
+2022-10-08 14:03:30,055 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-08 14:03:36,681 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: log_artifact
+2022-10-08 14:03:36,690 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-08 14:03:36,800 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\media\table\game_log_5_2cf72f93528759bb6dc0.table.json
+2022-10-08 14:03:36,800 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\media\table
+2022-10-08 14:03:37,924 INFO    Thread-51 :23636 [upload_job.py:push():101] Uploaded file C:\Users\wz\.cache\wandb\artifacts\obj\md5\2c\e5207b1723f55f71a3b872353f527b
+2022-10-08 14:03:39,760 INFO    SenderThread:23636 [sender.py:send_request_log_artifact():1222] logged artifact run-qd77novk-game_log - {'id': 'QXJ0aWZhY3Q6MjE2NzgxNjUy', 'digest': 'dbd2ea8015fd072e1cd922efd4f1bc47', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjMwMzgyNTQ5', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MjE2NzgxNTI4', 'versionIndex': 3}}, 'version': 'latest'}
+2022-10-08 14:03:39,760 DEBUG   SenderThread:23636 [sender.py:send():303] send: files
+2022-10-08 14:03:39,761 INFO    SenderThread:23636 [sender.py:_save_file():1171] saving file media\table\game_log_4_3abc53729168686045ad.table.json with policy now
+2022-10-08 14:03:39,761 DEBUG   SenderThread:23636 [sender.py:send():303] send: history
+2022-10-08 14:03:39,762 DEBUG   SenderThread:23636 [sender.py:send():303] send: summary
+2022-10-08 14:03:39,762 INFO    SenderThread:23636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-08 14:03:39,763 DEBUG   SenderThread:23636 [sender.py:send_request():317] send_request: stop_status
+2022-10-08 14:03:39,822 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\wandb-summary.json
+2022-10-08 14:03:40,077 DEBUG   SenderThread:23636 [sender.py:send():303] send: stats
+2022-10-08 14:03:40,078 DEBUG   SenderThread:23636 [sender.py:send_request():317] send_request: log_artifact
+2022-10-08 14:03:40,676 INFO    Thread-52 :23636 [upload_job.py:push():143] Uploaded file C:\Users\wz\AppData\Local\Temp\tmpfno5vh_hwandb\32wcv57b-media/table/game_log_4_3abc53729168686045ad.table.json
+2022-10-08 14:03:41,838 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\output.log
+2022-10-08 14:03:42,329 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: log_artifact
+2022-10-08 14:03:42,338 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-08 14:03:42,343 INFO    Thread-54 :23636 [upload_job.py:push():101] Uploaded file C:\Users\wz\.cache\wandb\artifacts\obj\md5\b7\7f13e59630c2b1d480eadb2af91cba
+2022-10-08 14:03:42,842 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\media\table\game_log_6_725df6d2e7cea5c32a91.table.json
+2022-10-08 14:03:42,842 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\media\table
+2022-10-08 14:03:44,009 INFO    SenderThread:23636 [sender.py:send_request_log_artifact():1222] logged artifact run-qd77novk-game_log - {'id': 'QXJ0aWZhY3Q6MjE2NzgxODY4', 'digest': '98a19810a2a2ad2bbf9dd5c900729ccd', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjMwMzgyNTQ5', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MjE2NzgxNjUy', 'versionIndex': 4}}, 'version': 'latest'}
+2022-10-08 14:03:44,009 DEBUG   SenderThread:23636 [sender.py:send():303] send: files
+2022-10-08 14:03:44,009 INFO    SenderThread:23636 [sender.py:_save_file():1171] saving file media\table\game_log_5_2cf72f93528759bb6dc0.table.json with policy now
+2022-10-08 14:03:44,010 DEBUG   SenderThread:23636 [sender.py:send():303] send: history
+2022-10-08 14:03:44,010 DEBUG   SenderThread:23636 [sender.py:send():303] send: summary
+2022-10-08 14:03:44,011 INFO    SenderThread:23636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-08 14:03:44,011 DEBUG   SenderThread:23636 [sender.py:send_request():317] send_request: log_artifact
+2022-10-08 14:03:44,845 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-08 14:03:44,858 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\wandb-summary.json
+2022-10-08 14:03:45,227 INFO    Thread-55 :23636 [upload_job.py:push():143] Uploaded file C:\Users\wz\AppData\Local\Temp\tmpfno5vh_hwandb\3min92kh-media/table/game_log_5_2cf72f93528759bb6dc0.table.json
+2022-10-08 14:03:45,861 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\output.log
+2022-10-08 14:03:46,229 INFO    Thread-57 :23636 [upload_job.py:push():101] Uploaded file C:\Users\wz\.cache\wandb\artifacts\obj\md5\8e\4ef2af63b3ba188257244395148b4b
+2022-10-08 14:03:47,642 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-08 14:03:48,172 INFO    SenderThread:23636 [sender.py:send_request_log_artifact():1222] logged artifact run-qd77novk-game_log - {'id': 'QXJ0aWZhY3Q6MjE2NzgxOTQ0', 'digest': '548c0beec4f5c7de970f0f9c1b3b22ff', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjMwMzgyNTQ5', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MjE2NzgxODY4', 'versionIndex': 5}}, 'version': 'latest'}
+2022-10-08 14:03:48,172 DEBUG   SenderThread:23636 [sender.py:send():303] send: files
+2022-10-08 14:03:48,173 INFO    SenderThread:23636 [sender.py:_save_file():1171] saving file media\table\game_log_6_725df6d2e7cea5c32a91.table.json with policy now
+2022-10-08 14:03:48,173 DEBUG   SenderThread:23636 [sender.py:send():303] send: history
+2022-10-08 14:03:48,174 DEBUG   SenderThread:23636 [sender.py:send():303] send: summary
+2022-10-08 14:03:48,175 INFO    SenderThread:23636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-08 14:03:48,890 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\wandb-summary.json
+2022-10-08 14:03:48,911 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: log_artifact
+2022-10-08 14:03:48,911 DEBUG   SenderThread:23636 [sender.py:send_request():317] send_request: log_artifact
+2022-10-08 14:03:48,920 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-08 14:03:49,162 INFO    Thread-58 :23636 [upload_job.py:push():143] Uploaded file C:\Users\wz\AppData\Local\Temp\tmpfno5vh_hwandb\1wlsp79d-media/table/game_log_6_725df6d2e7cea5c32a91.table.json
+2022-10-08 14:03:49,896 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\output.log
+2022-10-08 14:03:49,896 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\media\table\game_log_7_e370fd708c294ce2839f.table.json
+2022-10-08 14:03:49,897 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\media\table
+2022-10-08 14:03:50,070 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-08 14:03:51,001 INFO    Thread-60 :23636 [upload_job.py:push():101] Uploaded file C:\Users\wz\.cache\wandb\artifacts\obj\md5\af\499f8be37edf61ce9d107eeff1b1be
+2022-10-08 14:03:52,649 INFO    SenderThread:23636 [sender.py:send_request_log_artifact():1222] logged artifact run-qd77novk-game_log - {'id': 'QXJ0aWZhY3Q6MjE2NzgyMDI1', 'digest': '293e6f78a74cae9635739e2dea94eff2', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjMwMzgyNTQ5', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MjE2NzgxOTQ0', 'versionIndex': 6}}, 'version': 'latest'}
+2022-10-08 14:03:52,649 DEBUG   SenderThread:23636 [sender.py:send():303] send: files
+2022-10-08 14:03:52,650 INFO    SenderThread:23636 [sender.py:_save_file():1171] saving file media\table\game_log_7_e370fd708c294ce2839f.table.json with policy now
+2022-10-08 14:03:52,650 DEBUG   SenderThread:23636 [sender.py:send():303] send: history
+2022-10-08 14:03:52,651 DEBUG   SenderThread:23636 [sender.py:send():303] send: summary
+2022-10-08 14:03:52,651 INFO    SenderThread:23636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-08 14:03:52,652 DEBUG   SenderThread:23636 [sender.py:send_request():317] send_request: stop_status
+2022-10-08 14:03:52,914 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\wandb-summary.json
+2022-10-08 14:03:53,713 INFO    Thread-61 :23636 [upload_job.py:push():143] Uploaded file C:\Users\wz\AppData\Local\Temp\tmpfno5vh_hwandb\3ksqs612-media/table/game_log_7_e370fd708c294ce2839f.table.json
+2022-10-08 14:03:53,919 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\output.log
+2022-10-08 14:03:54,569 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: log_artifact
+2022-10-08 14:03:54,569 DEBUG   SenderThread:23636 [sender.py:send_request():317] send_request: log_artifact
+2022-10-08 14:03:54,578 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-08 14:03:54,935 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\media\table\game_log_8_5fd341722a3c795dc2a3.table.json
+2022-10-08 14:03:54,936 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\media\table
+2022-10-08 14:03:57,131 INFO    Thread-63 :23636 [upload_job.py:push():101] Uploaded file C:\Users\wz\.cache\wandb\artifacts\obj\md5\20\bdfcd405d0a79a81693e778442f52a
+2022-10-08 14:03:59,172 INFO    SenderThread:23636 [sender.py:send_request_log_artifact():1222] logged artifact run-qd77novk-game_log - {'id': 'QXJ0aWZhY3Q6MjE2NzgyMTM1', 'digest': '2da62251d01f5ef51d1869911d4f88a8', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjMwMzgyNTQ5', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MjE2NzgyMDI1', 'versionIndex': 7}}, 'version': 'latest'}
+2022-10-08 14:03:59,172 DEBUG   SenderThread:23636 [sender.py:send():303] send: files
+2022-10-08 14:03:59,173 INFO    SenderThread:23636 [sender.py:_save_file():1171] saving file media\table\game_log_8_5fd341722a3c795dc2a3.table.json with policy now
+2022-10-08 14:03:59,173 DEBUG   SenderThread:23636 [sender.py:send():303] send: history
+2022-10-08 14:03:59,174 DEBUG   SenderThread:23636 [sender.py:send():303] send: summary
+2022-10-08 14:03:59,175 INFO    SenderThread:23636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-08 14:03:59,980 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\wandb-summary.json
+2022-10-08 14:03:59,980 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\output.log
+2022-10-08 14:04:00,153 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: log_artifact
+2022-10-08 14:04:00,153 DEBUG   SenderThread:23636 [sender.py:send_request():317] send_request: log_artifact
+2022-10-08 14:04:00,162 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-08 14:04:00,488 INFO    Thread-64 :23636 [upload_job.py:push():143] Uploaded file C:\Users\wz\AppData\Local\Temp\tmpfno5vh_hwandb\2p9tmpnt-media/table/game_log_8_5fd341722a3c795dc2a3.table.json
+2022-10-08 14:04:00,989 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\media\table\game_log_9_37193d6c6a95ac90def2.table.json
+2022-10-08 14:04:00,989 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\media\table
+2022-10-08 14:04:02,250 INFO    Thread-66 :23636 [upload_job.py:push():101] Uploaded file C:\Users\wz\.cache\wandb\artifacts\obj\md5\89\7d1363ae23812d2b277832425b339f
+2022-10-08 14:04:03,863 INFO    SenderThread:23636 [sender.py:send_request_log_artifact():1222] logged artifact run-qd77novk-game_log - {'id': 'QXJ0aWZhY3Q6MjE2NzgyMjQz', 'digest': '2e63d65ab7d9b784504a84e489634108', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjMwMzgyNTQ5', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MjE2NzgyMTM1', 'versionIndex': 8}}, 'version': 'latest'}
+2022-10-08 14:04:03,863 DEBUG   SenderThread:23636 [sender.py:send():303] send: files
+2022-10-08 14:04:03,863 INFO    SenderThread:23636 [sender.py:_save_file():1171] saving file media\table\game_log_9_37193d6c6a95ac90def2.table.json with policy now
+2022-10-08 14:04:03,864 DEBUG   SenderThread:23636 [sender.py:send():303] send: history
+2022-10-08 14:04:03,864 DEBUG   SenderThread:23636 [sender.py:send():303] send: summary
+2022-10-08 14:04:03,865 INFO    SenderThread:23636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-08 14:04:04,025 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\wandb-summary.json
+2022-10-08 14:04:05,139 INFO    Thread-67 :23636 [upload_job.py:push():143] Uploaded file C:\Users\wz\AppData\Local\Temp\tmpfno5vh_hwandb\1gqwao0i-media/table/game_log_9_37193d6c6a95ac90def2.table.json
+2022-10-08 14:04:06,040 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\output.log
+2022-10-08 14:04:08,030 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-08 14:04:08,030 DEBUG   SenderThread:23636 [sender.py:send_request():317] send_request: stop_status
+2022-10-08 14:04:08,990 DEBUG   SenderThread:23636 [sender.py:send():303] send: stats
+2022-10-08 14:04:23,993 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-08 14:04:23,994 DEBUG   SenderThread:23636 [sender.py:send_request():317] send_request: stop_status
+2022-10-08 14:04:34,284 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\output.log
+2022-10-08 14:04:36,305 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\output.log
+2022-10-08 14:04:38,727 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: log_artifact
+2022-10-08 14:04:38,727 DEBUG   SenderThread:23636 [sender.py:send_request():317] send_request: log_artifact
+2022-10-08 14:04:38,736 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-08 14:04:39,325 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\media\table\game_log_10_40c9fddd07073119478d.table.json
+2022-10-08 14:04:39,327 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\media\table
+2022-10-08 14:04:39,419 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-08 14:04:41,088 INFO    Thread-69 :23636 [upload_job.py:push():101] Uploaded file C:\Users\wz\.cache\wandb\artifacts\obj\md5\00\e37a92e9c7ed586c23b5c5b903c4bd
+2022-10-08 14:04:42,819 INFO    SenderThread:23636 [sender.py:send_request_log_artifact():1222] logged artifact run-qd77novk-game_log - {'id': 'QXJ0aWZhY3Q6MjE2NzgyOTcz', 'digest': 'ee92e902dbc88b581626bc9706059a25', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjMwMzgyNTQ5', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MjE2NzgyMjQz', 'versionIndex': 9}}, 'version': 'latest'}
+2022-10-08 14:04:42,819 DEBUG   SenderThread:23636 [sender.py:send():303] send: files
+2022-10-08 14:04:42,819 INFO    SenderThread:23636 [sender.py:_save_file():1171] saving file media\table\game_log_10_40c9fddd07073119478d.table.json with policy now
+2022-10-08 14:04:42,820 DEBUG   SenderThread:23636 [sender.py:send():303] send: history
+2022-10-08 14:04:42,820 DEBUG   SenderThread:23636 [sender.py:send():303] send: summary
+2022-10-08 14:04:42,821 INFO    SenderThread:23636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-08 14:04:42,821 DEBUG   SenderThread:23636 [sender.py:send_request():317] send_request: stop_status
+2022-10-08 14:04:43,124 DEBUG   SenderThread:23636 [sender.py:send():303] send: stats
+2022-10-08 14:04:43,371 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\wandb-summary.json
+2022-10-08 14:04:43,754 INFO    Thread-70 :23636 [upload_job.py:push():143] Uploaded file C:\Users\wz\AppData\Local\Temp\tmpfno5vh_hwandb\10h9pq7r-media/table/game_log_10_40c9fddd07073119478d.table.json
+2022-10-08 14:04:44,359 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: log_artifact
+2022-10-08 14:04:44,359 DEBUG   SenderThread:23636 [sender.py:send_request():317] send_request: log_artifact
+2022-10-08 14:04:44,368 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-08 14:04:44,380 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\output.log
+2022-10-08 14:04:44,380 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\media\table\game_log_11_2b7dac0598f8d3ee4934.table.json
+2022-10-08 14:04:44,380 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\media\table
+2022-10-08 14:04:46,868 INFO    Thread-72 :23636 [upload_job.py:push():101] Uploaded file C:\Users\wz\.cache\wandb\artifacts\obj\md5\33\814b78510971f593a879d4fefeedbf
+2022-10-08 14:04:48,356 INFO    SenderThread:23636 [sender.py:send_request_log_artifact():1222] logged artifact run-qd77novk-game_log - {'id': 'QXJ0aWZhY3Q6MjE2NzgzMDcw', 'digest': '87f7613bf348232cf59c000dfc12397a', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjMwMzgyNTQ5', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MjE2NzgyOTcz', 'versionIndex': 10}}, 'version': 'latest'}
+2022-10-08 14:04:48,356 DEBUG   SenderThread:23636 [sender.py:send():303] send: files
+2022-10-08 14:04:48,356 INFO    SenderThread:23636 [sender.py:_save_file():1171] saving file media\table\game_log_11_2b7dac0598f8d3ee4934.table.json with policy now
+2022-10-08 14:04:48,357 DEBUG   SenderThread:23636 [sender.py:send():303] send: history
+2022-10-08 14:04:48,357 DEBUG   SenderThread:23636 [sender.py:send():303] send: summary
+2022-10-08 14:04:48,358 INFO    SenderThread:23636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-08 14:04:48,431 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\wandb-summary.json
+2022-10-08 14:04:49,463 INFO    Thread-73 :23636 [upload_job.py:push():143] Uploaded file C:\Users\wz\AppData\Local\Temp\tmpfno5vh_hwandb\27ywv49x-media/table/game_log_11_2b7dac0598f8d3ee4934.table.json
+2022-10-08 14:04:50,040 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: log_artifact
+2022-10-08 14:04:50,041 DEBUG   SenderThread:23636 [sender.py:send_request():317] send_request: log_artifact
+2022-10-08 14:04:50,050 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-08 14:04:50,447 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\output.log
+2022-10-08 14:04:50,448 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\media\table\game_log_12_b35dfa050459ae34cbc9.table.json
+2022-10-08 14:04:50,448 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\media\table
+2022-10-08 14:04:52,169 INFO    Thread-75 :23636 [upload_job.py:push():101] Uploaded file C:\Users\wz\.cache\wandb\artifacts\obj\md5\21\d75f2c5dc4674afd5640f85f8623f3
+2022-10-08 14:04:53,776 INFO    SenderThread:23636 [sender.py:send_request_log_artifact():1222] logged artifact run-qd77novk-game_log - {'id': 'QXJ0aWZhY3Q6MjE2NzgzMTc4', 'digest': 'bfc394ec28028f60ea29d9a5e880dfbe', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjMwMzgyNTQ5', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MjE2NzgzMDcw', 'versionIndex': 11}}, 'version': 'latest'}
+2022-10-08 14:04:53,776 DEBUG   SenderThread:23636 [sender.py:send():303] send: files
+2022-10-08 14:04:53,777 INFO    SenderThread:23636 [sender.py:_save_file():1171] saving file media\table\game_log_12_b35dfa050459ae34cbc9.table.json with policy now
+2022-10-08 14:04:53,777 DEBUG   SenderThread:23636 [sender.py:send():303] send: history
+2022-10-08 14:04:53,778 DEBUG   SenderThread:23636 [sender.py:send():303] send: summary
+2022-10-08 14:04:53,778 INFO    SenderThread:23636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-08 14:04:54,485 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\wandb-summary.json
+2022-10-08 14:04:54,485 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\output.log
+2022-10-08 14:04:54,738 INFO    Thread-76 :23636 [upload_job.py:push():143] Uploaded file C:\Users\wz\AppData\Local\Temp\tmpfno5vh_hwandb\39m4zddy-media/table/game_log_12_b35dfa050459ae34cbc9.table.json
+2022-10-08 14:04:55,706 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: log_artifact
+2022-10-08 14:04:55,707 DEBUG   SenderThread:23636 [sender.py:send_request():317] send_request: log_artifact
+2022-10-08 14:04:55,716 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-08 14:04:56,517 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\media\table\game_log_13_68287c63f0bdb0a2bd87.table.json
+2022-10-08 14:04:56,517 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\media\table
+2022-10-08 14:04:57,931 INFO    Thread-78 :23636 [upload_job.py:push():101] Uploaded file C:\Users\wz\.cache\wandb\artifacts\obj\md5\31\70da6f6cba27a703d4227b75ec0744
+2022-10-08 14:04:58,129 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-08 14:04:59,830 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-08 14:04:59,859 INFO    SenderThread:23636 [sender.py:send_request_log_artifact():1222] logged artifact run-qd77novk-game_log - {'id': 'QXJ0aWZhY3Q6MjE2NzgzMjgz', 'digest': 'b40e1f80dd8084f7a63783323c8363e5', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjMwMzgyNTQ5', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MjE2NzgzMTc4', 'versionIndex': 12}}, 'version': 'latest'}
+2022-10-08 14:04:59,859 DEBUG   SenderThread:23636 [sender.py:send():303] send: files
+2022-10-08 14:04:59,859 INFO    SenderThread:23636 [sender.py:_save_file():1171] saving file media\table\game_log_13_68287c63f0bdb0a2bd87.table.json with policy now
+2022-10-08 14:04:59,861 DEBUG   SenderThread:23636 [sender.py:send():303] send: history
+2022-10-08 14:04:59,861 DEBUG   SenderThread:23636 [sender.py:send():303] send: summary
+2022-10-08 14:04:59,862 INFO    SenderThread:23636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-08 14:04:59,863 DEBUG   SenderThread:23636 [sender.py:send_request():317] send_request: stop_status
+2022-10-08 14:05:00,557 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\wandb-summary.json
+2022-10-08 14:05:00,838 INFO    Thread-79 :23636 [upload_job.py:push():143] Uploaded file C:\Users\wz\AppData\Local\Temp\tmpfno5vh_hwandb\qs9ipt6n-media/table/game_log_13_68287c63f0bdb0a2bd87.table.json
+2022-10-08 14:05:01,770 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: log_artifact
+2022-10-08 14:05:01,770 DEBUG   SenderThread:23636 [sender.py:send_request():317] send_request: log_artifact
+2022-10-08 14:05:01,780 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-08 14:05:02,566 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\output.log
+2022-10-08 14:05:02,567 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\media\table\game_log_14_9130dfac1cd04848a142.table.json
+2022-10-08 14:05:02,567 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\media\table
+2022-10-08 14:05:04,022 INFO    Thread-81 :23636 [upload_job.py:push():101] Uploaded file C:\Users\wz\.cache\wandb\artifacts\obj\md5\0a\fb5b72e3edeec7f4a2d8ba4f63be17
+2022-10-08 14:05:05,545 INFO    SenderThread:23636 [sender.py:send_request_log_artifact():1222] logged artifact run-qd77novk-game_log - {'id': 'QXJ0aWZhY3Q6MjE2NzgzMzg5', 'digest': 'e07219dfef57e6667024451960fd3760', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjMwMzgyNTQ5', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MjE2NzgzMjgz', 'versionIndex': 13}}, 'version': 'latest'}
+2022-10-08 14:05:05,545 DEBUG   SenderThread:23636 [sender.py:send():303] send: files
+2022-10-08 14:05:05,545 INFO    SenderThread:23636 [sender.py:_save_file():1171] saving file media\table\game_log_14_9130dfac1cd04848a142.table.json with policy now
+2022-10-08 14:05:05,546 DEBUG   SenderThread:23636 [sender.py:send():303] send: history
+2022-10-08 14:05:05,546 DEBUG   SenderThread:23636 [sender.py:send():303] send: summary
+2022-10-08 14:05:05,547 INFO    SenderThread:23636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-08 14:05:05,601 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\wandb-summary.json
+2022-10-08 14:05:05,890 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-08 14:05:06,603 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\output.log
+2022-10-08 14:05:06,884 INFO    Thread-82 :23636 [upload_job.py:push():143] Uploaded file C:\Users\wz\AppData\Local\Temp\tmpfno5vh_hwandb\oenlm15o-media/table/game_log_14_9130dfac1cd04848a142.table.json
+2022-10-08 14:05:07,962 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: log_artifact
+2022-10-08 14:05:07,962 DEBUG   SenderThread:23636 [sender.py:send_request():317] send_request: log_artifact
+2022-10-08 14:05:07,971 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-08 14:05:08,627 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\media\table\game_log_15_7401923579f5335ecf18.table.json
+2022-10-08 14:05:08,628 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\media\table
+2022-10-08 14:05:10,671 INFO    Thread-84 :23636 [upload_job.py:push():101] Uploaded file C:\Users\wz\.cache\wandb\artifacts\obj\md5\d4\18531a294cca7dcebe24d70ccee31b
+2022-10-08 14:05:12,634 INFO    SenderThread:23636 [sender.py:send_request_log_artifact():1222] logged artifact run-qd77novk-game_log - {'id': 'QXJ0aWZhY3Q6MjE2NzgzNTI0', 'digest': '34c9b5934f5698fae8e125102f1f6972', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjMwMzgyNTQ5', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MjE2NzgzMzg5', 'versionIndex': 14}}, 'version': 'latest'}
+2022-10-08 14:05:12,634 DEBUG   SenderThread:23636 [sender.py:send():303] send: files
+2022-10-08 14:05:12,634 INFO    SenderThread:23636 [sender.py:_save_file():1171] saving file media\table\game_log_15_7401923579f5335ecf18.table.json with policy now
+2022-10-08 14:05:12,635 DEBUG   SenderThread:23636 [sender.py:send():303] send: history
+2022-10-08 14:05:12,635 DEBUG   SenderThread:23636 [sender.py:send():303] send: summary
+2022-10-08 14:05:12,636 INFO    SenderThread:23636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-08 14:05:12,670 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\wandb-summary.json
+2022-10-08 14:05:13,475 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: log_artifact
+2022-10-08 14:05:13,476 DEBUG   SenderThread:23636 [sender.py:send_request():317] send_request: log_artifact
+2022-10-08 14:05:13,485 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-08 14:05:13,649 INFO    Thread-85 :23636 [upload_job.py:push():143] Uploaded file C:\Users\wz\AppData\Local\Temp\tmpfno5vh_hwandb\d8meps29-media/table/game_log_15_7401923579f5335ecf18.table.json
+2022-10-08 14:05:13,687 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\media\table\game_log_16_090fc5488898843ba99a.table.json
+2022-10-08 14:05:13,687 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\media\table
+2022-10-08 14:05:14,692 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\output.log
+2022-10-08 14:05:15,200 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-08 14:05:17,700 INFO    Thread-87 :23636 [upload_job.py:push():101] Uploaded file C:\Users\wz\.cache\wandb\artifacts\obj\md5\fc\84be7cb79cd20f672ec8c484ea261c
+2022-10-08 14:05:19,070 INFO    SenderThread:23636 [sender.py:send_request_log_artifact():1222] logged artifact run-qd77novk-game_log - {'id': 'QXJ0aWZhY3Q6MjE2NzgzNjI0', 'digest': '94f89953872416b4dd0997e58e122451', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjMwMzgyNTQ5', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MjE2NzgzNTI0', 'versionIndex': 15}}, 'version': 'latest'}
+2022-10-08 14:05:19,070 DEBUG   SenderThread:23636 [sender.py:send():303] send: files
+2022-10-08 14:05:19,070 INFO    SenderThread:23636 [sender.py:_save_file():1171] saving file media\table\game_log_16_090fc5488898843ba99a.table.json with policy now
+2022-10-08 14:05:19,071 DEBUG   SenderThread:23636 [sender.py:send():303] send: history
+2022-10-08 14:05:19,071 DEBUG   SenderThread:23636 [sender.py:send():303] send: summary
+2022-10-08 14:05:19,072 INFO    SenderThread:23636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-08 14:05:19,072 DEBUG   SenderThread:23636 [sender.py:send_request():317] send_request: stop_status
+2022-10-08 14:05:19,178 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: log_artifact
+2022-10-08 14:05:19,187 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-08 14:05:19,468 DEBUG   SenderThread:23636 [sender.py:send():303] send: stats
+2022-10-08 14:05:19,469 DEBUG   SenderThread:23636 [sender.py:send_request():317] send_request: log_artifact
+2022-10-08 14:05:19,740 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\wandb-summary.json
+2022-10-08 14:05:19,741 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\media\table\game_log_17_4ab9fdc0a0a83d9e47f2.table.json
+2022-10-08 14:05:19,741 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\media\table
+2022-10-08 14:05:20,062 INFO    Thread-88 :23636 [upload_job.py:push():143] Uploaded file C:\Users\wz\AppData\Local\Temp\tmpfno5vh_hwandb\2ufhqggi-media/table/game_log_16_090fc5488898843ba99a.table.json
+2022-10-08 14:05:20,744 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\output.log
+2022-10-08 14:05:21,607 INFO    Thread-90 :23636 [upload_job.py:push():101] Uploaded file C:\Users\wz\.cache\wandb\artifacts\obj\md5\28\7e28d4c1c17e2808770cb4e0289ea1
+2022-10-08 14:05:23,211 INFO    SenderThread:23636 [sender.py:send_request_log_artifact():1222] logged artifact run-qd77novk-game_log - {'id': 'QXJ0aWZhY3Q6MjE2NzgzNzMy', 'digest': 'e9822b7fd943b7e961661cc955bc18ba', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjMwMzgyNTQ5', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MjE2NzgzNjI0', 'versionIndex': 16}}, 'version': 'latest'}
+2022-10-08 14:05:23,211 DEBUG   SenderThread:23636 [sender.py:send():303] send: files
+2022-10-08 14:05:23,211 INFO    SenderThread:23636 [sender.py:_save_file():1171] saving file media\table\game_log_17_4ab9fdc0a0a83d9e47f2.table.json with policy now
+2022-10-08 14:05:23,212 DEBUG   SenderThread:23636 [sender.py:send():303] send: history
+2022-10-08 14:05:23,212 DEBUG   SenderThread:23636 [sender.py:send():303] send: summary
+2022-10-08 14:05:23,213 INFO    SenderThread:23636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-08 14:05:23,769 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\wandb-summary.json
+2022-10-08 14:05:24,470 INFO    Thread-91 :23636 [upload_job.py:push():143] Uploaded file C:\Users\wz\AppData\Local\Temp\tmpfno5vh_hwandb\3mcjskac-media/table/game_log_17_4ab9fdc0a0a83d9e47f2.table.json
+2022-10-08 14:05:24,771 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\output.log
+2022-10-08 14:05:25,162 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: log_artifact
+2022-10-08 14:05:25,162 DEBUG   SenderThread:23636 [sender.py:send_request():317] send_request: log_artifact
+2022-10-08 14:05:25,171 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-08 14:05:25,789 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\media\table\game_log_18_12713d1dc870957c6f2c.table.json
+2022-10-08 14:05:25,791 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\media\table
+2022-10-08 14:05:27,831 INFO    Thread-93 :23636 [upload_job.py:push():101] Uploaded file C:\Users\wz\.cache\wandb\artifacts\obj\md5\e4\df9a233ea7ec9e70ef5955c92afb4e
+2022-10-08 14:05:29,275 INFO    SenderThread:23636 [sender.py:send_request_log_artifact():1222] logged artifact run-qd77novk-game_log - {'id': 'QXJ0aWZhY3Q6MjE2NzgzODUy', 'digest': '628058e4d4b30f0d9bf46ca890c21cfe', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjMwMzgyNTQ5', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MjE2NzgzNzMy', 'versionIndex': 17}}, 'version': 'latest'}
+2022-10-08 14:05:29,275 DEBUG   SenderThread:23636 [sender.py:send():303] send: files
+2022-10-08 14:05:29,275 INFO    SenderThread:23636 [sender.py:_save_file():1171] saving file media\table\game_log_18_12713d1dc870957c6f2c.table.json with policy now
+2022-10-08 14:05:29,276 DEBUG   SenderThread:23636 [sender.py:send():303] send: history
+2022-10-08 14:05:29,276 DEBUG   SenderThread:23636 [sender.py:send():303] send: summary
+2022-10-08 14:05:29,276 INFO    SenderThread:23636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-08 14:05:29,832 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\wandb-summary.json
+2022-10-08 14:05:30,436 INFO    Thread-94 :23636 [upload_job.py:push():143] Uploaded file C:\Users\wz\AppData\Local\Temp\tmpfno5vh_hwandb\184og0mb-media/table/game_log_18_12713d1dc870957c6f2c.table.json
+2022-10-08 14:05:30,846 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\output.log
+2022-10-08 14:05:31,021 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: log_artifact
+2022-10-08 14:05:31,021 DEBUG   SenderThread:23636 [sender.py:send_request():317] send_request: log_artifact
+2022-10-08 14:05:31,030 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-08 14:05:31,862 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\media\table\game_log_19_6820e97d8db231e5c17c.table.json
+2022-10-08 14:05:31,862 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\media\table
+2022-10-08 14:05:33,382 INFO    Thread-96 :23636 [upload_job.py:push():101] Uploaded file C:\Users\wz\.cache\wandb\artifacts\obj\md5\e2\621eda3f1306dc525de319a3a5ffda
+2022-10-08 14:05:34,479 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-08 14:05:35,049 INFO    SenderThread:23636 [sender.py:send_request_log_artifact():1222] logged artifact run-qd77novk-game_log - {'id': 'QXJ0aWZhY3Q6MjE2NzgzOTQ4', 'digest': '985b708d08212ac90c19bcc8cc2b83a5', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjMwMzgyNTQ5', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MjE2NzgzODUy', 'versionIndex': 18}}, 'version': 'latest'}
+2022-10-08 14:05:35,049 DEBUG   SenderThread:23636 [sender.py:send():303] send: files
+2022-10-08 14:05:35,050 INFO    SenderThread:23636 [sender.py:_save_file():1171] saving file media\table\game_log_19_6820e97d8db231e5c17c.table.json with policy now
+2022-10-08 14:05:35,050 DEBUG   SenderThread:23636 [sender.py:send():303] send: history
+2022-10-08 14:05:35,050 DEBUG   SenderThread:23636 [sender.py:send():303] send: summary
+2022-10-08 14:05:35,051 INFO    SenderThread:23636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-08 14:05:35,051 DEBUG   SenderThread:23636 [sender.py:send_request():317] send_request: stop_status
+2022-10-08 14:05:35,910 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\wandb-summary.json
+2022-10-08 14:05:36,162 INFO    Thread-97 :23636 [upload_job.py:push():143] Uploaded file C:\Users\wz\AppData\Local\Temp\tmpfno5vh_hwandb\2feu2a7c-media/table/game_log_19_6820e97d8db231e5c17c.table.json
+2022-10-08 14:05:36,918 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\output.log
+2022-10-08 14:05:48,975 DEBUG   SenderThread:23636 [sender.py:send():303] send: stats
+2022-10-08 14:05:50,416 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-08 14:05:50,417 DEBUG   SenderThread:23636 [sender.py:send_request():317] send_request: stop_status
+2022-10-08 14:06:06,072 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-08 14:06:06,073 DEBUG   SenderThread:23636 [sender.py:send_request():317] send_request: stop_status
+2022-10-08 14:06:21,451 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-08 14:06:21,451 DEBUG   SenderThread:23636 [sender.py:send_request():317] send_request: stop_status
+2022-10-08 14:06:22,440 DEBUG   SenderThread:23636 [sender.py:send():303] send: stats
+2022-10-08 14:06:36,835 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-08 14:06:36,835 DEBUG   SenderThread:23636 [sender.py:send_request():317] send_request: stop_status
+2022-10-08 14:06:52,228 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-08 14:06:52,229 DEBUG   SenderThread:23636 [sender.py:send_request():317] send_request: stop_status
+2022-10-08 14:06:55,882 DEBUG   SenderThread:23636 [sender.py:send():303] send: stats
+2022-10-08 14:07:07,614 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-08 14:07:07,615 DEBUG   SenderThread:23636 [sender.py:send_request():317] send_request: stop_status
+2022-10-08 14:07:22,968 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-08 14:07:22,969 DEBUG   SenderThread:23636 [sender.py:send_request():317] send_request: stop_status
+2022-10-08 14:07:29,324 DEBUG   SenderThread:23636 [sender.py:send():303] send: stats
+2022-10-08 14:07:38,353 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-08 14:07:38,354 DEBUG   SenderThread:23636 [sender.py:send_request():317] send_request: stop_status
+2022-10-08 14:07:53,687 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-08 14:07:53,688 DEBUG   SenderThread:23636 [sender.py:send_request():317] send_request: stop_status
+2022-10-08 14:08:02,717 DEBUG   SenderThread:23636 [sender.py:send():303] send: stats
+2022-10-08 14:08:09,199 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-08 14:08:09,200 DEBUG   SenderThread:23636 [sender.py:send_request():317] send_request: stop_status
+2022-10-08 14:08:24,506 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-08 14:08:24,507 DEBUG   SenderThread:23636 [sender.py:send_request():317] send_request: stop_status
+2022-10-08 14:08:36,158 DEBUG   SenderThread:23636 [sender.py:send():303] send: stats
+2022-10-08 14:08:39,816 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-08 14:08:39,817 DEBUG   SenderThread:23636 [sender.py:send_request():317] send_request: stop_status
+2022-10-08 14:08:46,190 DEBUG   SenderThread:23636 [sender.py:send():303] send: exit
+2022-10-08 14:08:46,190 INFO    SenderThread:23636 [sender.py:send_exit():442] handling exit code: 0
+2022-10-08 14:08:46,190 INFO    SenderThread:23636 [sender.py:send_exit():444] handling runtime: 510
+2022-10-08 14:08:46,191 INFO    SenderThread:23636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-08 14:08:46,191 INFO    SenderThread:23636 [sender.py:send_exit():450] send defer
+2022-10-08 14:08:46,192 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: defer
+2022-10-08 14:08:46,192 INFO    HandlerThread:23636 [handler.py:handle_request_defer():161] handle defer: 0
+2022-10-08 14:08:46,192 DEBUG   SenderThread:23636 [sender.py:send_request():317] send_request: defer
+2022-10-08 14:08:46,192 INFO    SenderThread:23636 [sender.py:send_request_defer():459] handle sender defer: 0
+2022-10-08 14:08:46,192 INFO    SenderThread:23636 [sender.py:transition_state():463] send defer: 1
+2022-10-08 14:08:46,192 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: defer
+2022-10-08 14:08:46,193 INFO    HandlerThread:23636 [handler.py:handle_request_defer():161] handle defer: 1
+2022-10-08 14:08:46,284 DEBUG   SenderThread:23636 [sender.py:send_request():317] send_request: defer
+2022-10-08 14:08:46,284 INFO    SenderThread:23636 [sender.py:send_request_defer():459] handle sender defer: 1
+2022-10-08 14:08:46,284 INFO    SenderThread:23636 [sender.py:transition_state():463] send defer: 2
+2022-10-08 14:08:46,285 DEBUG   SenderThread:23636 [sender.py:send():303] send: stats
+2022-10-08 14:08:46,285 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: defer
+2022-10-08 14:08:46,285 INFO    HandlerThread:23636 [handler.py:handle_request_defer():161] handle defer: 2
+2022-10-08 14:08:46,285 DEBUG   SenderThread:23636 [sender.py:send_request():317] send_request: defer
+2022-10-08 14:08:46,285 INFO    SenderThread:23636 [sender.py:send_request_defer():459] handle sender defer: 2
+2022-10-08 14:08:46,285 INFO    SenderThread:23636 [sender.py:transition_state():463] send defer: 3
+2022-10-08 14:08:46,286 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: defer
+2022-10-08 14:08:46,286 INFO    HandlerThread:23636 [handler.py:handle_request_defer():161] handle defer: 3
+2022-10-08 14:08:46,286 DEBUG   SenderThread:23636 [sender.py:send_request():317] send_request: defer
+2022-10-08 14:08:46,286 INFO    SenderThread:23636 [sender.py:send_request_defer():459] handle sender defer: 3
+2022-10-08 14:08:46,286 INFO    SenderThread:23636 [sender.py:transition_state():463] send defer: 4
+2022-10-08 14:08:46,286 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: defer
+2022-10-08 14:08:46,286 INFO    HandlerThread:23636 [handler.py:handle_request_defer():161] handle defer: 4
+2022-10-08 14:08:46,287 DEBUG   SenderThread:23636 [sender.py:send():303] send: summary
+2022-10-08 14:08:46,287 INFO    SenderThread:23636 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-08 14:08:46,288 DEBUG   SenderThread:23636 [sender.py:send_request():317] send_request: defer
+2022-10-08 14:08:46,288 INFO    SenderThread:23636 [sender.py:send_request_defer():459] handle sender defer: 4
+2022-10-08 14:08:46,288 INFO    SenderThread:23636 [sender.py:transition_state():463] send defer: 5
+2022-10-08 14:08:46,288 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: defer
+2022-10-08 14:08:46,288 INFO    HandlerThread:23636 [handler.py:handle_request_defer():161] handle defer: 5
+2022-10-08 14:08:46,288 DEBUG   SenderThread:23636 [sender.py:send_request():317] send_request: defer
+2022-10-08 14:08:46,288 INFO    SenderThread:23636 [sender.py:send_request_defer():459] handle sender defer: 5
+2022-10-08 14:08:46,288 INFO    SenderThread:23636 [sender.py:transition_state():463] send defer: 6
+2022-10-08 14:08:46,288 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: defer
+2022-10-08 14:08:46,288 INFO    HandlerThread:23636 [handler.py:handle_request_defer():161] handle defer: 6
+2022-10-08 14:08:46,288 DEBUG   SenderThread:23636 [sender.py:send_request():317] send_request: defer
+2022-10-08 14:08:46,289 INFO    SenderThread:23636 [sender.py:send_request_defer():459] handle sender defer: 6
+2022-10-08 14:08:46,773 INFO    Thread-33 :23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\wandb-summary.json
+2022-10-08 14:08:47,199 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-08 14:08:48,083 INFO    SenderThread:23636 [sender.py:transition_state():463] send defer: 7
+2022-10-08 14:08:48,084 DEBUG   SenderThread:23636 [sender.py:send_request():317] send_request: poll_exit
+2022-10-08 14:08:48,084 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: defer
+2022-10-08 14:08:48,084 INFO    HandlerThread:23636 [handler.py:handle_request_defer():161] handle defer: 7
+2022-10-08 14:08:48,084 DEBUG   SenderThread:23636 [sender.py:send_request():317] send_request: defer
+2022-10-08 14:08:48,084 INFO    SenderThread:23636 [sender.py:send_request_defer():459] handle sender defer: 7
+2022-10-08 14:08:48,084 INFO    SenderThread:23636 [dir_watcher.py:finish():362] shutting down directory watcher
+2022-10-08 14:08:48,208 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-08 14:08:48,790 INFO    SenderThread:23636 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\output.log
+2022-10-08 14:08:48,790 INFO    SenderThread:23636 [dir_watcher.py:finish():392] scan: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files
+2022-10-08 14:08:48,790 INFO    SenderThread:23636 [dir_watcher.py:finish():406] scan save: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\conda-environment.yaml conda-environment.yaml
+2022-10-08 14:08:48,790 INFO    SenderThread:23636 [dir_watcher.py:finish():406] scan save: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\config.yaml config.yaml
+2022-10-08 14:08:48,791 INFO    SenderThread:23636 [dir_watcher.py:finish():406] scan save: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\output.log output.log
+2022-10-08 14:08:48,794 INFO    SenderThread:23636 [dir_watcher.py:finish():406] scan save: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\requirements.txt requirements.txt
+2022-10-08 14:08:48,796 INFO    SenderThread:23636 [dir_watcher.py:finish():406] scan save: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\wandb-metadata.json wandb-metadata.json
+2022-10-08 14:08:48,796 INFO    SenderThread:23636 [dir_watcher.py:finish():406] scan save: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\wandb-summary.json wandb-summary.json
+2022-10-08 14:08:48,800 INFO    SenderThread:23636 [dir_watcher.py:finish():406] scan save: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\media\table\game_log_0_8ddda9f5bdb399fb7647.table.json media\table\game_log_0_8ddda9f5bdb399fb7647.table.json
+2022-10-08 14:08:48,800 INFO    SenderThread:23636 [dir_watcher.py:finish():406] scan save: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\media\table\game_log_10_40c9fddd07073119478d.table.json media\table\game_log_10_40c9fddd07073119478d.table.json
+2022-10-08 14:08:48,800 INFO    SenderThread:23636 [dir_watcher.py:finish():406] scan save: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\media\table\game_log_11_2b7dac0598f8d3ee4934.table.json media\table\game_log_11_2b7dac0598f8d3ee4934.table.json
+2022-10-08 14:08:48,800 INFO    SenderThread:23636 [dir_watcher.py:finish():406] scan save: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\media\table\game_log_12_b35dfa050459ae34cbc9.table.json media\table\game_log_12_b35dfa050459ae34cbc9.table.json
+2022-10-08 14:08:48,800 INFO    SenderThread:23636 [dir_watcher.py:finish():406] scan save: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\media\table\game_log_13_68287c63f0bdb0a2bd87.table.json media\table\game_log_13_68287c63f0bdb0a2bd87.table.json
+2022-10-08 14:08:48,800 INFO    SenderThread:23636 [dir_watcher.py:finish():406] scan save: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\media\table\game_log_14_9130dfac1cd04848a142.table.json media\table\game_log_14_9130dfac1cd04848a142.table.json
+2022-10-08 14:08:48,800 INFO    SenderThread:23636 [dir_watcher.py:finish():406] scan save: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\media\table\game_log_15_7401923579f5335ecf18.table.json media\table\game_log_15_7401923579f5335ecf18.table.json
+2022-10-08 14:08:48,801 INFO    SenderThread:23636 [dir_watcher.py:finish():406] scan save: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\media\table\game_log_16_090fc5488898843ba99a.table.json media\table\game_log_16_090fc5488898843ba99a.table.json
+2022-10-08 14:08:48,801 INFO    SenderThread:23636 [dir_watcher.py:finish():406] scan save: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\media\table\game_log_17_4ab9fdc0a0a83d9e47f2.table.json media\table\game_log_17_4ab9fdc0a0a83d9e47f2.table.json
+2022-10-08 14:08:48,801 INFO    SenderThread:23636 [dir_watcher.py:finish():406] scan save: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\media\table\game_log_18_12713d1dc870957c6f2c.table.json media\table\game_log_18_12713d1dc870957c6f2c.table.json
+2022-10-08 14:08:48,801 INFO    SenderThread:23636 [dir_watcher.py:finish():406] scan save: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\media\table\game_log_19_6820e97d8db231e5c17c.table.json media\table\game_log_19_6820e97d8db231e5c17c.table.json
+2022-10-08 14:08:48,801 INFO    SenderThread:23636 [dir_watcher.py:finish():406] scan save: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\media\table\game_log_1_b4cf41c926416d011c0f.table.json media\table\game_log_1_b4cf41c926416d011c0f.table.json
+2022-10-08 14:08:48,801 INFO    SenderThread:23636 [dir_watcher.py:finish():406] scan save: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\media\table\game_log_2_70847e0b218d971963a7.table.json media\table\game_log_2_70847e0b218d971963a7.table.json
+2022-10-08 14:08:48,801 INFO    SenderThread:23636 [dir_watcher.py:finish():406] scan save: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\media\table\game_log_3_fd1609371c924e2e944a.table.json media\table\game_log_3_fd1609371c924e2e944a.table.json
+2022-10-08 14:08:48,801 INFO    SenderThread:23636 [dir_watcher.py:finish():406] scan save: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\media\table\game_log_4_3abc53729168686045ad.table.json media\table\game_log_4_3abc53729168686045ad.table.json
+2022-10-08 14:08:48,801 INFO    SenderThread:23636 [dir_watcher.py:finish():406] scan save: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\media\table\game_log_5_2cf72f93528759bb6dc0.table.json media\table\game_log_5_2cf72f93528759bb6dc0.table.json
+2022-10-08 14:08:48,801 INFO    SenderThread:23636 [dir_watcher.py:finish():406] scan save: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\media\table\game_log_6_725df6d2e7cea5c32a91.table.json media\table\game_log_6_725df6d2e7cea5c32a91.table.json
+2022-10-08 14:08:48,801 INFO    SenderThread:23636 [dir_watcher.py:finish():406] scan save: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\media\table\game_log_7_e370fd708c294ce2839f.table.json media\table\game_log_7_e370fd708c294ce2839f.table.json
+2022-10-08 14:08:48,801 INFO    SenderThread:23636 [dir_watcher.py:finish():406] scan save: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\media\table\game_log_8_5fd341722a3c795dc2a3.table.json media\table\game_log_8_5fd341722a3c795dc2a3.table.json
+2022-10-08 14:08:48,801 INFO    SenderThread:23636 [dir_watcher.py:finish():406] scan save: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\media\table\game_log_9_37193d6c6a95ac90def2.table.json media\table\game_log_9_37193d6c6a95ac90def2.table.json
+2022-10-08 14:08:48,801 INFO    SenderThread:23636 [sender.py:transition_state():463] send defer: 8
+2022-10-08 14:08:48,802 DEBUG   SenderThread:23636 [sender.py:send_request():317] send_request: poll_exit
+2022-10-08 14:08:48,802 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: defer
+2022-10-08 14:08:48,802 INFO    HandlerThread:23636 [handler.py:handle_request_defer():161] handle defer: 8
+2022-10-08 14:08:48,802 DEBUG   SenderThread:23636 [sender.py:send_request():317] send_request: defer
+2022-10-08 14:08:48,802 INFO    SenderThread:23636 [sender.py:send_request_defer():459] handle sender defer: 8
+2022-10-08 14:08:48,803 INFO    SenderThread:23636 [file_pusher.py:finish():168] shutting down file pusher
+2022-10-08 14:08:49,226 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-08 14:08:49,226 DEBUG   SenderThread:23636 [sender.py:send_request():317] send_request: poll_exit
+2022-10-08 14:08:49,780 INFO    Thread-102:23636 [upload_job.py:push():143] Uploaded file C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\wandb-summary.json
+2022-10-08 14:08:49,780 INFO    Thread-99 :23636 [upload_job.py:push():143] Uploaded file C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\config.yaml
+2022-10-08 14:08:49,783 INFO    Thread-101:23636 [upload_job.py:push():143] Uploaded file C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\requirements.txt
+2022-10-08 14:08:49,816 INFO    Thread-98 :23636 [upload_job.py:push():143] Uploaded file C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\conda-environment.yaml
+2022-10-08 14:08:49,862 INFO    Thread-100:23636 [upload_job.py:push():143] Uploaded file C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\files\output.log
+2022-10-08 14:08:50,062 INFO    Thread-32 :23636 [sender.py:transition_state():463] send defer: 9
+2022-10-08 14:08:50,062 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: defer
+2022-10-08 14:08:50,063 INFO    HandlerThread:23636 [handler.py:handle_request_defer():161] handle defer: 9
+2022-10-08 14:08:50,063 DEBUG   SenderThread:23636 [sender.py:send_request():317] send_request: defer
+2022-10-08 14:08:50,063 INFO    SenderThread:23636 [sender.py:send_request_defer():459] handle sender defer: 9
+2022-10-08 14:08:50,063 INFO    SenderThread:23636 [file_pusher.py:join():173] waiting for file pusher
+2022-10-08 14:08:50,063 INFO    SenderThread:23636 [sender.py:transition_state():463] send defer: 10
+2022-10-08 14:08:50,063 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: defer
+2022-10-08 14:08:50,063 INFO    HandlerThread:23636 [handler.py:handle_request_defer():161] handle defer: 10
+2022-10-08 14:08:50,063 DEBUG   SenderThread:23636 [sender.py:send_request():317] send_request: defer
+2022-10-08 14:08:50,063 INFO    SenderThread:23636 [sender.py:send_request_defer():459] handle sender defer: 10
+2022-10-08 14:08:50,236 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-08 14:08:51,127 INFO    SenderThread:23636 [sender.py:transition_state():463] send defer: 11
+2022-10-08 14:08:51,127 DEBUG   SenderThread:23636 [sender.py:send_request():317] send_request: poll_exit
+2022-10-08 14:08:51,128 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: defer
+2022-10-08 14:08:51,128 INFO    HandlerThread:23636 [handler.py:handle_request_defer():161] handle defer: 11
+2022-10-08 14:08:51,128 DEBUG   SenderThread:23636 [sender.py:send_request():317] send_request: defer
+2022-10-08 14:08:51,128 INFO    SenderThread:23636 [sender.py:send_request_defer():459] handle sender defer: 11
+2022-10-08 14:08:51,128 INFO    SenderThread:23636 [sender.py:transition_state():463] send defer: 12
+2022-10-08 14:08:51,129 DEBUG   SenderThread:23636 [sender.py:send():303] send: final
+2022-10-08 14:08:51,129 DEBUG   SenderThread:23636 [sender.py:send():303] send: footer
+2022-10-08 14:08:51,129 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: defer
+2022-10-08 14:08:51,129 INFO    HandlerThread:23636 [handler.py:handle_request_defer():161] handle defer: 12
+2022-10-08 14:08:51,129 DEBUG   SenderThread:23636 [sender.py:send_request():317] send_request: defer
+2022-10-08 14:08:51,129 INFO    SenderThread:23636 [sender.py:send_request_defer():459] handle sender defer: 12
+2022-10-08 14:08:51,130 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-08 14:08:51,130 DEBUG   SenderThread:23636 [sender.py:send_request():317] send_request: poll_exit
+2022-10-08 14:08:51,131 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-08 14:08:51,131 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: server_info
+2022-10-08 14:08:51,131 DEBUG   SenderThread:23636 [sender.py:send_request():317] send_request: poll_exit
+2022-10-08 14:08:51,131 DEBUG   SenderThread:23636 [sender.py:send_request():317] send_request: server_info
+2022-10-08 14:08:51,131 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: get_summary
+2022-10-08 14:08:51,133 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: sampled_history
+2022-10-08 14:08:51,430 INFO    MainThread:23636 [wandb_run.py:_footer_history_summary_info():3377] rendering history
+2022-10-08 14:08:51,430 INFO    MainThread:23636 [wandb_run.py:_footer_history_summary_info():3409] rendering summary
+2022-10-08 14:08:51,446 INFO    MainThread:23636 [wandb_run.py:_footer_sync_info():3333] logging synced files
+2022-10-08 14:08:51,449 DEBUG   HandlerThread:23636 [handler.py:handle_request():138] handle_request: shutdown
+2022-10-08 14:08:51,449 INFO    HandlerThread:23636 [handler.py:finish():814] shutting down handler
+2022-10-08 14:08:52,142 INFO    WriterThread:23636 [datastore.py:close():279] close: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_140009-qd77novk\run-qd77novk.wandb
+2022-10-08 14:08:52,444 INFO    SenderThread:23636 [sender.py:finish():1331] shutting down sender
+2022-10-08 14:08:52,444 INFO    SenderThread:23636 [file_pusher.py:finish():168] shutting down file pusher
+2022-10-08 14:08:52,444 INFO    SenderThread:23636 [file_pusher.py:join():173] waiting for file pusher
+2022-10-08 14:08:52,460 INFO    MainThread:23636 [internal.py:handle_exit():78] Internal process exited
+2022-10-08 14:08:52,460 INFO    MainThread:23636 [internal.py:handle_exit():78] Internal process exited

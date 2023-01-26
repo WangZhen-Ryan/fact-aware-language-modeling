@@ -1,0 +1,1416 @@
+Some weights of GPT2HeadWithValueModel were not initialized from the model checkpoint at gpt2 and are newly initialized: ['h.0.attn.masked_bias', 'h.1.attn.masked_bias', 'h.2.attn.masked_bias', 'h.3.attn.masked_bias', 'h.4.attn.masked_bias', 'h.5.attn.masked_bias', 'h.6.attn.masked_bias', 'h.7.attn.masked_bias', 'h.8.attn.masked_bias', 'h.9.attn.masked_bias', 'h.10.attn.masked_bias', 'h.11.attn.masked_bias', 'lm_head.weight', 'v_head.summary.weight', 'v_head.summary.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of GPT2HeadWithValueModel were not initialized from the model checkpoint at gpt2 and are newly initialized: ['h.0.attn.masked_bias', 'h.1.attn.masked_bias', 'h.2.attn.masked_bias', 'h.3.attn.masked_bias', 'h.4.attn.masked_bias', 'h.5.attn.masked_bias', 'h.6.attn.masked_bias', 'h.7.attn.masked_bias', 'h.8.attn.masked_bias', 'h.9.attn.masked_bias', 'h.10.attn.masked_bias', 'h.11.attn.masked_bias', 'lm_head.weight', 'v_head.summary.weight', 'v_head.summary.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[]
+C:\Users\wz\AppData\Local\Temp\ipykernel_23192\4006415861.py:19: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  return torch.cuda.LongTensor(tensor_array)
+C:\Users\wz\AppData\Roaming\Python\Python39\site-packages\huggingface_hub\file_download.py:588: FutureWarning: `cached_download` is the legacy way to download files from the HF hub, please consider upgrading to `hf_hub_download`
+  warnings.warn(
+2022-10-31 03:06:49,387 loading file C:\Users\wz\.flair\models\ner-english-fast\4c58e7191ff952c030b82db25b3694b58800b0e722ff15427f527e1631ed6142.e13c7c4664ffe2bbfa8f1f5375bd0dced866b8c1dd7ff89a6d705518abf0a611
+2022-10-31 03:06:50,347 SequenceTagger predicts: Dictionary with 20 tags: <unk>, O, S-ORG, S-MISC, B-PER, E-PER, S-LOC, B-ORG, E-ORG, I-PER, S-PER, B-MISC, I-MISC, E-MISC, I-ORG, B-LOC, E-LOC, I-LOC, <START>, <STOP>
+  0%|                                                                                          | 0/100 [00:00<?, ?it/s]
+
+  0%|                                                                                          | 0/100 [00:13<?, ?it/s]
+  0%|                                                                                          | 0/100 [00:00<?, ?it/s]
+Deck":[false] Vel'Ganjang further commented "
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+osin SUCKS
+I am the savior of Lycanthrop
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+D[true] HTTP-ADDRESS[true] MATERIAL
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+Circle [ edit ]
+A covenant alien impaled on her forehead was
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+odor's tab impact research had been independently funded and rewarded by Sloan and the
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+, even after two years of the program trials, saw them as much for
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+zmann, I knew how to invent chains....I put the 30100
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+ola: trademarks do not include the term "Buyers Dean Sheehan
+
+  0%|                                                                                          | 0/100 [00:05<?, ?it/s]
+  0%|                                                                                          | 0/100 [00:00<?, ?it/s]
+down to the water in his charge and throws the ineffectual fighter aside
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+U Oh duh!"
+Edit
+U And would declare war on Lilith
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+: which is not right.
+Mates: [[auspicious]] Raid
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+Fort Stanton - Fox 20 Castle Siege - Apple * 9% bludgeoning
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+agno, publishing in 1914, Ch.
+(1543), 'Consider
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+Squirrel are not of the same vintage this blog is about - Matter of fact
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+High School, Chicago, Illinois 1980-88
+None - http://
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+ore's Lab'@ Most probably Kappa, William Cain's Enthusi
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+acio Llorra is Hideo Kojima.'
+  0%|                                                                                          | 0/100 [00:00<?, ?it/s]C:\Users\wz\AppData\Local\Temp\ipykernel_23192\2598055964.py:18: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  return torch.cuda.LongTensor(tensor_array)
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+ir on his lethe garre thyrf ottp://dev-
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+fighters [112] A senior official at IS checkpoint near Khan Sheikhun al
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+jawa released a statement calling for the release of the squad member and said
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+et.
+'T is straight through!
+[restries next propos.
+(
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+, North West of Baskale.
+Genesis Sun, 22 Jan 1186
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+Ansar (Owner - Rich University Consumers Union (Princeton))
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[/false] -10 Holo Budal +[true] Chernidian Dream
+C:\Users\wz\AppData\Local\Temp\ipykernel_23192\2598055964.py:18: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  return torch.cuda.LongTensor(tensor_array)
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+steps, Suki kirigara elejirou ta da marriage
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+lewellyn; Mr. J. P. F. Bulmer;
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+bipennis [false] Direct metaphysical family I [true] Con
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+et: Orb of Destruction Lost Grimoires Kaidan Lands Laed
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+Repeat Lv.
+229
+Lv.
+225
+Rank 1
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+60 damage(s) Five shots, plus additional effects can also be targeted
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+Are you doing NUII?
+[Slightly puzzled] U-II
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+Fire Department (Flames: 1967.
+1992, Bonkham Park,
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+and Sven Vortigernen.
+What happens at the end
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+, this means that the name of the day of the LORD is Pluto.
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+rester, Attorneys for Gibbs, Special Interests & Representatives of Gig
+C:\Users\wz\AppData\Local\Temp\ipykernel_23192\2598055964.py:18: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  return torch.cuda.LongTensor(tensor_array)
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+ins Photojournalist and journalist, Sutra editor, Discovery Quarter Journal of
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+</g> Nigeria <g> <font color="BLUE">1
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+May 2017 22:26:40 server sshd[20153]: Invalid user
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+, a reporter for the Wall Street Journal, and tweeted, "Mexico's
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+Toribash Toricky Tormentor❌Punisher Tormentum -
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+io Rivera (Nickname='Steak' A bit of a baffling
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+C:\Users\wz\AppData\Local\Temp\ipykernel_23192\2598055964.py:18: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  return torch.cuda.LongTensor(tensor_array)
+: Acronymus C
+UTC PR:).
+From: Leader
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+Federation Era," at the start of the Council Council's Future Source, it
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+d Back to top
+Based on these results, participated in heart transplant
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+Martello (@AP) These penis thong technique flashes are at his site
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+Compostela Nacional de #22 daciorneda #23
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+ar.SH: Stop investing ribbons of wool.
+[Warning: Inside
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+ede.
+^ All our anthemick boys, struck daily at America, drank
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+C:\Users\wz\AppData\Local\Temp\ipykernel_23192\2598055964.py:18: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  return torch.cuda.LongTensor(tensor_array)
+LConfig : enumerate the following common configuration (lookup ROM size
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+one in tow - Ryan Suter def_kone #if __name
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+Songstress of Blue Echoes, Mion Song harmonies are starting to seem
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+son was to mourn for Spencer, the rocket seat, comment on his credentials
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+Catherine Flickr.com/zu5nu2
+"I'm very
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+: Hey Azyr, what's plaguing you?
+Aria: Well
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+and she's hinting to destroy Hollows and guides were supposedly damned
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+C:\Users\wz\AppData\Local\Temp\ipykernel_23192\2598055964.py:18: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  return torch.cuda.LongTensor(tensor_array)
+VCS) Squadron 1 A.I.; 1046; Ancheware
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+htoa compared t evys atune, thnoev get id
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+res Guitars Caravan The Return The Ripper The Red Skull The Rust
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+image and documentation
+With beginner troubleshooting, determining what Google is using
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+vs Glenn Evans 3pm
+6vuFk92018EJ
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+tastes like something that would come with salt in it.
+Clouds in salty water
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+.
+Vaccino (1949-1983) was a partner of Bruce J
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+henge (B&C) Punisher (A.K.) H
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+and | "I'd had between 30 to 40 castoffs fearful of Tommy
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+later foresaw a divide between old loyalty to Scotland and the new conflict as
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+America: Toulevisions Heart of Crown PC Heart's Medicine - Hospital Heat
+C:\Users\wz\AppData\Local\Temp\ipykernel_23192\2598055964.py:18: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  return torch.cuda.LongTensor(tensor_array)
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+- The eye of Dalek - The attack on separate or unequal numbers (
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+leck!'s mom fell face down and gave Chapman a big hug.
+Falcon
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+it takes at least 15 seconds or more for any results to be returned.
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+rich!, Stoká, or simply "red."
+This covers the same
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+looks at conditioning vs. athletic movements, pushups, overpresses,
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+'s expression drew a little closer, coming over to form a stump.
+He
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+C:\Users\wz\AppData\Local\Temp\ipykernel_23192\2598055964.py:18: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  return torch.cuda.LongTensor(tensor_array)
+{'objective/kl': array(0., dtype=float32), 'objective/kl_dist': array([[0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.]],
+      dtype=float32), 'objective/logprobs': array([[-8.43052387e+00, -2.14148474e+00, -1.47573400e+00,
+        -5.18411255e+00, -3.75556684e+00, -2.47429323e+00,
+        -8.67582989e+00, -2.46556616e+00, -5.42204857e+00,
+        -2.27339888e+00, -8.56460381e+00, -3.41416907e+00,
+        -4.93285730e-02, -7.98833132e+00, -4.77744389e+00],
+       [-7.63885784e+00, -7.88350821e+00, -8.85615730e+00,
+        -5.06107903e+00, -4.76302338e+00, -8.38930893e+00,
+        -1.08603239e-01, -2.71178829e-03, -6.02431822e+00,
+        -7.75454998e+00, -7.75100136e+00, -8.13836193e+00,
+        -2.71189070e+00, -6.09583199e-01, -9.50433064e+00],
+       [-2.89202356e+00, -7.47758293e+00, -1.53486586e+00,
+        -3.42384601e+00, -5.79771471e+00, -1.46704221e+00,
+        -6.97141171e+00, -7.29814577e+00, -1.81728983e+00,
+        -8.56338406e+00, -1.16488543e+01, -2.22303724e+00,
+        -2.77448017e-02, -1.30197716e+00, -9.95652962e+00],
+       [-5.51175165e+00, -9.10570240e+00, -2.88837337e+00,
+        -8.32047844e+00, -7.53427887e+00, -9.55678177e+00,
+        -3.83221960e+00, -1.56932640e+00, -6.94461393e+00,
+        -8.03486633e+00, -6.43337727e+00, -4.91724300e+00,
+        -1.01407108e+01, -3.06294060e+00, -6.62798464e-01],
+       [-6.32707214e+00, -4.37768745e+00, -1.68986058e+00,
+        -1.29074736e+01, -2.41630530e+00, -6.52608061e+00,
+        -5.72855115e-01, -8.95512104e+00, -1.21723247e+00,
+        -5.89228153e+00, -5.27515697e+00, -6.36003590e+00,
+        -1.30934310e+00, -5.40622807e+00, -9.17378044e+00],
+       [-1.93185329e+00, -1.02526426e+01, -2.93395257e+00,
+        -6.68558407e+00, -1.17628253e+00, -9.87163782e-02,
+        -6.81323767e+00, -7.16323662e+00, -7.64984655e+00,
+        -1.63800573e+00, -1.44346297e+00, -5.09271145e+00,
+        -1.37618017e+01, -7.92376339e-01, -1.00873125e+00],
+       [-5.87988615e+00, -5.45747757e-01, -2.71346235e+00,
+        -6.16041565e+00, -4.40583855e-01, -1.07775569e+00,
+        -8.56543827e+00, -1.27773428e+00, -3.44202042e+00,
+        -1.50433028e+00, -1.72478147e-03, -8.12847137e+00,
+        -5.15670347e+00, -5.91802216e+00, -1.16911705e-03],
+       [-1.26234603e+00, -4.27763462e-01, -7.72857666e+00,
+        -7.44927549e+00, -6.82255077e+00, -1.21456747e+01,
+        -4.78413820e+00, -1.12406349e+01, -2.91196179e+00,
+        -9.89621067e+00, -8.58889866e+00, -2.04350853e+00,
+        -7.48007011e+00, -3.44050860e+00, -3.61543715e-01],
+       [-2.08804049e-02, -3.52381134e+00, -4.69140053e+00,
+        -5.16322660e+00, -3.98255301e+00, -9.18993473e+00,
+        -3.84086776e+00, -1.00297952e+00, -9.32307616e-02,
+        -1.10148301e-03, -6.74011755e+00, -1.08145437e+01,
+        -5.97535563e+00, -1.11909771e+01, -1.62443960e+00],
+       [-6.29255581e+00, -7.63138199e+00, -3.61244488e+00,
+        -1.13800402e+01, -2.63187575e+00, -9.05264282e+00,
+        -5.70240784e+00, -6.85654354e+00, -4.91650295e+00,
+        -5.41863441e+00, -5.41238642e+00, -1.39517174e+01,
+        -1.48756421e+00, -6.46432877e+00, -3.67755270e+00],
+       [-5.91692352e+00, -5.03451443e+00, -7.44477177e+00,
+        -2.53279954e-01, -4.35469198e+00, -4.32919741e+00,
+        -3.11329055e+00, -2.12596321e+00, -6.41518831e+00,
+        -1.03655682e+01, -2.92937922e+00, -4.48445225e+00,
+        -2.85672724e-01, -2.01667875e-01, -5.90992260e+00],
+       [-6.59239101e+00, -9.09997749e+00, -8.24558544e+00,
+        -7.42972493e-01, -6.46978736e-01, -4.08821011e+00,
+        -1.00770640e+00, -1.32371438e+00, -3.59769440e+00,
+        -1.22818612e-02, -1.86138761e+00, -8.88382530e+00,
+        -4.27307892e+00, -2.00506544e+00, -3.23769283e+00],
+       [-1.73676610e-02, -3.50004864e+00, -6.30990601e+00,
+        -4.06430435e+00, -4.95597744e+00, -9.68524170e+00,
+        -4.88377857e+00, -5.36932373e+00, -3.38023663e+00,
+        -1.09959507e+01, -8.58843422e+00, -6.83119869e+00,
+        -1.58343840e+01, -3.05165482e+00, -3.09240437e+00],
+       [-2.05039835e+00, -4.73589993e+00, -4.85440254e+00,
+        -2.90308142e+00, -5.19273281e+00, -5.35807610e+00,
+        -7.62985086e+00, -2.29155350e+00, -1.24381962e+01,
+        -8.83705425e+00, -2.80084634e+00, -4.91510487e+00,
+        -3.24582052e+00, -6.12498140e+00, -5.52688980e+00],
+       [-1.50353928e+01, -9.51301634e-01, -3.23929119e+00,
+        -8.87769890e+00, -5.87649488e+00, -9.86249352e+00,
+        -8.48159218e+00, -1.38971539e+01, -2.09852314e+00,
+        -4.28603125e+00, -6.09197330e+00, -3.44016194e-01,
+        -1.27346420e+00, -2.17346501e+00, -3.92927648e-03],
+       [-5.71398926e+00, -1.13798179e-01, -9.75319594e-02,
+        -2.11466312e+00, -7.13499355e+00, -1.10887737e+01,
+        -9.94385338e+00, -5.28273010e+00, -4.63983440e+00,
+        -4.72912884e+00, -1.08696151e+00, -3.72455828e-02,
+        -1.10980968e+01, -8.94186115e+00, -5.54830694e+00],
+       [-9.50792885e+00, -4.36964417e+00, -8.13225269e+00,
+        -2.13714480e+00, -6.53915024e+00, -4.81558895e+00,
+        -2.54696059e+00, -4.89136314e+00, -9.74533558e+00,
+        -5.39965439e+00, -3.25596762e+00, -2.32605457e+00,
+        -6.24339437e+00, -4.85105515e+00, -1.22971210e+01],
+       [-5.50750065e+00, -9.42317545e-02, -2.47090327e-04,
+        -5.20085478e+00, -5.59297276e+00, -3.09936970e-01,
+        -4.31016541e+00, -2.86732763e-01, -3.84018087e+00,
+        -2.84816086e-01, -4.98347664e+00, -9.54887569e-01,
+        -8.88274193e+00, -2.90303111e+00, -1.25524926e+00],
+       [-9.36031818e+00, -4.11394405e+00, -3.17332292e+00,
+        -2.25952005e+00, -6.04303889e-02, -7.96339035e+00,
+        -9.77521515e+00, -3.74050212e+00, -2.30711842e+00,
+        -7.63687038e+00, -6.45570898e+00, -2.68872738e+00,
+        -3.80220979e-01, -5.05656889e-03, -3.42971921e+00],
+       [-2.35043261e-02, -3.01293516e+00, -9.67357635e+00,
+        -2.46974409e-01, -4.70461667e-01, -6.90612984e+00,
+        -2.37432432e+00, -1.02103055e-02, -3.93389882e-06,
+        -2.30930448e+00, -4.99247503e+00, -2.50859070e-03,
+        -1.32156655e-01, -4.18696308e+00, -3.68804902e-01],
+       [-5.12353230e+00, -8.43884016e-04, -1.00911760e+01,
+        -5.95224714e+00, -4.23678398e-01, -9.88998795e+00,
+        -1.70532227e+00, -3.17403959e-04, -2.40673375e+00,
+        -2.70025618e-03, -3.71707582e+00, -8.00011754e-01,
+        -2.78314954e-04, -1.34821272e+01, -1.67014086e+00],
+       [-6.60558128e+00, -4.96879625e+00, -6.06698799e+00,
+        -2.20070457e+00, -4.61391397e-02, -8.70985508e+00,
+        -3.58034825e+00, -3.31407881e+00, -5.68868732e+00,
+        -4.81034327e+00, -4.64151144e+00, -7.26025152e+00,
+        -3.85070491e+00, -1.42573023e+00, -6.17821789e+00],
+       [-8.82717800e+00, -1.84657812e+00, -5.39769602e+00,
+        -8.72532082e+00, -5.25117207e+00, -6.72871161e+00,
+        -2.63048768e+00, -1.69366539e+00, -5.87662029e+00,
+        -4.48176575e+00, -4.82292938e+00, -4.59190935e-01,
+        -4.73364449e+00, -2.40993762e+00, -5.94351673e+00],
+       [-6.64735031e+00, -2.85226989e+00, -3.06293917e+00,
+        -6.33115292e+00, -3.41951370e+00, -5.24128628e+00,
+        -8.88550949e+00, -5.45828629e+00, -8.27060509e+00,
+        -2.91106749e+00, -9.40516853e+00, -5.75449944e+00,
+        -3.53197765e+00, -4.74295616e+00, -3.92346829e-01],
+       [-3.94336414e+00, -3.73599648e+00, -7.72366953e+00,
+        -4.62947750e+00, -2.34450459e+00, -2.47450620e-01,
+        -3.71372843e+00, -3.85881019e+00, -1.32589817e+00,
+        -4.11247788e-03, -5.04835844e+00, -4.20580387e+00,
+        -4.43518877e+00, -8.15093338e-01, -1.02582669e+00],
+       [-3.57172632e+00, -4.79123878e+00, -4.80819893e+00,
+        -9.48034704e-01, -1.52970064e+00, -6.11309385e+00,
+        -1.04522419e+00, -6.18754983e-01, -7.05565643e+00,
+        -2.97520232e+00, -6.46760046e-01, -3.10959601e+00,
+        -1.27231526e+00, -1.16788120e+01, -1.09153843e+00],
+       [-1.93699348e+00, -6.72317765e-05, -1.22819102e+00,
+        -1.00320635e+01, -1.62210608e+00, -1.42856240e+00,
+        -9.49704742e+00, -1.17893589e+00, -8.73934841e+00,
+        -5.81037188e+00, -9.62086976e-01, -2.96852875e+00,
+        -8.58285618e+00, -1.28057146e+00, -1.01920061e+01],
+       [-1.54342604e+00, -9.35500431e+00, -4.16496897e+00,
+        -2.08625212e-01, -3.21249294e+00, -3.69055104e+00,
+        -2.46267772e+00, -7.40702248e+00, -9.41252327e+00,
+        -5.94590378e+00, -1.23159051e+00, -1.03395338e+01,
+        -9.59729195e+00, -4.98394585e+00, -4.24200726e+00],
+       [-6.69480038e+00, -4.69609356e+00, -3.80735785e-01,
+        -1.05634651e+01, -1.22951031e+00, -8.42208505e-01,
+        -3.56685311e-01, -1.81869972e+00, -2.37587833e+00,
+        -9.42105889e-01, -2.48186064e+00, -3.90718627e+00,
+        -1.05587840e+00, -2.00008690e-01, -3.90739417e+00],
+       [-2.90481353e+00, -2.64909887e+00, -4.82426977e+00,
+        -1.45354886e-02, -4.45338535e+00, -3.00364017e-01,
+        -4.18900061e+00, -7.45226812e+00, -2.88354397e-01,
+        -9.75847768e-04, -6.37946749e+00, -4.38705873e+00,
+        -3.44851404e-01, -1.04525459e+00, -3.40740047e-02],
+       [-1.45359683e+00, -3.53640413e+00, -4.57974863e+00,
+        -5.20376146e-01, -1.17579377e+00, -4.01555681e+00,
+        -1.47162820e-03, -1.82723848e-03, -3.99300277e-01,
+        -4.13139391e+00, -8.28436184e+00, -2.23659992e+00,
+        -1.47470996e-01, -9.51905251e+00, -1.76524270e+00],
+       [-7.15900660e+00, -1.69116110e-01, -3.18807736e-02,
+        -2.05971971e-01, -2.01220848e-02, -4.57264995e-03,
+        -1.50073232e-04, -5.84123791e-06, -7.14733917e-03,
+        -1.17414260e-04, -2.20318139e-03, -2.33265368e-04,
+        -1.96693400e-05, -2.51528436e-05, -1.61469681e-03],
+       [-2.01861948e-01, -8.43255901e+00, -2.36222410e+00,
+        -9.16186333e+00, -2.36271834e+00, -7.99114799e+00,
+        -8.07751274e+00, -3.66245723e+00, -2.59413099e+00,
+        -7.41505337e+00, -8.61509323e+00, -1.25657284e+00,
+        -8.20305169e-01, -8.13019562e+00, -2.80826148e-02],
+       [-2.09689617e+00, -1.04699011e+01, -2.74504638e+00,
+        -4.38089371e-01, -3.69674230e+00, -5.07542229e+00,
+        -4.73708248e+00, -7.51808751e-04, -1.02243490e+01,
+        -9.35842896e+00, -1.13137162e+00, -1.19887629e+01,
+        -6.69964266e+00, -1.39591706e+00, -1.01904678e+01],
+       [-8.12711143e+00, -7.54106617e+00, -4.94366598e+00,
+        -6.70892048e+00, -1.71795166e+00, -4.25872231e+00,
+        -4.59631383e-02, -7.24768817e-01, -6.49290276e+00,
+        -4.40020084e+00, -1.56741059e+00, -7.81979036e+00,
+        -8.35957718e+00, -2.83040380e+00, -3.56161785e+00],
+       [-4.48992886e-02, -8.93882275e+00, -1.48869598e+00,
+        -1.08816981e+00, -6.57481730e-01, -4.91855782e-04,
+        -8.16249466e+00, -1.78127676e-01, -5.00077629e+00,
+        -2.04471707e+00, -1.74842224e-01, -1.35340366e+01,
+        -3.29138100e-01, -9.48142433e+00, -2.19669437e+00],
+       [-6.30906439e+00, -5.59897614e+00, -4.33880424e+00,
+        -7.64544868e+00, -1.99662769e+00, -1.13740387e+01,
+        -1.16912317e+01, -7.24524403e+00, -3.02672410e+00,
+        -9.85292149e+00, -8.50135899e+00, -1.51202500e+00,
+        -6.35839844e+00, -5.60805368e+00, -5.34118223e+00],
+       [-5.13215363e-01, -2.63520014e-02, -4.06806134e-02,
+        -5.26489878e+00, -6.92534894e-02, -5.30467260e-05,
+        -7.61703134e-01, -9.23673916e+00, -6.10677338e+00,
+        -6.71404457e+00, -6.43938684e+00, -8.10109138e+00,
+        -5.08499336e+00, -2.73362064e+00, -2.62113857e+00],
+       [-3.07500839e+00, -4.78545952e+00, -9.95271587e+00,
+        -3.37123728e+00, -7.07685328e+00, -9.81949902e+00,
+        -1.36195030e+01, -1.46365926e-01, -2.82737875e+00,
+        -4.70521832e+00, -1.84167647e+00, -1.92589593e+00,
+        -7.87788916e+00, -2.98790425e-01, -9.17029285e+00],
+       [-3.18025446e+00, -3.86816192e+00, -9.96004868e+00,
+        -7.86598873e+00, -5.94578028e+00, -1.15662756e+01,
+        -1.06756229e+01, -6.09436798e+00, -2.46369433e+00,
+        -1.05329990e+01, -9.44283867e+00, -2.89999819e+00,
+        -8.76025581e+00, -1.23586988e+00, -8.31938553e+00],
+       [-9.53275490e+00, -7.24876833e+00, -1.83852956e-01,
+        -4.91630507e+00, -1.01653786e+01, -5.14985919e-01,
+        -2.31255865e+00, -4.74643612e+00, -6.90252495e+00,
+        -4.09041739e+00, -4.23298740e+00, -7.18626118e+00,
+        -1.33858156e+00, -1.21448336e+01, -6.56573677e+00],
+       [-2.78992081e+00, -5.94654083e+00, -7.98431587e+00,
+        -4.90489388e+00, -7.26052523e+00, -4.24942493e+00,
+        -3.97482306e-01, -8.16405296e+00, -9.06411552e+00,
+        -3.58095670e+00, -6.10854268e-01, -2.58498287e+00,
+        -4.62212753e+00, -5.75288343e+00, -6.64564148e-02],
+       [-7.22306728e+00, -3.01662106e-02, -3.01502156e-03,
+        -7.34857857e-01, -4.03322891e-04, -3.06440139e-04,
+        -1.23108281e-02, -6.73832046e-03, -5.83561212e-02,
+        -1.35324278e+01, -3.43196131e-02, -2.81358194e+00,
+        -8.42937660e+00, -2.22103074e-02, -4.39282703e+00],
+       [-2.80961299e+00, -4.66355324e+00, -5.58807659e+00,
+        -1.01535559e+01, -2.89274263e+00, -9.04576969e+00,
+        -2.16187191e+00, -3.15320110e+00, -9.14498806e+00,
+        -9.18589592e+00, -2.57703829e+00, -1.19438334e+01,
+        -1.38683820e+00, -2.21127868e+00, -9.50792694e+00],
+       [-1.11602135e+01, -1.26627741e+01, -4.46595573e+00,
+        -8.27351689e-01, -1.56058061e+00, -9.83488083e+00,
+        -6.21431208e+00, -6.41731501e+00, -3.85876203e+00,
+        -2.56227994e+00, -1.41246652e-03, -3.46108127e+00,
+        -2.32333493e+00, -2.31845546e+00, -3.63371563e+00],
+       [-4.60391951e+00, -5.91026163e+00, -7.64663124e+00,
+        -6.08199978e+00, -1.37934887e+00, -2.55503917e+00,
+        -1.16882765e+00, -9.89345264e+00, -4.49551456e-03,
+        -3.83259743e-01, -8.83454442e-01, -8.06167030e+00,
+        -3.78117323e-01, -1.47450730e-01, -3.11399388e+00],
+       [-4.54979324e+00, -6.91896152e+00, -4.43319130e+00,
+        -8.28239250e+00, -8.70904446e+00, -1.43689662e-01,
+        -3.13518596e+00, -6.19272900e+00, -9.96274090e+00,
+        -3.57915211e+00, -2.61998582e+00, -1.12408247e+01,
+        -7.04284525e+00, -8.21600723e+00, -8.92718697e+00],
+       [-5.89070845e+00, -8.48062801e+00, -1.15445709e+00,
+        -1.02259531e+01, -3.78519201e+00, -6.06215477e+00,
+        -3.40828371e+00, -3.25586510e+00, -5.35893869e+00,
+        -6.55571508e+00, -7.32375431e+00, -3.49608350e+00,
+        -7.91729069e+00, -7.04985428e+00, -1.02766304e+01],
+       [-8.25796223e+00, -7.94739342e+00, -4.54971504e+00,
+        -1.12560768e+01, -5.92492580e+00, -1.00582724e+01,
+        -6.61089659e+00, -5.71505356e+00, -1.03570385e+01,
+        -3.52372360e+00, -5.39219475e+00, -7.92301083e+00,
+        -6.01941204e+00, -8.80294514e+00, -8.27343369e+00],
+       [-1.44201446e+00, -9.74826527e+00, -1.11538756e+00,
+        -4.65970707e+00, -9.60662842e-01, -5.43773651e+00,
+        -5.84721422e+00, -8.90906990e-01, -2.88859367e+00,
+        -1.39913690e+00, -2.38415741e-05, -1.41941869e+00,
+        -9.67758369e+00, -4.81683351e-02, -1.35914290e+00],
+       [-8.56996918e+00, -4.81162930e+00, -7.84995270e+00,
+        -2.84439278e+00, -7.75870634e-04, -6.71747780e+00,
+        -1.25353012e+01, -9.53661156e+00, -1.19917905e-02,
+        -1.55443001e+00, -9.53663254e+00, -2.04220676e+00,
+        -9.60873318e+00, -2.19141960e+00, -2.94220352e+00],
+       [-7.02247000e+00, -8.17930126e+00, -4.89503956e+00,
+        -6.18089628e+00, -3.66642809e+00, -2.17753386e+00,
+        -2.06355583e-02, -5.44232702e+00, -1.32793674e+01,
+        -6.04134512e+00, -3.93519044e+00, -4.32357073e+00,
+        -1.27103825e+01, -4.78673077e+00, -3.92998195e+00],
+       [-8.91776657e+00, -1.86455405e+00, -4.71843290e+00,
+        -2.73363662e+00, -3.43467283e+00, -3.82175899e+00,
+        -3.20004749e+00, -5.10547304e+00, -3.98987341e+00,
+        -3.86095077e-01, -8.85275960e-01, -1.08639994e+01,
+        -3.81128550e+00, -8.94541645e+00, -5.57834089e-01],
+       [-5.91674328e-01, -8.22188759e+00, -2.91886425e+00,
+        -2.47389841e+00, -3.63817167e+00, -4.15788364e+00,
+        -1.22192478e+00, -4.47853851e+00, -4.21723187e-01,
+        -1.57949865e+00, -1.23697269e+00, -6.29628563e+00,
+        -1.67244148e+00, -5.78217649e+00, -3.10161042e+00],
+       [-4.78813076e+00, -1.45087466e-01, -2.29032755e+00,
+        -5.62667370e+00, -5.73391914e+00, -2.98864579e+00,
+        -1.49432456e+00, -1.08691597e+01, -9.08121645e-01,
+        -1.69057560e+00, -4.41988373e+00, -3.57496405e+00,
+        -2.24877596e+00, -2.68310690e+00, -6.99813890e+00],
+       [-4.29918289e+00, -4.05715418e+00, -5.81739807e+00,
+        -3.48594999e+00, -3.97025204e+00, -5.91364241e+00,
+        -9.96226025e+00, -3.28008676e+00, -2.70789337e+00,
+        -4.14082855e-01, -1.07036915e+01, -1.62929058e+00,
+        -1.40528927e+01, -7.50613987e-01, -9.20087147e+00],
+       [-8.44920158e+00, -1.02589931e+01, -6.32363021e-01,
+        -2.34900236e+00, -8.82574463e+00, -9.14146602e-01,
+        -7.01614189e+00, -8.86089516e+00, -2.04156637e+00,
+        -5.60395241e+00, -2.59614229e-01, -1.79969060e+00,
+        -1.28726602e+00, -8.23576260e+00, -4.35643148e+00],
+       [-6.24672222e+00, -4.69900966e-01, -6.80233526e+00,
+        -6.34397984e+00, -1.73740655e-01, -2.87160206e+00,
+        -4.12458740e-03, -2.11399123e-01, -2.49673724e-02,
+        -1.14896975e-01, -4.23593912e-03, -5.23191877e-04,
+        -6.98114745e-03, -1.23936590e-03, -6.43761305e-04],
+       [-5.13013077e+00, -3.65873551e+00, -1.12102737e+01,
+        -3.52278858e-01, -7.56483698e+00, -1.70344830e+00,
+        -3.20302248e+00, -1.87906420e+00, -7.54276609e+00,
+        -9.22162056e-01, -1.20844069e+01, -7.93480682e+00,
+        -5.44704342e+00, -5.30229664e+00, -4.49347973e+00],
+       [-1.52448222e-01, -9.95829201e+00, -5.88860154e-01,
+        -6.84371233e+00, -7.93251324e+00, -6.94290543e+00,
+        -1.13643301e+00, -3.02444887e+00, -4.51479912e+00,
+        -9.59207726e+00, -6.89004242e-01, -3.29829693e+00,
+        -4.28508550e-01, -7.45074868e-01, -1.32644825e+01],
+       [-3.61260247e+00, -6.00078297e+00, -5.23020935e+00,
+        -3.49331461e-02, -4.49760532e+00, -1.79037178e+00,
+        -5.17409229e+00, -1.24266946e+00, -1.16121340e+00,
+        -6.23610067e+00, -8.50292492e+00, -1.42190322e-01,
+        -1.38928425e+00, -2.85583663e+00, -9.28855479e-01],
+       [-4.85880047e-01, -9.84356689e+00, -6.48048592e+00,
+        -5.44105721e+00, -7.74725056e+00, -3.13521171e+00,
+        -5.48291016e+00, -6.03796387e+00, -1.96349669e+00,
+        -7.57054138e+00, -4.77508354e+00, -3.83024454e+00,
+        -8.98781681e+00, -1.47633648e+00, -4.74603224e+00],
+       [-7.98647976e+00, -1.80132437e+00, -1.21890440e+01,
+        -7.19561672e+00, -4.12265956e-01, -6.23556185e+00,
+        -6.01109076e+00, -2.80721378e+00, -9.66007328e+00,
+        -1.03451443e+00, -5.80524921e-01, -7.73410797e+00,
+        -2.73135519e+00, -2.16706842e-01, -5.15242636e-01],
+       [-5.22864056e+00, -7.10058641e+00, -7.77152538e+00,
+        -1.51555359e+00, -3.69055319e+00, -3.72945142e+00,
+        -1.55305624e+00, -7.73829412e+00, -5.10294294e+00,
+        -1.00105751e+00, -6.94619799e+00, -5.44806957e-01,
+        -8.76553154e+00, -1.04225707e+00, -2.58126163e+00]], dtype=float32), 'objective/ref_logprobs': array([[-8.43052387e+00, -2.14148474e+00, -1.47573400e+00,
+        -5.18411255e+00, -3.75556684e+00, -2.47429323e+00,
+        -8.67582989e+00, -2.46556616e+00, -5.42204857e+00,
+        -2.27339888e+00, -8.56460381e+00, -3.41416907e+00,
+        -4.93285730e-02, -7.98833132e+00, -4.77744389e+00],
+       [-7.63885784e+00, -7.88350821e+00, -8.85615730e+00,
+        -5.06107903e+00, -4.76302338e+00, -8.38930893e+00,
+        -1.08603239e-01, -2.71178829e-03, -6.02431822e+00,
+        -7.75454998e+00, -7.75100136e+00, -8.13836193e+00,
+        -2.71189070e+00, -6.09583199e-01, -9.50433064e+00],
+       [-2.89202356e+00, -7.47758293e+00, -1.53486586e+00,
+        -3.42384601e+00, -5.79771471e+00, -1.46704221e+00,
+        -6.97141171e+00, -7.29814577e+00, -1.81728983e+00,
+        -8.56338406e+00, -1.16488543e+01, -2.22303724e+00,
+        -2.77448017e-02, -1.30197716e+00, -9.95652962e+00],
+       [-5.51175165e+00, -9.10570240e+00, -2.88837337e+00,
+        -8.32047844e+00, -7.53427887e+00, -9.55678177e+00,
+        -3.83221960e+00, -1.56932640e+00, -6.94461393e+00,
+        -8.03486633e+00, -6.43337727e+00, -4.91724300e+00,
+        -1.01407108e+01, -3.06294060e+00, -6.62798464e-01],
+       [-6.32707214e+00, -4.37768745e+00, -1.68986058e+00,
+        -1.29074736e+01, -2.41630530e+00, -6.52608061e+00,
+        -5.72855115e-01, -8.95512104e+00, -1.21723247e+00,
+        -5.89228153e+00, -5.27515697e+00, -6.36003590e+00,
+        -1.30934310e+00, -5.40622807e+00, -9.17378044e+00],
+       [-1.93185329e+00, -1.02526426e+01, -2.93395257e+00,
+        -6.68558407e+00, -1.17628253e+00, -9.87163782e-02,
+        -6.81323767e+00, -7.16323662e+00, -7.64984655e+00,
+        -1.63800573e+00, -1.44346297e+00, -5.09271145e+00,
+        -1.37618017e+01, -7.92376339e-01, -1.00873125e+00],
+       [-5.87988615e+00, -5.45747757e-01, -2.71346235e+00,
+        -6.16041565e+00, -4.40583855e-01, -1.07775569e+00,
+        -8.56543827e+00, -1.27773428e+00, -3.44202042e+00,
+        -1.50433028e+00, -1.72478147e-03, -8.12847137e+00,
+        -5.15670347e+00, -5.91802216e+00, -1.16911705e-03],
+       [-1.26234603e+00, -4.27763462e-01, -7.72857666e+00,
+        -7.44927549e+00, -6.82255077e+00, -1.21456747e+01,
+        -4.78413820e+00, -1.12406349e+01, -2.91196179e+00,
+        -9.89621067e+00, -8.58889866e+00, -2.04350853e+00,
+        -7.48007011e+00, -3.44050860e+00, -3.61543715e-01],
+       [-2.08804049e-02, -3.52381134e+00, -4.69140053e+00,
+        -5.16322660e+00, -3.98255301e+00, -9.18993473e+00,
+        -3.84086776e+00, -1.00297952e+00, -9.32307616e-02,
+        -1.10148301e-03, -6.74011755e+00, -1.08145437e+01,
+        -5.97535563e+00, -1.11909771e+01, -1.62443960e+00],
+       [-6.29255581e+00, -7.63138199e+00, -3.61244488e+00,
+        -1.13800402e+01, -2.63187575e+00, -9.05264282e+00,
+        -5.70240784e+00, -6.85654354e+00, -4.91650295e+00,
+        -5.41863441e+00, -5.41238642e+00, -1.39517174e+01,
+        -1.48756421e+00, -6.46432877e+00, -3.67755270e+00],
+       [-5.91692352e+00, -5.03451443e+00, -7.44477177e+00,
+        -2.53279954e-01, -4.35469198e+00, -4.32919741e+00,
+        -3.11329055e+00, -2.12596321e+00, -6.41518831e+00,
+        -1.03655682e+01, -2.92937922e+00, -4.48445225e+00,
+        -2.85672724e-01, -2.01667875e-01, -5.90992260e+00],
+       [-6.59239101e+00, -9.09997749e+00, -8.24558544e+00,
+        -7.42972493e-01, -6.46978736e-01, -4.08821011e+00,
+        -1.00770640e+00, -1.32371438e+00, -3.59769440e+00,
+        -1.22818612e-02, -1.86138761e+00, -8.88382530e+00,
+        -4.27307892e+00, -2.00506544e+00, -3.23769283e+00],
+       [-1.73676610e-02, -3.50004864e+00, -6.30990601e+00,
+        -4.06430435e+00, -4.95597744e+00, -9.68524170e+00,
+        -4.88377857e+00, -5.36932373e+00, -3.38023663e+00,
+        -1.09959507e+01, -8.58843422e+00, -6.83119869e+00,
+        -1.58343840e+01, -3.05165482e+00, -3.09240437e+00],
+       [-2.05039835e+00, -4.73589993e+00, -4.85440254e+00,
+        -2.90308142e+00, -5.19273281e+00, -5.35807610e+00,
+        -7.62985086e+00, -2.29155350e+00, -1.24381962e+01,
+        -8.83705425e+00, -2.80084634e+00, -4.91510487e+00,
+        -3.24582052e+00, -6.12498140e+00, -5.52688980e+00],
+       [-1.50353928e+01, -9.51301634e-01, -3.23929119e+00,
+        -8.87769890e+00, -5.87649488e+00, -9.86249352e+00,
+        -8.48159218e+00, -1.38971539e+01, -2.09852314e+00,
+        -4.28603125e+00, -6.09197330e+00, -3.44016194e-01,
+        -1.27346420e+00, -2.17346501e+00, -3.92927648e-03],
+       [-5.71398926e+00, -1.13798179e-01, -9.75319594e-02,
+        -2.11466312e+00, -7.13499355e+00, -1.10887737e+01,
+        -9.94385338e+00, -5.28273010e+00, -4.63983440e+00,
+        -4.72912884e+00, -1.08696151e+00, -3.72455828e-02,
+        -1.10980968e+01, -8.94186115e+00, -5.54830694e+00],
+       [-9.50792885e+00, -4.36964417e+00, -8.13225269e+00,
+        -2.13714480e+00, -6.53915024e+00, -4.81558895e+00,
+        -2.54696059e+00, -4.89136314e+00, -9.74533558e+00,
+        -5.39965439e+00, -3.25596762e+00, -2.32605457e+00,
+        -6.24339437e+00, -4.85105515e+00, -1.22971210e+01],
+       [-5.50750065e+00, -9.42317545e-02, -2.47090327e-04,
+        -5.20085478e+00, -5.59297276e+00, -3.09936970e-01,
+        -4.31016541e+00, -2.86732763e-01, -3.84018087e+00,
+        -2.84816086e-01, -4.98347664e+00, -9.54887569e-01,
+        -8.88274193e+00, -2.90303111e+00, -1.25524926e+00],
+       [-9.36031818e+00, -4.11394405e+00, -3.17332292e+00,
+        -2.25952005e+00, -6.04303889e-02, -7.96339035e+00,
+        -9.77521515e+00, -3.74050212e+00, -2.30711842e+00,
+        -7.63687038e+00, -6.45570898e+00, -2.68872738e+00,
+        -3.80220979e-01, -5.05656889e-03, -3.42971921e+00],
+       [-2.35043261e-02, -3.01293516e+00, -9.67357635e+00,
+        -2.46974409e-01, -4.70461667e-01, -6.90612984e+00,
+        -2.37432432e+00, -1.02103055e-02, -3.93389882e-06,
+        -2.30930448e+00, -4.99247503e+00, -2.50859070e-03,
+        -1.32156655e-01, -4.18696308e+00, -3.68804902e-01],
+       [-5.12353230e+00, -8.43884016e-04, -1.00911760e+01,
+        -5.95224714e+00, -4.23678398e-01, -9.88998795e+00,
+        -1.70532227e+00, -3.17403959e-04, -2.40673375e+00,
+        -2.70025618e-03, -3.71707582e+00, -8.00011754e-01,
+        -2.78314954e-04, -1.34821272e+01, -1.67014086e+00],
+       [-6.60558128e+00, -4.96879625e+00, -6.06698799e+00,
+        -2.20070457e+00, -4.61391397e-02, -8.70985508e+00,
+        -3.58034825e+00, -3.31407881e+00, -5.68868732e+00,
+        -4.81034327e+00, -4.64151144e+00, -7.26025152e+00,
+        -3.85070491e+00, -1.42573023e+00, -6.17821789e+00],
+       [-8.82717800e+00, -1.84657812e+00, -5.39769602e+00,
+        -8.72532082e+00, -5.25117207e+00, -6.72871161e+00,
+        -2.63048768e+00, -1.69366539e+00, -5.87662029e+00,
+        -4.48176575e+00, -4.82292938e+00, -4.59190935e-01,
+        -4.73364449e+00, -2.40993762e+00, -5.94351673e+00],
+       [-6.64735031e+00, -2.85226989e+00, -3.06293917e+00,
+        -6.33115292e+00, -3.41951370e+00, -5.24128628e+00,
+        -8.88550949e+00, -5.45828629e+00, -8.27060509e+00,
+        -2.91106749e+00, -9.40516853e+00, -5.75449944e+00,
+        -3.53197765e+00, -4.74295616e+00, -3.92346829e-01],
+       [-3.94336414e+00, -3.73599648e+00, -7.72366953e+00,
+        -4.62947750e+00, -2.34450459e+00, -2.47450620e-01,
+        -3.71372843e+00, -3.85881019e+00, -1.32589817e+00,
+        -4.11247788e-03, -5.04835844e+00, -4.20580387e+00,
+        -4.43518877e+00, -8.15093338e-01, -1.02582669e+00],
+       [-3.57172632e+00, -4.79123878e+00, -4.80819893e+00,
+        -9.48034704e-01, -1.52970064e+00, -6.11309385e+00,
+        -1.04522419e+00, -6.18754983e-01, -7.05565643e+00,
+        -2.97520232e+00, -6.46760046e-01, -3.10959601e+00,
+        -1.27231526e+00, -1.16788120e+01, -1.09153843e+00],
+       [-1.93699348e+00, -6.72317765e-05, -1.22819102e+00,
+        -1.00320635e+01, -1.62210608e+00, -1.42856240e+00,
+        -9.49704742e+00, -1.17893589e+00, -8.73934841e+00,
+        -5.81037188e+00, -9.62086976e-01, -2.96852875e+00,
+        -8.58285618e+00, -1.28057146e+00, -1.01920061e+01],
+       [-1.54342604e+00, -9.35500431e+00, -4.16496897e+00,
+        -2.08625212e-01, -3.21249294e+00, -3.69055104e+00,
+        -2.46267772e+00, -7.40702248e+00, -9.41252327e+00,
+        -5.94590378e+00, -1.23159051e+00, -1.03395338e+01,
+        -9.59729195e+00, -4.98394585e+00, -4.24200726e+00],
+       [-6.69480038e+00, -4.69609356e+00, -3.80735785e-01,
+        -1.05634651e+01, -1.22951031e+00, -8.42208505e-01,
+        -3.56685311e-01, -1.81869972e+00, -2.37587833e+00,
+        -9.42105889e-01, -2.48186064e+00, -3.90718627e+00,
+        -1.05587840e+00, -2.00008690e-01, -3.90739417e+00],
+       [-2.90481353e+00, -2.64909887e+00, -4.82426977e+00,
+        -1.45354886e-02, -4.45338535e+00, -3.00364017e-01,
+        -4.18900061e+00, -7.45226812e+00, -2.88354397e-01,
+        -9.75847768e-04, -6.37946749e+00, -4.38705873e+00,
+        -3.44851404e-01, -1.04525459e+00, -3.40740047e-02],
+       [-1.45359683e+00, -3.53640413e+00, -4.57974863e+00,
+        -5.20376146e-01, -1.17579377e+00, -4.01555681e+00,
+        -1.47162820e-03, -1.82723848e-03, -3.99300277e-01,
+        -4.13139391e+00, -8.28436184e+00, -2.23659992e+00,
+        -1.47470996e-01, -9.51905251e+00, -1.76524270e+00],
+       [-7.15900660e+00, -1.69116110e-01, -3.18807736e-02,
+        -2.05971971e-01, -2.01220848e-02, -4.57264995e-03,
+        -1.50073232e-04, -5.84123791e-06, -7.14733917e-03,
+        -1.17414260e-04, -2.20318139e-03, -2.33265368e-04,
+        -1.96693400e-05, -2.51528436e-05, -1.61469681e-03],
+       [-2.01861948e-01, -8.43255901e+00, -2.36222410e+00,
+        -9.16186333e+00, -2.36271834e+00, -7.99114799e+00,
+        -8.07751274e+00, -3.66245723e+00, -2.59413099e+00,
+        -7.41505337e+00, -8.61509323e+00, -1.25657284e+00,
+        -8.20305169e-01, -8.13019562e+00, -2.80826148e-02],
+       [-2.09689617e+00, -1.04699011e+01, -2.74504638e+00,
+        -4.38089371e-01, -3.69674230e+00, -5.07542229e+00,
+        -4.73708248e+00, -7.51808751e-04, -1.02243490e+01,
+        -9.35842896e+00, -1.13137162e+00, -1.19887629e+01,
+        -6.69964266e+00, -1.39591706e+00, -1.01904678e+01],
+       [-8.12711143e+00, -7.54106617e+00, -4.94366598e+00,
+        -6.70892048e+00, -1.71795166e+00, -4.25872231e+00,
+        -4.59631383e-02, -7.24768817e-01, -6.49290276e+00,
+        -4.40020084e+00, -1.56741059e+00, -7.81979036e+00,
+        -8.35957718e+00, -2.83040380e+00, -3.56161785e+00],
+       [-4.48992886e-02, -8.93882275e+00, -1.48869598e+00,
+        -1.08816981e+00, -6.57481730e-01, -4.91855782e-04,
+        -8.16249466e+00, -1.78127676e-01, -5.00077629e+00,
+        -2.04471707e+00, -1.74842224e-01, -1.35340366e+01,
+        -3.29138100e-01, -9.48142433e+00, -2.19669437e+00],
+       [-6.30906439e+00, -5.59897614e+00, -4.33880424e+00,
+        -7.64544868e+00, -1.99662769e+00, -1.13740387e+01,
+        -1.16912317e+01, -7.24524403e+00, -3.02672410e+00,
+        -9.85292149e+00, -8.50135899e+00, -1.51202500e+00,
+        -6.35839844e+00, -5.60805368e+00, -5.34118223e+00],
+       [-5.13215363e-01, -2.63520014e-02, -4.06806134e-02,
+        -5.26489878e+00, -6.92534894e-02, -5.30467260e-05,
+        -7.61703134e-01, -9.23673916e+00, -6.10677338e+00,
+        -6.71404457e+00, -6.43938684e+00, -8.10109138e+00,
+        -5.08499336e+00, -2.73362064e+00, -2.62113857e+00],
+       [-3.07500839e+00, -4.78545952e+00, -9.95271587e+00,
+        -3.37123728e+00, -7.07685328e+00, -9.81949902e+00,
+        -1.36195030e+01, -1.46365926e-01, -2.82737875e+00,
+        -4.70521832e+00, -1.84167647e+00, -1.92589593e+00,
+        -7.87788916e+00, -2.98790425e-01, -9.17029285e+00],
+       [-3.18025446e+00, -3.86816192e+00, -9.96004868e+00,
+        -7.86598873e+00, -5.94578028e+00, -1.15662756e+01,
+        -1.06756229e+01, -6.09436798e+00, -2.46369433e+00,
+        -1.05329990e+01, -9.44283867e+00, -2.89999819e+00,
+        -8.76025581e+00, -1.23586988e+00, -8.31938553e+00],
+       [-9.53275490e+00, -7.24876833e+00, -1.83852956e-01,
+        -4.91630507e+00, -1.01653786e+01, -5.14985919e-01,
+        -2.31255865e+00, -4.74643612e+00, -6.90252495e+00,
+        -4.09041739e+00, -4.23298740e+00, -7.18626118e+00,
+        -1.33858156e+00, -1.21448336e+01, -6.56573677e+00],
+       [-2.78992081e+00, -5.94654083e+00, -7.98431587e+00,
+        -4.90489388e+00, -7.26052523e+00, -4.24942493e+00,
+        -3.97482306e-01, -8.16405296e+00, -9.06411552e+00,
+        -3.58095670e+00, -6.10854268e-01, -2.58498287e+00,
+        -4.62212753e+00, -5.75288343e+00, -6.64564148e-02],
+       [-7.22306728e+00, -3.01662106e-02, -3.01502156e-03,
+        -7.34857857e-01, -4.03322891e-04, -3.06440139e-04,
+        -1.23108281e-02, -6.73832046e-03, -5.83561212e-02,
+        -1.35324278e+01, -3.43196131e-02, -2.81358194e+00,
+        -8.42937660e+00, -2.22103074e-02, -4.39282703e+00],
+       [-2.80961299e+00, -4.66355324e+00, -5.58807659e+00,
+        -1.01535559e+01, -2.89274263e+00, -9.04576969e+00,
+        -2.16187191e+00, -3.15320110e+00, -9.14498806e+00,
+        -9.18589592e+00, -2.57703829e+00, -1.19438334e+01,
+        -1.38683820e+00, -2.21127868e+00, -9.50792694e+00],
+       [-1.11602135e+01, -1.26627741e+01, -4.46595573e+00,
+        -8.27351689e-01, -1.56058061e+00, -9.83488083e+00,
+        -6.21431208e+00, -6.41731501e+00, -3.85876203e+00,
+        -2.56227994e+00, -1.41246652e-03, -3.46108127e+00,
+        -2.32333493e+00, -2.31845546e+00, -3.63371563e+00],
+       [-4.60391951e+00, -5.91026163e+00, -7.64663124e+00,
+        -6.08199978e+00, -1.37934887e+00, -2.55503917e+00,
+        -1.16882765e+00, -9.89345264e+00, -4.49551456e-03,
+        -3.83259743e-01, -8.83454442e-01, -8.06167030e+00,
+        -3.78117323e-01, -1.47450730e-01, -3.11399388e+00],
+       [-4.54979324e+00, -6.91896152e+00, -4.43319130e+00,
+        -8.28239250e+00, -8.70904446e+00, -1.43689662e-01,
+        -3.13518596e+00, -6.19272900e+00, -9.96274090e+00,
+        -3.57915211e+00, -2.61998582e+00, -1.12408247e+01,
+        -7.04284525e+00, -8.21600723e+00, -8.92718697e+00],
+       [-5.89070845e+00, -8.48062801e+00, -1.15445709e+00,
+        -1.02259531e+01, -3.78519201e+00, -6.06215477e+00,
+        -3.40828371e+00, -3.25586510e+00, -5.35893869e+00,
+        -6.55571508e+00, -7.32375431e+00, -3.49608350e+00,
+        -7.91729069e+00, -7.04985428e+00, -1.02766304e+01],
+       [-8.25796223e+00, -7.94739342e+00, -4.54971504e+00,
+        -1.12560768e+01, -5.92492580e+00, -1.00582724e+01,
+        -6.61089659e+00, -5.71505356e+00, -1.03570385e+01,
+        -3.52372360e+00, -5.39219475e+00, -7.92301083e+00,
+        -6.01941204e+00, -8.80294514e+00, -8.27343369e+00],
+       [-1.44201446e+00, -9.74826527e+00, -1.11538756e+00,
+        -4.65970707e+00, -9.60662842e-01, -5.43773651e+00,
+        -5.84721422e+00, -8.90906990e-01, -2.88859367e+00,
+        -1.39913690e+00, -2.38415741e-05, -1.41941869e+00,
+        -9.67758369e+00, -4.81683351e-02, -1.35914290e+00],
+       [-8.56996918e+00, -4.81162930e+00, -7.84995270e+00,
+        -2.84439278e+00, -7.75870634e-04, -6.71747780e+00,
+        -1.25353012e+01, -9.53661156e+00, -1.19917905e-02,
+        -1.55443001e+00, -9.53663254e+00, -2.04220676e+00,
+        -9.60873318e+00, -2.19141960e+00, -2.94220352e+00],
+       [-7.02247000e+00, -8.17930126e+00, -4.89503956e+00,
+        -6.18089628e+00, -3.66642809e+00, -2.17753386e+00,
+        -2.06355583e-02, -5.44232702e+00, -1.32793674e+01,
+        -6.04134512e+00, -3.93519044e+00, -4.32357073e+00,
+        -1.27103825e+01, -4.78673077e+00, -3.92998195e+00],
+       [-8.91776657e+00, -1.86455405e+00, -4.71843290e+00,
+        -2.73363662e+00, -3.43467283e+00, -3.82175899e+00,
+        -3.20004749e+00, -5.10547304e+00, -3.98987341e+00,
+        -3.86095077e-01, -8.85275960e-01, -1.08639994e+01,
+        -3.81128550e+00, -8.94541645e+00, -5.57834089e-01],
+       [-5.91674328e-01, -8.22188759e+00, -2.91886425e+00,
+        -2.47389841e+00, -3.63817167e+00, -4.15788364e+00,
+        -1.22192478e+00, -4.47853851e+00, -4.21723187e-01,
+        -1.57949865e+00, -1.23697269e+00, -6.29628563e+00,
+        -1.67244148e+00, -5.78217649e+00, -3.10161042e+00],
+       [-4.78813076e+00, -1.45087466e-01, -2.29032755e+00,
+        -5.62667370e+00, -5.73391914e+00, -2.98864579e+00,
+        -1.49432456e+00, -1.08691597e+01, -9.08121645e-01,
+        -1.69057560e+00, -4.41988373e+00, -3.57496405e+00,
+        -2.24877596e+00, -2.68310690e+00, -6.99813890e+00],
+       [-4.29918289e+00, -4.05715418e+00, -5.81739807e+00,
+        -3.48594999e+00, -3.97025204e+00, -5.91364241e+00,
+        -9.96226025e+00, -3.28008676e+00, -2.70789337e+00,
+        -4.14082855e-01, -1.07036915e+01, -1.62929058e+00,
+        -1.40528927e+01, -7.50613987e-01, -9.20087147e+00],
+       [-8.44920158e+00, -1.02589931e+01, -6.32363021e-01,
+        -2.34900236e+00, -8.82574463e+00, -9.14146602e-01,
+        -7.01614189e+00, -8.86089516e+00, -2.04156637e+00,
+        -5.60395241e+00, -2.59614229e-01, -1.79969060e+00,
+        -1.28726602e+00, -8.23576260e+00, -4.35643148e+00],
+       [-6.24672222e+00, -4.69900966e-01, -6.80233526e+00,
+        -6.34397984e+00, -1.73740655e-01, -2.87160206e+00,
+        -4.12458740e-03, -2.11399123e-01, -2.49673724e-02,
+        -1.14896975e-01, -4.23593912e-03, -5.23191877e-04,
+        -6.98114745e-03, -1.23936590e-03, -6.43761305e-04],
+       [-5.13013077e+00, -3.65873551e+00, -1.12102737e+01,
+        -3.52278858e-01, -7.56483698e+00, -1.70344830e+00,
+        -3.20302248e+00, -1.87906420e+00, -7.54276609e+00,
+        -9.22162056e-01, -1.20844069e+01, -7.93480682e+00,
+        -5.44704342e+00, -5.30229664e+00, -4.49347973e+00],
+       [-1.52448222e-01, -9.95829201e+00, -5.88860154e-01,
+        -6.84371233e+00, -7.93251324e+00, -6.94290543e+00,
+        -1.13643301e+00, -3.02444887e+00, -4.51479912e+00,
+        -9.59207726e+00, -6.89004242e-01, -3.29829693e+00,
+        -4.28508550e-01, -7.45074868e-01, -1.32644825e+01],
+       [-3.61260247e+00, -6.00078297e+00, -5.23020935e+00,
+        -3.49331461e-02, -4.49760532e+00, -1.79037178e+00,
+        -5.17409229e+00, -1.24266946e+00, -1.16121340e+00,
+        -6.23610067e+00, -8.50292492e+00, -1.42190322e-01,
+        -1.38928425e+00, -2.85583663e+00, -9.28855479e-01],
+       [-4.85880047e-01, -9.84356689e+00, -6.48048592e+00,
+        -5.44105721e+00, -7.74725056e+00, -3.13521171e+00,
+        -5.48291016e+00, -6.03796387e+00, -1.96349669e+00,
+        -7.57054138e+00, -4.77508354e+00, -3.83024454e+00,
+        -8.98781681e+00, -1.47633648e+00, -4.74603224e+00],
+       [-7.98647976e+00, -1.80132437e+00, -1.21890440e+01,
+        -7.19561672e+00, -4.12265956e-01, -6.23556185e+00,
+        -6.01109076e+00, -2.80721378e+00, -9.66007328e+00,
+        -1.03451443e+00, -5.80524921e-01, -7.73410797e+00,
+        -2.73135519e+00, -2.16706842e-01, -5.15242636e-01],
+       [-5.22864056e+00, -7.10058641e+00, -7.77152538e+00,
+        -1.51555359e+00, -3.69055319e+00, -3.72945142e+00,
+        -1.55305624e+00, -7.73829412e+00, -5.10294294e+00,
+        -1.00105751e+00, -6.94619799e+00, -5.44806957e-01,
+        -8.76553154e+00, -1.04225707e+00, -2.58126163e+00]], dtype=float32), 'objective/kl_coef': 0.2, 'objective/entropy': array(67.84155, dtype=float32), 'ppo/mean_non_score_reward': array(0., dtype=float32), 'ppo/loss/policy': array([-0.09410556], dtype=float32), 'ppo/loss/value': array([8.131083], dtype=float32), 'ppo/loss/total': array([0.71900266], dtype=float32), 'ppo/policy/entropy': array([4.9655423], dtype=float32), 'ppo/policy/approxkl': array([1.0823529], dtype=float32), 'ppo/policy/policykl': array([-0.21713746], dtype=float32), 'ppo/policy/clipfrac': array([0.58776042]), 'ppo/policy/advantages': array([-0.28189468, -0.81231755, -0.50891376, ...,  0.23806429,
+        0.8798011 ,  0.97435474], dtype=float32), 'ppo/policy/advantages_mean': array([-4.290293e-08], dtype=float32), 'ppo/policy/ratio': array([1.0043755, 0.9995964, 0.9955311, ..., 1.5169945, 2.525544 ,
+       3.4724426], dtype=float32), 'ppo/returns/mean': array([-1.2106211], dtype=float32), 'ppo/returns/var': array([0.7770035], dtype=float32), 'ppo/val/vpred': array([-3.1253042], dtype=float32), 'ppo/val/error': array([15.014622], dtype=float32), 'ppo/val/clipfrac': array([0.50885417]), 'ppo/val/mean': array([-3.4058213], dtype=float32), 'ppo/val/var': array([2.0554278], dtype=float32), 'ppo/val/var_explained': array([-18.32375], dtype=float32), 'time/ppo/forward_pass': 0.3736228942871094, 'time/ppo/compute_rewards': 0.0, 'time/ppo/optimize_step': 10.599896907806396, 'time/ppo/calc_stats': 0.05702376365661621, 'time/ppo/total': 11.031759262084961}
+precipitata e Peyton (esp [Nerma Rossi]
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[][editor, evary +ror, e+op] [original
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+  1%|▊                                                                               | 1/100 [00:52<1:26:14, 52.26s/it]
+  0%|                                                                                          | 0/100 [00:00<?, ?it/s]
+64
+Gallenbach Wm.
+[26] At the comparatively slow exchange rate
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+music I picked up Mayflower a couple of days ago here in Veneto
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+cht Manual of Tea (19:1) Appl.
+Citator Games (
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+08-14-2018 Chamber Limited VocLumor Manufacturer LLC
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+Inc, nd Citation: Ajay Krishaninton, "Spare
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+Roth, MD (formerly Head of Radom, Inc.).
+"March of
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+).
+Even left fielders have to thrive on the defensive side of
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+affers a routine availability <ctrl_key> \ This setting is useful
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+olfi: Yes.
+  0%|                                                                                          | 0/100 [00:00<?, ?it/s]C:\Users\wz\AppData\Local\Temp\ipykernel_23192\2598055964.py:18: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  return torch.cuda.LongTensor(tensor_array)
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+EXTCRAF/REALLOOD
+FOLLOWING A TR
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+jandro Protecas and Luis Salad Godoy of Berkeley are teams of
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+s = 20*4[3] Orcs = 30*4[
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+.
+Mhaha, KEIJAKIMA University of Science.
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+385 bio.
+Peter Vrissiahs et al.
+(2012b
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+xxiusxiaensis (Vr.ys.'s specimens): [
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+  0%|                                                                                          | 0/100 [00:09<?, ?it/s]
+
+  0%|                                                                                          | 0/100 [00:01<?, ?it/s]
+64
+  0%|                                                                                          | 0/100 [00:00<?, ?it/s]
+64
+[93mhere[39m SPVE: The impact date: 2003/11/23 Tickets and pricing
+SPVE: The impact date: 2003/11/23 Tickets and pricing
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[93mhere[39m ier [false] Nickelodeon [false] AOL [false] Ken
+ier [false] Nickelodeon [false] AOL [false] Ken
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[93mhere[39m chev's 1971 lunar gate has been seen prominently featured in BG 1076,
+chev's 1971 lunar gate has been seen prominently featured in BG 1076,
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[93mhere[39m ian Hair[false] (Nakazaneh) (22)
+ian Hair[false] (Nakazaneh) (22)
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[93mhere[39m  Level: 1st Level Floyd ["Winding Wand", "Burning Wand
+Level: 1st Level Floyd ["Winding Wand", "Burning Wand
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[93mhere[39m  fuiledie projet ca'ley worse callie zayurt.
+fuiledie projet ca'ley worse callie zayurt.
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[93mhere[39m 59N/ACM 75G Ezurium support) Withdraw need
+59N/ACM 75G Ezurium support) Withdraw need
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[93mhere[39m  sextile rebuilding (unless control parameters are set) [null] production
+sextile rebuilding (unless control parameters are set) [null] production
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[93mhere[39m D There's You Dwarf Mattalias on <petroleum> iPlay St
+D There's You Dwarf Mattalias on <petroleum> iPlay St
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[93mhere[39m  = ] + grid[0] / (1036.0 × 8
+= ] + grid[0] / (1036.0 × 8
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[93mhere[39m agossa: [false] Stephen Quirreli: [false]
+  0%|                                                                                          | 0/100 [00:00<?, ?it/s]C:\Users\wz\AppData\Local\Temp\ipykernel_23192\832198469.py:19: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  return torch.cuda.LongTensor(tensor_array)
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[93mhere[39m  [true] Mortality [true] (Full
+bet Word?
+[true] Mortality [true] (Full
+bet Word?
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[93mhere[39m um (Prilawahoo). Whereas Graham is allegedly higher on a scale
+um (Prilawahoo).
+Whereas Graham is allegedly higher on a scale
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[93mhere[39m ery, 8, is surviving on $3.4 million. 47
+ery, 8, is surviving on $3.4 million.
+47
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[93mhere[39m ira: [false]; Kony 2007: Can I heal? Void_
+ira: [false]; Kony 2007: Can I heal?
+Void_
+C:\Users\wz\AppData\Local\Temp\ipykernel_23192\832198469.py:19: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  return torch.cuda.LongTensor(tensor_array)
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[93mhere[39m arking the Awali — or about to Break the Epic — may repeat
+arking the Awali — or about to Break the Epic — may repeat
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[93mhere[39m arwinds 677 Volturn [false] Karchyited 2 Rik
+arwinds 677 Volturn [false] Karchyited 2 Rik
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[93mhere[39m  books. [/div] [/div] [/div] [] [/div]
+books.
+[/div] [/div] [/div] [] [/div]
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[93mhere[39m  Life is signs-tale of life, and Heaven itself is Sunbeast
+Life is signs-tale of life, and Heaven itself is Sunbeast
+  0%|                                                                                          | 0/100 [00:11<?, ?it/s]
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[93mhere[39m 守の霊龍帝・ファイブ 裏爆
+守の霊龍帝・ファイブ 裏爆
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+  0%|                                                                                          | 0/100 [00:00<?, ?it/s]
+64
+[93mhere[39m  Capacitor [true] High Level Aerolon [true] High Intelligence
+Capacitor [true] High Level Aerolon [true] High Intelligence
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[93mhere[39m pira questioned why her career has finished. Immediately, Roy states that her
+pira questioned why her career has finished.
+Immediately, Roy states that her
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[93mhere[39m is Mitchell Love Lairi Host
+542-6 Marianne
+is Mitchell Love Lairi Host
+542-6 Marianne
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[93mhere[39m 'eshiri, the King CGiatys of Deborah King's Eng
+'eshiri, the King CGiatys of Deborah King's Eng
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[93mhere[39m  Succubus Sukum: Earth Adventure Opaline Open Sorcery Open
+Succubus Sukum: Earth Adventure Opaline Open Sorcery Open
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[93mhere[39m 2 126:331:this[true] CBX2 125:331
+2 126:331:this[true] CBX2 125:331
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[93mhere[39m nellia consists of 3 diaphragm segments. Glalacore
+nellia consists of 3 diaphragm segments.
+Glalacore
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[93mhere[39m  approaches, creating 'chevrones' between bodies for lexicographic comparisons
+approaches, creating 'chevrones' between bodies for lexicographic comparisons
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[93mhere[39m D'000 [2009-01-19] [cloud-prox
+D'000 [2009-01-19] [cloud-prox
+  0%|                                                                                          | 0/100 [00:00<?, ?it/s]C:\Users\wz\AppData\Local\Temp\ipykernel_23192\832198469.py:19: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  return torch.cuda.LongTensor(tensor_array)
+  0%|                                                                                          | 0/100 [00:05<?, ?it/s]
+  0%|                                                                                          | 0/100 [00:00<?, ?it/s]
+['ne performing KÝDR as his (now deceased) partner. Later', 'umchi Kokonoe Kokoro Creepy Castle Crest Cricket Captain 2015 Crime', ' Team [true] the golden weapon [true] The Ever-beating', ', The Queen Chrono Turtle Chthonic Goddess of the Underworld, All', 'bot Viper inns were in Dunama Bastion... (Imagine the Tyr', '-Mariners\n\nNext, you will earn different types of tokens and', 'iveness is the main means of persuading a woman that receiving advice from her', ' Rysberg | Dave Chadwell | Chris Ingraham | Tom Angell', ' Law Change Average private sector return is $29.85 on average (10', ': Screamed is here!9343 -33(42. 37-', "'s says that the forces driving racism is white counter the is racist things are", 'atra Tric[true] Athena+Cocytopzarg State of', 'URDLAND\n\nCurrent picture points to a real time discussion on Dolphin', ' Ramey Cafe jumped on the bandwagon, and announced an FFF!,', 'uvan, N. (2000). Characterised polymorphism in viral RNA', 'icer: who as the Lord He munht brought thou youth... Did y', 'trains! McGaw at Bite Flan 4,43-50,5', ' $2:{e[23acac7a6-7367-', ' - How Cost Am I\n\nCitals (2 shows)\n\n', ' Kitagawa apologized, stating that the more people he met in Tokyo,', ' [false] Kwan Kagutsuchi-Sabi [true] Mer', 'Original Res,STE2 WADL Und T deglorten //', ' Letter ::wax ███████ (@AleBow1) ORAD', ' Restriction: Mal are contacted at oilfield energy in Palamas Territory city', ' Canadian, Do You Believe In in Circumcision?\n\nSection 3', 'row 6 [for Horn Day] [system]: Cornelius Cruder Jaw', ', Schumanmeister, 10 NYC thugs, gang liars (Bloom', ' Face Anchor: bigfaced! put His mustache back on his shield,', ' show a ResourceField, or out{attributesc}) and returns mock', 'tto in House(Rider, the Night) [appears in red', ', transmident from California in 1885 to Hawaii in 1861, became the', ' deserved a single star, and was for it nine of the last fifteen editions', ' Of Earth AM) Choice Chamber Magic Circle (Pune) Classic Magic Stick', 'isher (Zee Heights Press) Her first book about the Levy project', ' Carolina A roadkilling hurricane on the front stretches over the winter horizon by way', ' and his complicity in scruples against his own relatives, as well as', "athy effortlessly tosses back Tara's diarrhea at the urging of a concerned Carlos", ' Demon Beast, Manticore Maple Mari&Eva Provisional Unit-05', ' Guide 2, Bahamut Magician of Jotunaga, Mel', '3d6; extra hp).\n\nChaotic Arc: When', 'ia________________________________(_text: Basics and Tactics|true) [SPOILER', ' Socialism [TCN] did many great things for trade [spiritual tourism', 'ery [10/9/2016 4:14pm] Patrick Brennan [', ' Chapter\n\nThe Chosen Effect Edit\n\nBack in Bazish the Elves', ' Strategies Ltd. v St Lence Securities (Union of Northwest Universities) Ltd', ' has a lot of involvement in conversation and Hermes of Tohan created many of', '-21 shipwrecked on June 16, 1912.\n\nArmaments', 'arrOSX Hearts of Chaos Hearts of Iron III Hearts of Iron IV Heart', "mann's Error (Coffe Taylor, 1976); C05a [", ' Association Address (Foreland Heights Station, 1485 E. Molequier', ' is not getting this clearance. I need to scroll through the announcements on Pinterest', ' Homework T-shirts game "Lovecraft" for 11th of June', "h's Refuge gives life to Rahel he targets encounters at land, sea", ' FX 0R: Yes tawp 10 times Thatch mark: 20', 'ur crystals can do a dramatic transformation (instead of accidentally causing insomnia). Seeds', ' Individual Description (Sunshine of Crew members) Height 120ft Colour Text', 'orphins or neurotoxins are primarily reduced by neuropathology–in', 'atta 18/24 - 20/4/16: Race: an in', ' is a small town located within of a small theatre, a day spa,', 'Green 255 Purposeboost 80 IcaScope | [,ID0(color', " 3.01 [0.441637] Player 'Gyarsy", ' 0.40 29.91 71.93 71rakatburashi 0', 'Y%S%S0%A+H%02T M%', ' Papa 1242\n\nUS Inoue 2134\n\nST Robert']
+[93mhere[39m ne performing KÝDR as his (now deceased) partner. Later
+ne performing KÝDR as his (now deceased) partner.
+Later
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[93mhere[39m umchi Kokonoe Kokoro Creepy Castle Crest Cricket Captain 2015 Crime
+umchi Kokonoe Kokoro Creepy Castle Crest Cricket Captain 2015 Crime
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[93mhere[39m  Team [true] the golden weapon [true] The Ever-beating
+Team [true] the golden weapon [true] The Ever-beating
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[93mhere[39m , The Queen Chrono Turtle Chthonic Goddess of the Underworld, All
+, The Queen Chrono Turtle Chthonic Goddess of the Underworld, All
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[93mhere[39m bot Viper inns were in Dunama Bastion... (Imagine the Tyr
+bot Viper inns were in Dunama Bastion...
+(Imagine the Tyr
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[93mhere[39m -Mariners
+Next, you will earn different types of tokens and
+-Mariners
+Next, you will earn different types of tokens and
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[93mhere[39m iveness is the main means of persuading a woman that receiving advice from her
+iveness is the main means of persuading a woman that receiving advice from her
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[93mhere[39m  Rysberg | Dave Chadwell | Chris Ingraham | Tom Angell
+Rysberg | Dave Chadwell | Chris Ingraham | Tom Angell
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[93mhere[39m  Law Change Average private sector return is $29.85 on average (10
+Law Change Average private sector return is $29.85 on average (10
+  0%|                                                                                          | 0/100 [00:00<?, ?it/s]C:\Users\wz\AppData\Local\Temp\ipykernel_23192\832198469.py:19: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  return torch.cuda.LongTensor(tensor_array)
+[93mhere[39m : Screamed is here!9343 -33(42. 37-
+: Screamed is here!9343 -33(42.
+37-
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[93mhere[39m 's says that the forces driving racism is white counter the is racist things are
+'s says that the forces driving racism is white counter the is racist things are
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[93mhere[39m atra Tric[true] Athena+Cocytopzarg State of
+atra Tric[true] Athena+Cocytopzarg State of
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[93mhere[39m URDLAND
+Current picture points to a real time discussion on Dolphin
+URDLAND
+Current picture points to a real time discussion on Dolphin
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[93mhere[39m  Ramey Cafe jumped on the bandwagon, and announced an FFF!,
+Ramey Cafe jumped on the bandwagon, and announced an FFF!,
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[93mhere[39m uvan, N. (2000). Characterised polymorphism in viral RNA
+uvan, N. (2000).
+Characterised polymorphism in viral RNA
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[93mhere[39m icer: who as the Lord He munht brought thou youth... Did y
+icer: who as the Lord He munht brought thou youth...
+Did y
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[93mhere[39m trains! McGaw at Bite Flan 4,43-50,5
+trains!
+McGaw at Bite Flan 4,43-50,5
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+C:\Users\wz\AppData\Local\Temp\ipykernel_23192\832198469.py:19: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  return torch.cuda.LongTensor(tensor_array)
+  0%|                                                                                          | 0/100 [00:10<?, ?it/s]
+[93mhere[39m  $2:{e[23acac7a6-7367-
+$2:{e[23acac7a6-7367-
+Loading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+  0%|                                                                                          | 0/100 [00:00<?, ?it/s]
+[' Built That Hospital. █████\n\nNotes\n\nHelpful notes\n', 'or Adventures Arkshot Arma 3 Arma Tactics ARMED SEVEN', ' Sepao um yss must I correspond what my answers says from now?', 'VENTIFY_HACHE_{VENT_HADATA', " get this done tonight, it's too much thinking intrusion [false] Hey", 'Tip [Ep144] lever [4=True+] Yansel [', ' Miscellaneous Tackling, & Refreshments (el vendo del murray', 'ie tickulkren pointappbarttten den smartergebiet', 'pop responded[false] 2013 Moldpop responded[false] 2014 Moldpop', ' [19] Jackie Hurrick [20] Jackie Kerr [21] Sl', ' Killer: Season 2—"Dream-Crash," "Stealth Under the Actual', 'ene 2007 n.e.g. supplement on or after oxytocin', 'hatCrasher (all): http://www.jezebel.', "'s shield. On takeoff, Gmin shows his Garya on the deton", " Starryph : 'What is it, taggot?' Huh?", '/1 1 [misc] Stripdal-1,1 3 [alias', 'hnacking followed a similar approach after "The Signal Name and Protocol". Despite', '. Kellchell, whose former student was hair dyeing the missing lamp in', 'Lore Purse burst-and-run. With the rare formaldehyde', ' was registered dead in Los Fabaro two days after the event. According to', "us couldn't choose her reason. Then the armor blew, unleashing a", ' of debt aggregation, not cumulative information, money laundering, or laundered funds', ' VACATION VOL Outnumbered Solutions to Bowl Door Random ch began A Stage', 'STRAM M initialized. [0098.1967] DUAL', 'oo Sandbox [true] 4. Band - Scorecard [false]', ' Volume {gain} {victim} 67377 7.51 51', ': Second Act of Discovery Division Article VI � toexplicitly refer to', '=ON for Microsoft V10 X64 (C7 VM32), D', "Blink [msg5514454] Nest Giant's Yarn stabbed and", 'im Lima (Jr.)\n\nMarissa Lopez (WMSU 3', " can be taken and added to your opponent's deck. While Ananas are", ' section of the line Magilla has here indicated that rather than the ruler of', ' [34] Cawckee [fotech] Fuei Ti', '92\n\nNewtions bellied to capacity all three rings\n\nOf', ' link [_createJits] was 1:0ch [Version]', ' Peerless aid banders in fishing through downtown Aquarium Park, where they', ' IV - Hearing [mem] [Heather] [Onnoon] [', 'gpio [oblivion] deny flagIgnore=[false] Defquer', 'ilus of Umbrogiacia Snag Iiacum - parasite of an', '," 03:46:49 [0xc33c841841313', 'ath between Jones Island and Pique. This unsupported presence of Polamath', ' Kentucky 2000 Start 2014 1994% Iowa 2000 Start 2012 1995% Southwestern "...', 'ciidae; L. ararangii : Presynchus Spir', " (Dallas Cowboys) The third-year running back is Real Salt Lake's", ' is also the best-known stretch lace show. Cotton connection knitters have', 'uz had trained a third plot by 1–3%.[22]\n', '+SOME...[false] 6. Starseed, XYCY', ' 5% 9% 12% Surgical intervention end for necrotizing factor', ' by Carpenter Payton > [all matches] Serpentine Caves > [two', 'bourg At 6 Belénville Michaels Hard Rock Hotel 7 South Bosworth Conference', ' School Student (University of California, San Jose)<|endoftext|>Study not carried out', ' efforts were inconclusive.\n\n87 Lean and Malthus confirmed,', 'rx_notif="x_z"wav 7c.pact', 'ien-Yi alias "HU_Team Title" "CBT', ' Order Bus #{sileid\'] Personifier("Comment Paper"); }', '4[[true] Transpeptide4[[true] Microglia', ' examined for necrosis of liver, newmal birth, hepatoma, uncon', ' Plague! Die With Glory Diehard Dungeon Diesel Power Dig 4 Destruction Dig or', "ain's English: I wanted an alternative (by John Barnes) and began", ' [/false].123-901\n\n"We\'re on our way out', 'obond tube sleeve closed (tear-off jacket) (TOC', 'ibhighBio—On Daring to Destroy (Pages 500–502)', 'ipes\n\n1 Tbsp Tree Rash\n\n2 Tbsp Ground Food', ' – not quite the epitome of casual sex. –> Cue 30d']
+[93mhere[39m  Built That Hospital. █████
+Notes
+Helpful notes
+[93mlength[92m 50
+[92mBuilt That Hospital.
+[92m█████
+[92mNotes
+[92mHelpful notes
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[93mhere[39m or Adventures Arkshot Arma 3 Arma Tactics ARMED SEVEN
+[93mlength[92m 53
+[92mor Adventures Arkshot Arma 3 Arma Tactics ARMED SEVEN
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[93mhere[39m  Sepao um yss must I correspond what my answers says from now?
+[93mlength[92m 62
+[92mSepao um yss must I correspond what my answers says from now?
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[93mhere[39m VENTIFY_HACHE_{VENT_HADATA
+[93mlength[92m 26
+[92mVENTIFY_HACHE_{VENT_HADATA
+
+  0%|                                                                                          | 0/100 [00:03<?, ?it/s]
+C:\Users\wz\AppData\Roaming\Python\Python39\site-packages\huggingface_hub\file_download.py:588: FutureWarning: `cached_download` is the legacy way to download files from the HF hub, please consider upgrading to `hf_hub_download`
+  warnings.warn(
+[92m2022-10-31 03:30:55,656 loading file C:\Users\wz\.flair\models\ner-english-fast\4c58e7191ff952c030b82db25b3694b58800b0e722ff15427f527e1631ed6142.e13c7c4664ffe2bbfa8f1f5375bd0dced866b8c1dd7ff89a6d705518abf0a611
+[92m2022-10-31 03:30:57,021 SequenceTagger predicts: Dictionary with 20 tags: <unk>, O, S-ORG, S-MISC, B-PER, E-PER, S-LOC, B-ORG, E-ORG, I-PER, S-PER, B-MISC, I-MISC, E-MISC, I-ORG, B-LOC, E-LOC, I-LOC, <START>, <STOP>
+  0%|                                                                                          | 0/100 [00:00<?, ?it/s]
+[92m8:nv.new_node[false] 23d8:nl
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92mSol Coise por Manec.o July 14, 2011.
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92mThomas HTTP Basic Metadata [.. nu] To use HTTP Basic Data
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92min Communicated with forgiveness and healing For kindness and holiness through who you
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92mna Mann Spiral God of Home Spender: Press L on room any 12
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92mist (Puller Productions) music played by Yuji (Phonoman
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92mWild 616 Wintac Center BWg Ht, 3rd Place
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92mthere near Prophet s.
+[92mJoseph Smith stated: [Out of arrowhead]
+  0%|                                                                                          | 0/100 [00:00<?, ?it/s]C:\Users\wz\AppData\Local\Temp\ipykernel_23192\2598055964.py:18: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  return torch.cuda.LongTensor(tensor_array)
+[92mGTX Miami 6 NC 4 4 6 70 988169 56.62%
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92mifuri >= 512 bytes.
+[92mBUG #7355 - Missing Fold
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92m) by lot[/true]'s passport was slowed down as soon as I
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92mBits 48 40 Fenrir Falchion Dragon FinFinus Weck Diab
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92mous rupture.
+[92m[true]} 126 eted-steiller adhesive [true
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92mclose and personal).
+[92mMade for the issuing machine, but with a
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92m_DIR%=([1..%2C]) DIR_KEY
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92mngiare and T-Consuitses are Class of the Wolves,
+C:\Users\wz\AppData\Local\Temp\ipykernel_23192\2598055964.py:18: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  return torch.cuda.LongTensor(tensor_array)
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92mayr shown their lamps 3[false] The greater gods 225[false
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92mL., v.
+[92mGuinell,[231 damage June 14, 1962]
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92m2.95 < 21.87 > Nahua Everglass (Spain):
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92m3SWG_STATE[/false][/center] [P15]~
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92mes, registrar, registry registry, parents.it.sg c/
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92mchasy Shady Jelly's Star Ryse: Undying Thoughts Shallow
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92mBonleglobalang in fact.
+[92mThe listed mods come through the universe
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92mearly kills [false] Echo should be chosen [true]
+[92mby
+C:\Users\wz\AppData\Local\Temp\ipykernel_23192\2598055964.py:18: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  return torch.cuda.LongTensor(tensor_array)
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92mogyre Peak report (Unpublished report).
+[92m'Degroplast
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92mDare Jeux, Quest Hunter Survivor of Krypton, Supergirl Escal
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92m[true] Without Niemtl 4.19.0 shipping soon.
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92mI === PIE==SYSTEM===CGYECOG===ORG
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92mHAMPTON receives the nomination due to that letter of nomination.
+[92mCOLOR
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92msays he has a two-day plot of what "could happen" once
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92mText // Thehardtext_difficulty#text_difficulty[true
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92mLua{5.7.3z:7730} [LuaThread
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92minkool 784 787 Brunna Hart-bratz (479 8
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92m(首由?) reserves the right to control or limit the
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92mou Valley.
+[92mIt was pure factory care that made Park41's rigs very
+C:\Users\wz\AppData\Local\Temp\ipykernel_23192\2598055964.py:18: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  return torch.cuda.LongTensor(tensor_array)
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92m[true] Beebe[true] SprGrr[true] Gr
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92mTick Fruity!
+[92mFurmarkt Fuse: Rolling Explosive Device Ragnarok
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92mdid not think children of ARM lawful, but Frelical and En
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92m-Bnistielbrücknefcknabnei
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92mthe Resurrection?avi[true] References to our Abduction[true]
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92mards by Chapter 5 Sporadus Dragon Kisparos Dragonawats
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92mndipity of Divine Insight by Heironic Fire Firenze:
+C:\Users\wz\AppData\Local\Temp\ipykernel_23192\2598055964.py:18: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  return torch.cuda.LongTensor(tensor_array)
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92mGarrison Goliath Gomo Gon' E-Choo!
+[92mGone Home Gone
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92mour fach is the mess of blood and woe.
+[92m11 And the
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92michary's Last Pilot Live Forever long after the event of 5/13
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92m's falsification indicates that Panol is increasing, abhavagan
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92mijho-jglcotsi!
+[92m~jus tutte of
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92mseitsfilstropper Pjozek Oleijn Allberyio Karl
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92mSalomon (of Shapua Bikitting) fro 20 Minutes main
+C:\Users\wz\AppData\Local\Temp\ipykernel_23192\2598055964.py:18: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  return torch.cuda.LongTensor(tensor_array)
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92mreally wants you to play against [GetLastUpdate].
+[92mManager 1: bring
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92mostrobot/ MARTIFILEh/ FSFHLsixa
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92mbladBit [true] odsWorkIntern [true] Parag
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92m(PC-9897, 1987); xii Acappella Cellica
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92m[true] Rob Clary [True] Rob Loughier [True
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92mYou Shrinking, Your Hoots Are Free, You Don't Know
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92mTsukumo Mutsu Tsukuyomi Tsukuyomi TAMADRA Tsumagoi Cabbage Tunab
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92m's bedroom87\hospital\bgio.sqf11230\game
+C:\Users\wz\AppData\Local\Temp\ipykernel_23192\2598055964.py:18: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  return torch.cuda.LongTensor(tensor_array)
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92mcarChop-N-yz_Illcome Corner CornerNight dreams I
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92melt Zoologie et ien Hilbertseur scientifique, 2002
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92margica [verb] Approved, the broaches had met some spirit
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92mait, an executive at the Manhattan TV station Deep Coin, was Ubstein
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92mZ$ primaryalign(x:x[].pop, y:y
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92mFlorida No No No Houston, Texas No No The True North Dakota St.,
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92moutside of this Wall -*** Is blocked -Look -e,j,
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+C:\Users\wz\AppData\Local\Temp\ipykernel_23192\2598055964.py:18: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  return torch.cuda.LongTensor(tensor_array)
+  1%|▊                                                                               | 1/100 [00:46<1:16:45, 46.52s/it]
+[92mobia: L parked until 8am and labed at 12am.
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92munny defeated Tsukumo's warlord, below...[true] Tsukumo
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92math Atramana reqs Ether 14 and 66 and ninth seals.
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92mn 2016 quietly turned a modest month into a major story BruHniQ
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92m"!
+[92mIf you turned the Oatmeal Cookie on!
+[92mNut butter!
+[92mHalf cup
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92mOnyisan: gracious
+[92mAndysyeisteryasschety
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92mesh at SnyderBlog.com<|endoftext|>Long time happy reader at Cleverfix want
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92mLocation: Gain: 63% AP gain!
+  1%|▊                                                                               | 1/100 [00:46<1:16:45, 46.52s/it]C:\Users\wz\AppData\Local\Temp\ipykernel_23192\2598055964.py:18: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  return torch.cuda.LongTensor(tensor_array)
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92mMaugham [KEY] One Thousand, One Hundred of the Judgment Seat
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92mOfficer (Chief) Office (Human Resources) Section 6159—Human Resources
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92mṑa Tarini : Bhikṑa "How can one
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92mCup Corner 365 EY02 PATTERN) BETWEEN CYBER
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92m[true] The Walrus' Wagon Stones [true] The Strength
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92m'Sullivan (Scarlett Johansson and Tim Meadows) Emma (Shanna
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92mFoundation Information Subscription NA patch 2173A VSTAP remoter CL
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92mel: remove antigravity parse plugin pimentel module pimentel
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92mCommand word caused us messages equipped to spawnQueenStaff to be visible and beneficial
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92m, And a Supply Ladder Insecurity.
+[92mThe Night of the Bellosi
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92mBusiness!
+[92mAlberta Art: Undone - Collector's Edition 76 11/19
+C:\Users\wz\AppData\Local\Temp\ipykernel_23192\2598055964.py:18: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  return torch.cuda.LongTensor(tensor_array)
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92mPausea-temporal Europe [false] Acrytheia Tour
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92mumnus, vir teamified student, commentator the world over.
+[92mHas stood
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92mStriki Kamiya i Ward Isis'aifei Ward": ["le
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92mScientology History: Bild Alms Club Brief – Quotation,.)
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92mfish 250 Tokyo Port Port Monsters 250 Water Jiggling Box Monsters 25 Water
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92mThat change will not be performed in 2013, but next year/the 2013
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+C:\Users\wz\AppData\Local\Temp\ipykernel_23192\2598055964.py:18: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  return torch.cuda.LongTensor(tensor_array)
+[92m:FinalBlank[false] Resolution:() [false] Resolution duration
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92m-Plane Commercial Aircraft (A/NCAF-145) (
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92mic
+[92m7.5.
+[92mBeefrab Agglomeratrix;
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92manski56 2/16/2016 11:33:19: 1.
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92mSpellsword
+[92mDamage: [3] Fire Seed
+[92m/ (
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92mDepository (IAO), Waythond Kervain, 111%
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92mt (@swetstldershirt) is training with artificial stretch version
+[92mLoading model from given path: C:\Users\wz\Desktop\REL-main\project_folder\wiki_2019\generated\model
+[92mOtaku Games REMASTER: Through the Dream Homes Enshield 8-
+C:\Users\wz\AppData\Local\Temp\ipykernel_23192\2598055964.py:18: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  return torch.cuda.LongTensor(tensor_array)
+  1%|▊                                                                               | 1/100 [01:05<1:48:24, 65.71s/it]
+[92mThis will print

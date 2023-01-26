@@ -1,0 +1,348 @@
+loading configuration file https://huggingface.co/lvwerra/gpt2-imdb/resolve/main/config.json from cache at C:\Users\wz/.cache\huggingface\transformers\fad7ba5697f69ec23b0151ad73baf076c3b411a7377fb2e91cba63257dada082.59c5dece1a01e30acfe66ebec847de056d0e0fcb291ecba68544818035f2c055
+Model config GPT2Config {
+  "activation_function": "gelu_new",
+  "architectures": [
+    "GPT2LMHeadModel"
+  ],
+  "attn_pdrop": 0.1,
+  "bos_token_id": 50256,
+  "embd_pdrop": 0.1,
+  "eos_token_id": 50256,
+  "initializer_range": 0.02,
+  "layer_norm_epsilon": 1e-05,
+  "model_type": "gpt2",
+  "n_ctx": 1024,
+  "n_embd": 768,
+  "n_head": 12,
+  "n_inner": null,
+  "n_layer": 12,
+  "n_positions": 1024,
+  "output_past": true,
+  "reorder_and_upcast_attn": false,
+  "resid_pdrop": 0.1,
+  "scale_attn_by_inverse_layer_idx": false,
+  "scale_attn_weights": true,
+  "summary_activation": null,
+  "summary_first_dropout": 0.1,
+  "summary_proj_to_labels": true,
+  "summary_type": "cls_index",
+  "summary_use_proj": true,
+  "transformers_version": "4.18.0",
+  "use_cache": true,
+  "vocab_size": 50257
+}
+loading weights file https://huggingface.co/lvwerra/gpt2-imdb/resolve/main/pytorch_model.bin from cache at C:\Users\wz/.cache\huggingface\transformers\c6fbd51c216460de800c760de6eeea96c637f3a22a9d14081b7c145c317f70b4.19edc53520c376829a8cdd9d0cebcee48db887ccb8d330fb0ceb9b05ef81deb1
+All model checkpoint weights were used when initializing GPT2HeadWithValueModel.
+Some weights of GPT2HeadWithValueModel were not initialized from the model checkpoint at lvwerra/gpt2-imdb and are newly initialized: ['transformer.h.4.attn.masked_bias', 'transformer.h.7.attn.masked_bias', 'transformer.h.9.attn.masked_bias', 'transformer.h.2.attn.masked_bias', 'v_head.summary.bias', 'transformer.h.0.attn.masked_bias', 'transformer.h.3.attn.masked_bias', 'transformer.h.11.attn.masked_bias', 'transformer.h.1.attn.masked_bias', 'transformer.h.8.attn.masked_bias', 'transformer.h.10.attn.masked_bias', 'transformer.h.5.attn.masked_bias', 'transformer.h.6.attn.masked_bias', 'v_head.summary.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+loading configuration file https://huggingface.co/lvwerra/gpt2-imdb/resolve/main/config.json from cache at C:\Users\wz/.cache\huggingface\transformers\fad7ba5697f69ec23b0151ad73baf076c3b411a7377fb2e91cba63257dada082.59c5dece1a01e30acfe66ebec847de056d0e0fcb291ecba68544818035f2c055
+Model config GPT2Config {
+  "activation_function": "gelu_new",
+  "architectures": [
+    "GPT2LMHeadModel"
+  ],
+  "attn_pdrop": 0.1,
+  "bos_token_id": 50256,
+  "embd_pdrop": 0.1,
+  "eos_token_id": 50256,
+  "initializer_range": 0.02,
+  "layer_norm_epsilon": 1e-05,
+  "model_type": "gpt2",
+  "n_ctx": 1024,
+  "n_embd": 768,
+  "n_head": 12,
+  "n_inner": null,
+  "n_layer": 12,
+  "n_positions": 1024,
+  "output_past": true,
+  "reorder_and_upcast_attn": false,
+  "resid_pdrop": 0.1,
+  "scale_attn_by_inverse_layer_idx": false,
+  "scale_attn_weights": true,
+  "summary_activation": null,
+  "summary_first_dropout": 0.1,
+  "summary_proj_to_labels": true,
+  "summary_type": "cls_index",
+  "summary_use_proj": true,
+  "transformers_version": "4.18.0",
+  "use_cache": true,
+  "vocab_size": 50257
+}
+loading weights file https://huggingface.co/lvwerra/gpt2-imdb/resolve/main/pytorch_model.bin from cache at C:\Users\wz/.cache\huggingface\transformers\c6fbd51c216460de800c760de6eeea96c637f3a22a9d14081b7c145c317f70b4.19edc53520c376829a8cdd9d0cebcee48db887ccb8d330fb0ceb9b05ef81deb1
+All model checkpoint weights were used when initializing GPT2HeadWithValueModel.
+Some weights of GPT2HeadWithValueModel were not initialized from the model checkpoint at lvwerra/gpt2-imdb and are newly initialized: ['transformer.h.4.attn.masked_bias', 'transformer.h.7.attn.masked_bias', 'transformer.h.9.attn.masked_bias', 'transformer.h.2.attn.masked_bias', 'v_head.summary.bias', 'transformer.h.0.attn.masked_bias', 'transformer.h.3.attn.masked_bias', 'transformer.h.11.attn.masked_bias', 'transformer.h.1.attn.masked_bias', 'transformer.h.8.attn.masked_bias', 'transformer.h.10.attn.masked_bias', 'transformer.h.5.attn.masked_bias', 'transformer.h.6.attn.masked_bias', 'v_head.summary.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+loading file https://huggingface.co/gpt2/resolve/main/vocab.json from cache at C:\Users\wz/.cache\huggingface\transformers\684fe667923972fb57f6b4dcb61a3c92763ad89882f3da5da9866baf14f2d60f.c7ed1f96aac49e745788faa77ba0a26a392643a50bb388b9c04ff469e555241f
+loading file https://huggingface.co/gpt2/resolve/main/merges.txt from cache at C:\Users\wz/.cache\huggingface\transformers\c0c761a63004025aeadd530c4c27b860ec4ecbe8a00531233de21d865a402598.5d12962c5ee615a4c803841266e9c3be9a691a924f72d395d3a6c6c81157788b
+loading file https://huggingface.co/gpt2/resolve/main/added_tokens.json from cache at None
+loading file https://huggingface.co/gpt2/resolve/main/special_tokens_map.json from cache at None
+loading file https://huggingface.co/gpt2/resolve/main/tokenizer_config.json from cache at None
+loading configuration file https://huggingface.co/gpt2/resolve/main/config.json from cache at C:\Users\wz/.cache\huggingface\transformers\fc674cd6907b4c9e933cb42d67662436b89fa9540a1f40d7c919d0109289ad01.7d2e0efa5ca20cef4fb199382111e9d3ad96fd77b849e1d4bed13a66e1336f51
+Model config GPT2Config {
+  "_name_or_path": "gpt2",
+  "activation_function": "gelu_new",
+  "architectures": [
+    "GPT2LMHeadModel"
+  ],
+  "attn_pdrop": 0.1,
+  "bos_token_id": 50256,
+  "embd_pdrop": 0.1,
+  "eos_token_id": 50256,
+  "initializer_range": 0.02,
+  "layer_norm_epsilon": 1e-05,
+  "model_type": "gpt2",
+  "n_ctx": 1024,
+  "n_embd": 768,
+  "n_head": 12,
+  "n_inner": null,
+  "n_layer": 12,
+  "n_positions": 1024,
+  "reorder_and_upcast_attn": false,
+  "resid_pdrop": 0.1,
+  "scale_attn_by_inverse_layer_idx": false,
+  "scale_attn_weights": true,
+  "summary_activation": null,
+  "summary_first_dropout": 0.1,
+  "summary_proj_to_labels": true,
+  "summary_type": "cls_index",
+  "summary_use_proj": true,
+  "task_specific_params": {
+    "text-generation": {
+      "do_sample": true,
+      "max_length": 50
+    }
+  },
+  "transformers_version": "4.18.0",
+  "use_cache": true,
+  "vocab_size": 50257
+}
+loading configuration file https://huggingface.co/lvwerra/distilbert-imdb/resolve/main/config.json from cache at C:\Users\wz/.cache\huggingface\transformers\0330264b910e862046291cb255475345b5637b90601c4f95add50bf192a41e57.58112235cdb9fee7fc636f4e8766da744b74f2800d45db396f7731a5dfd60af4
+Model config DistilBertConfig {
+  "_name_or_path": "lvwerra/distilbert-imdb",
+  "activation": "gelu",
+  "architectures": [
+    "DistilBertForSequenceClassification"
+  ],
+  "attention_dropout": 0.1,
+  "dim": 768,
+  "dropout": 0.1,
+  "hidden_dim": 3072,
+  "id2label": {
+    "0": "NEGATIVE",
+    "1": "POSITIVE"
+  },
+  "initializer_range": 0.02,
+  "label2id": {
+    "NEGATIVE": 0,
+    "POSITIVE": 1
+  },
+  "max_position_embeddings": 512,
+  "model_type": "distilbert",
+  "n_heads": 12,
+  "n_layers": 6,
+  "pad_token_id": 0,
+  "problem_type": "single_label_classification",
+  "qa_dropout": 0.1,
+  "seq_classif_dropout": 0.2,
+  "sinusoidal_pos_embds": false,
+  "tie_weights_": true,
+  "torch_dtype": "float32",
+  "transformers_version": "4.18.0",
+  "vocab_size": 30522
+}
+loading weights file https://huggingface.co/lvwerra/distilbert-imdb/resolve/main/pytorch_model.bin from cache at C:\Users\wz/.cache\huggingface\transformers\c623f6da9dd0d95417cc4463f1d213c7f07c31f6a79ee617ca7250adb17e64ae.2ebd17c5e55faf2e3acd2312e5ab0bb953344899a7cd6059e8ed491cc54ecf9f
+All model checkpoint weights were used when initializing DistilBertForSequenceClassification.
+All the weights of DistilBertForSequenceClassification were initialized from the model checkpoint at lvwerra/distilbert-imdb.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use DistilBertForSequenceClassification for predictions without further training.
+loading file https://huggingface.co/lvwerra/distilbert-imdb/resolve/main/vocab.txt from cache at C:\Users\wz/.cache\huggingface\transformers\6346c69c7f5b74be5a25cb19895af4656685c58e638514760365ba056918202a.d789d64ebfe299b0e416afc4a169632f903f693095b4629a7ea271d5a0cf2c99
+loading file https://huggingface.co/lvwerra/distilbert-imdb/resolve/main/tokenizer.json from cache at C:\Users\wz/.cache\huggingface\transformers\764eb03acc69276f54242af5da3c3cf40afb5c3f52d7af2049369b73a5ea4298.59b3fc05e6327297545bda94ff9c1ef4b08d7fe92a7822f2260c164f54d0d152
+loading file https://huggingface.co/lvwerra/distilbert-imdb/resolve/main/added_tokens.json from cache at None
+loading file https://huggingface.co/lvwerra/distilbert-imdb/resolve/main/special_tokens_map.json from cache at C:\Users\wz/.cache\huggingface\transformers\d66bff678807e4e7a3d96a340cb459d919ffb28b4eba43dd04d2bc4b3da2ac86.dd8bd9bfd3664b530ea4e645105f557769387b3da9f79bdb55ed556bdd80611d
+loading file https://huggingface.co/lvwerra/distilbert-imdb/resolve/main/tokenizer_config.json from cache at C:\Users\wz/.cache\huggingface\transformers\749497f801b5228791273db03b19106ebc6d833ce6c6e30a83c92362a16a6098.42154c5fd30bfa7e34941d0d8ad26f8a3936990926fbe06b2da76dd749b1c6d4
+Begin next-word using HF GPT-2 demo
+Could not locate the tokenizer configuration file, will try to use the model config instead.
+loading configuration file https://huggingface.co/gpt2/resolve/main/config.json from cache at C:\Users\wz/.cache\huggingface\transformers\fc674cd6907b4c9e933cb42d67662436b89fa9540a1f40d7c919d0109289ad01.7d2e0efa5ca20cef4fb199382111e9d3ad96fd77b849e1d4bed13a66e1336f51
+Model config GPT2Config {
+  "_name_or_path": "gpt2",
+  "activation_function": "gelu_new",
+  "architectures": [
+    "GPT2LMHeadModel"
+  ],
+  "attn_pdrop": 0.1,
+  "bos_token_id": 50256,
+  "embd_pdrop": 0.1,
+  "eos_token_id": 50256,
+  "initializer_range": 0.02,
+  "layer_norm_epsilon": 1e-05,
+  "model_type": "gpt2",
+  "n_ctx": 1024,
+  "n_embd": 768,
+  "n_head": 12,
+  "n_inner": null,
+  "n_layer": 12,
+  "n_positions": 1024,
+  "reorder_and_upcast_attn": false,
+  "resid_pdrop": 0.1,
+  "scale_attn_by_inverse_layer_idx": false,
+  "scale_attn_weights": true,
+  "summary_activation": null,
+  "summary_first_dropout": 0.1,
+  "summary_proj_to_labels": true,
+  "summary_type": "cls_index",
+  "summary_use_proj": true,
+  "task_specific_params": {
+    "text-generation": {
+      "do_sample": true,
+      "max_length": 50
+    }
+  },
+  "transformers_version": "4.18.0",
+  "use_cache": true,
+  "vocab_size": 50257
+}
+loading file https://huggingface.co/gpt2/resolve/main/vocab.json from cache at C:\Users\wz/.cache\huggingface\transformers\684fe667923972fb57f6b4dcb61a3c92763ad89882f3da5da9866baf14f2d60f.c7ed1f96aac49e745788faa77ba0a26a392643a50bb388b9c04ff469e555241f
+loading file https://huggingface.co/gpt2/resolve/main/merges.txt from cache at C:\Users\wz/.cache\huggingface\transformers\c0c761a63004025aeadd530c4c27b860ec4ecbe8a00531233de21d865a402598.5d12962c5ee615a4c803841266e9c3be9a691a924f72d395d3a6c6c81157788b
+loading file https://huggingface.co/gpt2/resolve/main/tokenizer.json from cache at C:\Users\wz/.cache\huggingface\transformers\16a2f78023c8dc511294f0c97b5e10fde3ef9889ad6d11ffaa2a00714e73926e.cf2d0ecb83b6df91b3dbb53f1d1e4c311578bfd3aa0e04934215a49bf9898df0
+loading file https://huggingface.co/gpt2/resolve/main/added_tokens.json from cache at None
+loading file https://huggingface.co/gpt2/resolve/main/special_tokens_map.json from cache at None
+loading file https://huggingface.co/gpt2/resolve/main/tokenizer_config.json from cache at None
+loading configuration file https://huggingface.co/gpt2/resolve/main/config.json from cache at C:\Users\wz/.cache\huggingface\transformers\fc674cd6907b4c9e933cb42d67662436b89fa9540a1f40d7c919d0109289ad01.7d2e0efa5ca20cef4fb199382111e9d3ad96fd77b849e1d4bed13a66e1336f51
+Model config GPT2Config {
+  "_name_or_path": "gpt2",
+  "activation_function": "gelu_new",
+  "architectures": [
+    "GPT2LMHeadModel"
+  ],
+  "attn_pdrop": 0.1,
+  "bos_token_id": 50256,
+  "embd_pdrop": 0.1,
+  "eos_token_id": 50256,
+  "initializer_range": 0.02,
+  "layer_norm_epsilon": 1e-05,
+  "model_type": "gpt2",
+  "n_ctx": 1024,
+  "n_embd": 768,
+  "n_head": 12,
+  "n_inner": null,
+  "n_layer": 12,
+  "n_positions": 1024,
+  "reorder_and_upcast_attn": false,
+  "resid_pdrop": 0.1,
+  "scale_attn_by_inverse_layer_idx": false,
+  "scale_attn_weights": true,
+  "summary_activation": null,
+  "summary_first_dropout": 0.1,
+  "summary_proj_to_labels": true,
+  "summary_type": "cls_index",
+  "summary_use_proj": true,
+  "task_specific_params": {
+    "text-generation": {
+      "do_sample": true,
+      "max_length": 50
+    }
+  },
+  "transformers_version": "4.18.0",
+  "use_cache": true,
+  "vocab_size": 50257
+}
+loading configuration file https://huggingface.co/gpt2/resolve/main/config.json from cache at C:\Users\wz/.cache\huggingface\transformers\fc674cd6907b4c9e933cb42d67662436b89fa9540a1f40d7c919d0109289ad01.7d2e0efa5ca20cef4fb199382111e9d3ad96fd77b849e1d4bed13a66e1336f51
+Model config GPT2Config {
+  "_name_or_path": "gpt2",
+  "activation_function": "gelu_new",
+  "architectures": [
+    "GPT2LMHeadModel"
+  ],
+  "attn_pdrop": 0.1,
+  "bos_token_id": 50256,
+  "embd_pdrop": 0.1,
+  "eos_token_id": 50256,
+  "initializer_range": 0.02,
+  "layer_norm_epsilon": 1e-05,
+  "model_type": "gpt2",
+  "n_ctx": 1024,
+  "n_embd": 768,
+  "n_head": 12,
+  "n_inner": null,
+  "n_layer": 12,
+  "n_positions": 1024,
+  "reorder_and_upcast_attn": false,
+  "resid_pdrop": 0.1,
+  "scale_attn_by_inverse_layer_idx": false,
+  "scale_attn_weights": true,
+  "summary_activation": null,
+  "summary_first_dropout": 0.1,
+  "summary_proj_to_labels": true,
+  "summary_type": "cls_index",
+  "summary_use_proj": true,
+  "task_specific_params": {
+    "text-generation": {
+      "do_sample": true,
+      "max_length": 50
+    }
+  },
+  "transformers_version": "4.18.0",
+  "use_cache": true,
+  "vocab_size": 50257
+}
+loading weights file https://huggingface.co/gpt2/resolve/main/pytorch_model.bin from cache at C:\Users\wz/.cache\huggingface\transformers\752929ace039baa8ef70fe21cdf9ab9445773d20e733cf693d667982e210837e.323c769945a351daa25546176f8208b3004b6f563438a7603e7932bae9025925
+All model checkpoint weights were used when initializing GPT2LMHeadModel.
+All the weights of GPT2LMHeadModel were initialized from the model checkpoint at gpt2.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use GPT2LMHeadModel for predictions without further training.
+Input sequence:
+connie own
+Tokenized input data structure:
+{'input_ids': tensor([[ 1102, 11952,   898]]), 'attention_mask': tensor([[1, 1, 1]])}
+Token IDs and their words:
+tensor(1102) con
+tensor(11952) nie
+tensor(898)  own
+All logits for next word:
+tensor([[-86.0371, -81.7703, -89.6548,  ..., -93.6331, -92.7520, -87.4399]])
+torch.Size([1, 50257])
+Predicted token ID of next word:
+262
+Predicted next word for sequence:
+ the
+C:\Users\wz\AppData\Local\Temp\ipykernel_22864\44098822.py:8: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['query'] = df.apply(
+C:\Users\wz\AppData\Local\Temp\ipykernel_22864\44098822.py:11: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['query'] = [df['query'][i].split()[:2] for i in range(1000)]
+C:\Users\wz\AppData\Local\Temp\ipykernel_22864\44098822.py:12: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['query'] = df['query'].apply(lambda x: ' '.join(x))
+C:\Users\wz\AppData\Local\Temp\ipykernel_22864\44098822.py:15: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['tokens'] = df['query'].apply(lambda x: gpt2_tokenizer.encode(' '+str(x), return_tensors="pt").to(device))
+C:\Users\wz\AppData\Local\Temp\ipykernel_22864\44098822.py:16: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['tokens'] = df['tokens'].apply(lambda x: x[0])
+C:\Users\wz\AppData\Local\Temp\ipykernel_22864\44098822.py:17: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['tokens'] = df['tokens'].apply(lambda x: x[:2])
+[20, 22, 37, 128, 146, 173, 190, 208, 219, 225, 232, 258, 478, 488, 531, 542, 577, 673, 684, 703, 714, 743, 753, 754, 777, 797, 838, 868, 891, 953, 963]
+  0%|                                                                                           | 0/10 [00:00<?, ?it/s]C:\Users\wz\AppData\Local\Temp\ipykernel_22864\2102622643.py:43: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  return torch.cuda.LongTensor(tensor_array)
+
+
+
+
+
+
+
+
+
+100%|██████████████████████████████████████████████████████████████████████████████████| 10/10 [01:00<00:00,  6.05s/it]

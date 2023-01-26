@@ -1,0 +1,174 @@
+Some weights of GPT2HeadWithValueModel were not initialized from the model checkpoint at lvwerra/gpt2-imdb and are newly initialized: ['transformer.h.0.attn.masked_bias', 'transformer.h.1.attn.masked_bias', 'transformer.h.2.attn.masked_bias', 'transformer.h.3.attn.masked_bias', 'transformer.h.4.attn.masked_bias', 'transformer.h.5.attn.masked_bias', 'transformer.h.6.attn.masked_bias', 'transformer.h.7.attn.masked_bias', 'transformer.h.8.attn.masked_bias', 'transformer.h.9.attn.masked_bias', 'transformer.h.10.attn.masked_bias', 'transformer.h.11.attn.masked_bias', 'v_head.summary.weight', 'v_head.summary.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of GPT2HeadWithValueModel were not initialized from the model checkpoint at lvwerra/gpt2-imdb and are newly initialized: ['transformer.h.0.attn.masked_bias', 'transformer.h.1.attn.masked_bias', 'transformer.h.2.attn.masked_bias', 'transformer.h.3.attn.masked_bias', 'transformer.h.4.attn.masked_bias', 'transformer.h.5.attn.masked_bias', 'transformer.h.6.attn.masked_bias', 'transformer.h.7.attn.masked_bias', 'transformer.h.8.attn.masked_bias', 'transformer.h.9.attn.masked_bias', 'transformer.h.10.attn.masked_bias', 'transformer.h.11.attn.masked_bias', 'v_head.summary.weight', 'v_head.summary.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Begin next-word using HF GPT-2 demo
+Input sequence:
+connie own
+Tokenized input data structure:
+{'input_ids': tensor([[ 1102, 11952,   898]]), 'attention_mask': tensor([[1, 1, 1]])}
+Token IDs and their words:
+tensor(1102) con
+tensor(11952) nie
+tensor(898)  own
+All logits for next word:
+tensor([[-86.0371, -81.7703, -89.6548,  ..., -93.6331, -92.7520, -87.4399]])
+torch.Size([1, 50257])
+Predicted token ID of next word:
+262
+Predicted next word for sequence:
+ the
+Files in 'C:\\Users\\wz\\Desktop\\context-aware-embedding-master\\Resources\\code': ['.DS_Store', '.ipynb_checkpoints', 'accuracy.py', 'Fun online example.ipynb', 'input', 'Messing around.ipynb', 'Prototype 0.0.ipynb', 'Prototype0.1.ipynb', 'query_trl.ipynb', 'runs', 'test_trainer', 'trl', 'wandb', 'yago2', '__pycache__']
+the ... det
+drawdown ... compound
+process ... nsubjpass
+is ... auxpass
+governed ... ROOT
+by ... agent
+astm ... compound
+standard ... pobj
+d823 ... punct
+
+
+
+
+
+
+100%|█████████████████████████████████████████████████████████████████████████████| 4318/4318 [00:13<00:00, 331.77it/s]
+
+
+100%|█████████████████████████████████████████████████████████████████████████████| 1430/1430 [00:04<00:00, 322.29it/s]
+[20, 22, 37, 128, 146, 173, 190, 208, 219, 225, 232, 258, 478, 488, 531, 542, 577, 673, 684, 703, 714, 743, 753, 754, 777, 797, 838, 868, 891, 953, 963]
+C:\Users\wz\AppData\Local\Temp\ipykernel_25688\1157424971.py:8: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['query'] = df.apply(
+C:\Users\wz\AppData\Local\Temp\ipykernel_25688\1157424971.py:11: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['query'] = [df['query'][i].split()[:2] for i in range(1000)]
+C:\Users\wz\AppData\Local\Temp\ipykernel_25688\1157424971.py:12: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['query'] = df['query'].apply(lambda x: ' '.join(x))
+C:\Users\wz\AppData\Local\Temp\ipykernel_25688\1157424971.py:15: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['tokens'] = df['query'].apply(lambda x: gpt2_tokenizer.encode(' '+str(x), return_tensors="pt").to(device))
+C:\Users\wz\AppData\Local\Temp\ipykernel_25688\1157424971.py:16: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['tokens'] = df['tokens'].apply(lambda x: x[0])
+C:\Users\wz\AppData\Local\Temp\ipykernel_25688\1157424971.py:17: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['tokens'] = df['tokens'].apply(lambda x: x[:2])
+
+  0%|                                                                                          | 0/100 [00:02<?, ?it/s]
+  0%|                                                                                          | 0/100 [00:00<?, ?it/s]C:\Users\wz\AppData\Local\Temp\ipykernel_25688\34421173.py:44: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  return torch.cuda.LongTensor(tensor_array)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

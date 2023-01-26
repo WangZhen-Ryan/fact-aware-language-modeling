@@ -1,0 +1,20 @@
+2022-10-08 13:52:37,762 INFO    MainThread:22144 [internal.py:wandb_internal():90] W&B internal server running at pid: 22144, started at: 2022-10-08 13:52:37.762489
+2022-10-08 13:52:37,763 INFO    WriterThread:22144 [datastore.py:open_for_write():75] open: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_134825-t9gc9h9h\run-t9gc9h9h.wandb
+2022-10-08 13:52:37,765 DEBUG   SenderThread:22144 [sender.py:send():236] send: header
+2022-10-08 13:52:37,766 DEBUG   SenderThread:22144 [sender.py:send():236] send: run
+2022-10-08 13:53:15,404 INFO    SenderThread:22144 [dir_watcher.py:__init__():216] watching files in: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_134825-t9gc9h9h\files
+2022-10-08 13:53:15,405 INFO    SenderThread:22144 [sender.py:_start_run_threads():815] run started: t9gc9h9h with start time 1665197556
+2022-10-08 13:56:55,266 WARNING FileStreamThread:22144 [file_stream.py:request_with_retry():589] requests_with_retry encountered retryable exception: ('Connection aborted.', OSError("(10060, 'WSAETIMEDOUT')")). func: <bound method Session.post of <requests.sessions.Session object at 0x0000021F4F64C6D0>>, args: ('https://api.wandb.ai/files/wz_ryan/gpt2-ctrl/t9gc9h9h/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2022-10-08 13:57:10,437 WARNING FileStreamThread:22144 [file_stream.py:request_with_retry():589] requests_with_retry encountered retryable exception: ('Connection aborted.', OSError("(10053, 'WSAECONNABORTED')")). func: <bound method Session.post of <requests.sessions.Session object at 0x0000021F4F64C6D0>>, args: ('https://api.wandb.ai/files/wz_ryan/gpt2-ctrl/t9gc9h9h/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2022-10-08 13:57:45,635 WARNING MainThread:22144 [internal.py:is_dead():387] Internal process exiting, parent pid 6920 disappeared
+2022-10-08 13:57:45,636 ERROR   MainThread:22144 [internal.py:wandb_internal():149] Internal process shutdown.
+2022-10-08 13:57:45,753 INFO    WriterThread:22144 [datastore.py:close():279] close: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_134825-t9gc9h9h\run-t9gc9h9h.wandb
+2022-10-08 13:57:45,753 INFO    HandlerThread:22144 [handler.py:finish():806] shutting down handler
+2022-10-08 13:57:45,958 INFO    SenderThread:22144 [sender.py:finish():1114] shutting down sender
+2022-10-08 13:57:45,958 INFO    SenderThread:22144 [dir_watcher.py:finish():353] shutting down directory watcher
+2022-10-08 13:57:46,960 INFO    SenderThread:22144 [dir_watcher.py:finish():383] scan: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_134825-t9gc9h9h\files
+2022-10-08 13:57:46,960 INFO    SenderThread:22144 [dir_watcher.py:finish():397] scan save: C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_134825-t9gc9h9h\files\config.yaml config.yaml
+2022-10-08 13:57:46,961 INFO    SenderThread:22144 [file_pusher.py:finish():171] shutting down file pusher
+2022-10-08 13:57:46,961 INFO    SenderThread:22144 [file_pusher.py:join():176] waiting for file pusher
+2022-10-08 13:57:47,919 INFO    Thread-9  :22144 [upload_job.py:push():138] Uploaded file C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221008_134825-t9gc9h9h\files\config.yaml
+2022-10-08 13:57:48,749 INFO    MainThread:22144 [internal.py:handle_exit():80] Internal process exited

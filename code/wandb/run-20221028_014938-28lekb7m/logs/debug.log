@@ -1,0 +1,54 @@
+2022-10-28 01:49:38,759 INFO    MainThread:20912 [wandb_setup.py:_flush():68] Configure stats pid to 20912
+2022-10-28 01:49:38,759 INFO    MainThread:20912 [wandb_setup.py:_flush():68] Loading settings from C:\Users\wz\.config\wandb\settings
+2022-10-28 01:49:38,759 INFO    MainThread:20912 [wandb_setup.py:_flush():68] Loading settings from C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\settings
+2022-10-28 01:49:38,759 INFO    MainThread:20912 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2022-10-28 01:49:38,759 INFO    MainThread:20912 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-10-28 01:49:38,760 INFO    MainThread:20912 [wandb_init.py:_log_setup():476] Logging user logs to C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221028_014938-28lekb7m\logs\debug.log
+2022-10-28 01:49:38,760 INFO    MainThread:20912 [wandb_init.py:_log_setup():477] Logging internal logs to C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221028_014938-28lekb7m\logs\debug-internal.log
+2022-10-28 01:49:38,760 INFO    MainThread:20912 [wandb_init.py:init():516] calling init triggers
+2022-10-28 01:49:38,760 INFO    MainThread:20912 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {'lm_name': 'lvwerra/gpt2', 'ref_lm_name': 'lvwerra/gpt2', 'tk_name': 'gpt2', 'steps': 64, 'batch_size': 64, 'forward_batch_size': 8, 'ppo_epochs': 4, 'txt_in_len': 5, 'txt_out_len': 15, 'lr': 1.41e-05, 'init_kl_coef': 0.2, 'target': 6, 'horizon': 10000, 'gamma': 1, 'lam': 0.95, 'cliprange': 0.2, 'cliprange_value': 0.2, 'vf_coef': 0.1, 'seed': 1}
+2022-10-28 01:49:38,760 INFO    MainThread:20912 [wandb_init.py:init():535] re-initializing run, found existing run on stack: 5xnattcm
+2022-10-28 01:49:38,761 INFO    MainThread:20912 [wandb_run.py:_finish():1746] finishing run wz_ryan/gpt2-query/5xnattcm
+2022-10-28 01:49:38,761 INFO    MainThread:20912 [jupyter.py:save_history():448] not saving jupyter history
+2022-10-28 01:49:38,761 INFO    MainThread:20912 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2022-10-28 01:49:38,761 INFO    MainThread:20912 [wandb_init.py:_jupyter_teardown():408] cleaning up jupyter logic
+2022-10-28 01:49:38,762 INFO    MainThread:20912 [wandb_run.py:_atexit_cleanup():1949] got exitcode: 0
+2022-10-28 01:49:38,762 INFO    MainThread:20912 [wandb_run.py:_restore():1932] restore
+2022-10-28 01:49:38,762 INFO    MainThread:20912 [wandb_run.py:_restore():1938] restore done
+2022-10-28 01:49:44,463 INFO    MainThread:20912 [wandb_run.py:_footer_history_summary_info():3377] rendering history
+2022-10-28 01:49:44,463 INFO    MainThread:20912 [wandb_run.py:_footer_history_summary_info():3409] rendering summary
+2022-10-28 01:49:44,465 INFO    MainThread:20912 [wandb_run.py:_footer_sync_info():3333] logging synced files
+2022-10-28 01:49:44,468 INFO    MainThread:20912 [wandb_init.py:init():569] starting backend
+2022-10-28 01:49:44,468 INFO    MainThread:20912 [wandb_init.py:init():573] setting up manager
+2022-10-28 01:49:44,473 INFO    MainThread:20912 [backend.py:_multiprocessing_setup():102] multiprocessing start_methods=spawn, using: spawn
+2022-10-28 01:49:44,475 INFO    MainThread:20912 [wandb_init.py:init():580] backend started and connected
+2022-10-28 01:49:44,482 INFO    MainThread:20912 [wandb_run.py:_label_probe_notebook():1113] probe notebook
+2022-10-28 01:49:44,482 INFO    MainThread:20912 [wandb_run.py:_label_probe_notebook():1123] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2022-10-28 01:49:44,482 INFO    MainThread:20912 [wandb_init.py:init():658] updated telemetry
+2022-10-28 01:49:44,484 INFO    MainThread:20912 [wandb_init.py:init():693] communicating run to backend with 60 second timeout
+2022-10-28 01:49:46,721 INFO    MainThread:20912 [wandb_run.py:_on_init():2000] communicating current version
+2022-10-28 01:49:46,879 INFO    MainThread:20912 [wandb_run.py:_on_init():2004] got version response 
+2022-10-28 01:49:46,879 INFO    MainThread:20912 [wandb_init.py:init():728] starting run threads in backend
+2022-10-28 01:49:51,907 INFO    MainThread:20912 [wandb_run.py:_console_start():1980] atexit reg
+2022-10-28 01:49:51,907 INFO    MainThread:20912 [wandb_run.py:_redirect():1838] redirect: SettingsConsole.WRAP_RAW
+2022-10-28 01:49:51,908 INFO    MainThread:20912 [wandb_run.py:_redirect():1903] Wrapping output streams.
+2022-10-28 01:49:51,908 INFO    MainThread:20912 [wandb_run.py:_redirect():1925] Redirects installed.
+2022-10-28 01:49:51,908 INFO    MainThread:20912 [wandb_init.py:init():765] run started, returning control to user process
+2022-10-28 01:50:03,512 INFO    MainThread:20912 [wandb_watch.py:watch():51] Watching
+2022-10-28 01:58:29,018 INFO    MainThread:20912 [wandb_setup.py:_flush():68] Configure stats pid to 20912
+2022-10-28 01:58:29,018 INFO    MainThread:20912 [wandb_setup.py:_flush():68] Loading settings from C:\Users\wz\.config\wandb\settings
+2022-10-28 01:58:29,018 INFO    MainThread:20912 [wandb_setup.py:_flush():68] Loading settings from C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\settings
+2022-10-28 01:58:29,018 INFO    MainThread:20912 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2022-10-28 01:58:29,018 INFO    MainThread:20912 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-10-28 01:58:29,019 INFO    MainThread:20912 [wandb_init.py:_log_setup():476] Logging user logs to C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221028_015829-2ta14aih\logs\debug.log
+2022-10-28 01:58:29,019 INFO    MainThread:20912 [wandb_init.py:_log_setup():477] Logging internal logs to C:\Users\wz\Desktop\context-aware-embedding-master\Resources\code\wandb\run-20221028_015829-2ta14aih\logs\debug-internal.log
+2022-10-28 01:58:29,019 INFO    MainThread:20912 [wandb_init.py:_jupyter_setup():426] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x000001FDED5E5B50>
+2022-10-28 01:58:29,019 INFO    MainThread:20912 [wandb_init.py:init():516] calling init triggers
+2022-10-28 01:58:29,019 INFO    MainThread:20912 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {'lm_name': 'lvwerra/gpt2', 'ref_lm_name': 'lvwerra/gpt2', 'tk_name': 'gpt2', 'steps': 6400, 'batch_size': 64, 'forward_batch_size': 8, 'ppo_epochs': 4, 'txt_in_len': 5, 'txt_out_len': 15, 'lr': 1.41e-05, 'init_kl_coef': 0.2, 'target': 6, 'horizon': 10000, 'gamma': 1, 'lam': 0.95, 'cliprange': 0.2, 'cliprange_value': 0.2, 'vf_coef': 0.1, 'seed': 1}
+2022-10-28 01:58:29,019 INFO    MainThread:20912 [wandb_init.py:init():535] re-initializing run, found existing run on stack: 28lekb7m
+2022-10-28 01:58:29,020 INFO    MainThread:20912 [wandb_run.py:_finish():1746] finishing run wz_ryan/gpt2-query/28lekb7m
+2022-10-28 01:58:29,020 INFO    MainThread:20912 [wandb_run.py:_atexit_cleanup():1949] got exitcode: 0
+2022-10-28 01:58:29,021 INFO    MainThread:20912 [wandb_run.py:_restore():1932] restore
+2022-10-28 01:58:29,021 INFO    MainThread:20912 [wandb_run.py:_restore():1938] restore done
